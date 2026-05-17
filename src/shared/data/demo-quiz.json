@@ -1,0 +1,17 @@
+[
+  {
+    "id": "quiz-1",
+    "question": "Welche Funktion gehört zu GameBoxEdu?",
+    "answer": "Flashcards, Quizze und Matching Games erstellen."
+  },
+  {
+    "id": "quiz-2",
+    "question": "Wo wird GameBoxEdu genutzt?",
+    "answer": "Direkt im Webbrowser ohne Installation."
+  },
+  {
+    "id": "quiz-3",
+    "question": "Was passiert mit Daten in dieser Demo?",
+    "answer": "Sie werden lokal im Browser gespeichert."
+  }
+]

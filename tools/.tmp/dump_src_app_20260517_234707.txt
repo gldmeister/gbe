@@ -1,0 +1,2301 @@
+// src/app/globals.css
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+// --------------------------------------------------------------------------------
+
+// src/app/layout.tsx
+
+// src/app/layout.tsx
+
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import { CookieConsent } from "@/features/cookie-consent";
+import { Footer } from "@/widgets/footer/footer";
+import { Header } from "@/widgets/header/header";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "GameBoxEdu Webshop",
+  description:
+    "Webshop für GameBoxEdu, eine webbasierte Lernplattform für interaktive Unterrichtsmaterialien.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="de"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <body className="min-h-full bg-slate-50 text-slate-900 flex flex-col">
+        <Header />
+        <div className="flex-1">{children}</div>
+        <Footer />
+        <CookieConsent />
+      </body>
+    </html>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/page.tsx
+
+// src/app/page.tsx
+
+import { ButtonLink } from "@/shared/ui/button";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+
+export default function HomePage() {
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="GameBoxEdu Webshop"
+        title="Interaktive Lernspiele für modernen Unterricht"
+        description="GameBoxEdu ist eine webbasierte Lernplattform für Lehrkräfte, Schulen und Bildungseinrichtungen. Erstellen Sie digitale Flashcards, Quizze und Matching Games direkt im Browser."
+      />
+
+      <div className="flex flex-wrap gap-4">
+        <ButtonLink href="/product">Produkt ansehen</ButtonLink>
+
+        <ButtonLink href="/pricing" variant="secondary">
+          Preise ansehen
+        </ButtonLink>
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/about/page.tsx
+
+// src/app/about/page.tsx
+
+import { InfoCard } from "@/shared/ui/info-card";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+
+export default function AboutPage() {
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Über uns"
+        title="Über GameBoxEdu"
+        description="GameBoxEdu ist ein Start-Up aus Wien, das digitale Lernsoftware für Schulen, Lehrkräfte und Bildungseinrichtungen entwickelt. Ziel ist es, Unterricht interaktiver, zugänglicher und motivierender zu gestalten."
+      />
+
+      <div className="space-y-6">
+        <InfoCard title="1. Softwareprodukt">
+          <p className="leading-7 text-slate-700">
+            GameBoxEdu ist eine webbasierte Lernplattform für interaktive
+            Unterrichtsmaterialien. Lehrkräfte können digitale Flashcards,
+            Quizze und Matching Games direkt im Browser erstellen, bearbeiten
+            und mit Lernenden teilen.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="2. Funktionen">
+          <ul className="list-disc space-y-2 pl-6 leading-7 text-slate-700">
+            <li>Erstellung von digitalen Flashcards</li>
+            <li>Erstellung von Quizzen</li>
+            <li>Erstellung von Zuordnungsübungen und Matching Games</li>
+            <li>Einbindung von Texten und Bildern in Lernmaterialien</li>
+            <li>Bearbeitung und Verwaltung eigener Lernsets</li>
+            <li>Teilen von Übungen mit Schülerinnen und Schülern</li>
+            <li>Nutzung direkt im Webbrowser ohne Installation</li>
+          </ul>
+        </InfoCard>
+
+        <InfoCard title="3. Zielgruppe">
+          <p className="leading-7 text-slate-700">
+            Die Zielgruppe von GameBoxEdu sind Lehrerinnen und Lehrer, Schulen,
+            Nachhilfeinstitute, Sprachkurse, Bildungseinrichtungen, private
+            Tutorinnen und Tutoren sowie Lernende, die selbstständig üben
+            möchten.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="4. Unternehmen">
+          <p className="leading-7 text-slate-700">
+            Unternehmensname: GameBoxEdu GmbH
+            <br />
+            Rechtsform: GmbH
+            <br />
+            Standort: Wien, Österreich
+            <br />
+            Adresse: Fritz-Hahn-Gasse 1/49, 1100 Wien, Österreich
+            <br />
+            Geschäftsführer: Zhangir Lekerov
+            <br />
+            Anzahl der Mitarbeiterinnen und Mitarbeiter: 5
+            <br />
+            Unternehmensbereich: Educational Technology, Softwareentwicklung und
+            E-Learning
+          </p>
+        </InfoCard>
+
+        <InfoCard title="5. Geschäftsmodell">
+          <p className="mb-3 leading-7 text-slate-700">
+            GameBoxEdu verwendet ein Freemium-Modell. Die Basisversion ist
+            kostenlos. Erweiterte Funktionen werden über kostenpflichtige
+            Abonnements angeboten.
+          </p>
+
+          <ul className="list-disc space-y-2 pl-6 leading-7 text-slate-700">
+            <li>
+              <strong>Free Plan:</strong> 0 € / Monat
+            </li>
+            <li>
+              <strong>Teacher Plan:</strong> 9,99 € / Monat
+            </li>
+            <li>
+              <strong>School Plan:</strong> 199 € / Jahr
+            </li>
+          </ul>
+        </InfoCard>
+
+        <InfoCard title="6. Markenformen">
+          <p className="mb-5 leading-7 text-slate-700">
+            Für GameBoxEdu wurden drei unterschiedliche Markenformen entworfen:
+            eine Wortmarke, eine Bildmarke und ein Slogan. Die Wortmarke und die
+            Bildmarke werden getrennt dargestellt, damit sie nicht als bloße
+            Wortbildmarke gewertet werden.
+          </p>
+
+          <div className="grid gap-4 md:grid-cols-3">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-blue-700">
+                Wortmarke
+              </p>
+
+              <div className="mb-4 rounded-xl bg-white p-4 text-center shadow-sm">
+                <span className="text-2xl font-bold tracking-tight text-blue-800">
+                  GameBoxEdu
+                </span>
+              </div>
+
+              <p className="leading-7 text-slate-700">
+                Die Wortmarke „GameBoxEdu“ verbindet die Begriffe Game, Box und
+                Education. Sie steht für spielerische Lerninhalte, die in einer
+                digitalen Lernbox gesammelt und genutzt werden.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-blue-700">
+                Bildmarke
+              </p>
+
+              <div className="mb-4 flex justify-center rounded-xl bg-white p-4 shadow-sm">
+                <div
+                  aria-label="Symbolische Bildmarke von GameBoxEdu"
+                  className="relative h-20 w-20 rounded-2xl bg-blue-700"
+                >
+                  <div className="absolute left-4 top-4 h-10 w-12 rounded-lg bg-white shadow-sm" />
+                  <div className="absolute left-7 top-7 h-10 w-12 rounded-lg border-2 border-white bg-blue-500" />
+                  <div className="absolute bottom-3 left-1/2 h-2 w-10 -translate-x-1/2 rounded-full bg-white" />
+                </div>
+              </div>
+
+              <p className="leading-7 text-slate-700">
+                Die Bildmarke zeigt eine stilisierte Box mit Lernkarten. Sie
+                symbolisiert digitale Lernmaterialien, Ordnung, Wiederholung und
+                spielerische Wissensvermittlung.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-blue-700">
+                Slogan
+              </p>
+
+              <div className="mb-4 rounded-xl bg-white p-4 text-center shadow-sm">
+                <span className="text-xl font-bold tracking-tight text-slate-900">
+                  Create. Play. Learn.
+                </span>
+              </div>
+
+              <p className="leading-7 text-slate-700">
+                Der Slogan beschreibt die zentrale Idee der Plattform:
+                Lehrkräfte erstellen Inhalte, Lernende nutzen diese spielerisch
+                und der Lernprozess wird dadurch motivierender.
+              </p>
+            </div>
+          </div>
+        </InfoCard>
+
+        <InfoCard title="7. Bedeutung der Marken">
+          <p className="leading-7 text-slate-700">
+            Die Marke GameBoxEdu soll modern, zugänglich und vertrauenswürdig
+            wirken. Die Farbe Blau wird verwendet, weil sie Seriosität, digitale
+            Technologie und Bildung symbolisiert. Runde Formen und Kartenmotive
+            sollen die Plattform freundlich und leicht verständlich erscheinen
+            lassen. Die Marke richtet sich an Schulen und Lehrkräfte, soll aber
+            gleichzeitig spielerisch genug wirken, um Lernende zu motivieren.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="8. Nizza-Klassen">
+          <p className="mb-3 leading-7 text-slate-700">
+            Für eine mögliche Markenanmeldung wären insbesondere folgende
+            Nizza-Klassen relevant:
+          </p>
+
+          <ul className="list-disc space-y-2 pl-6 leading-7 text-slate-700">
+            <li>
+              <strong>Klasse 9:</strong> herunterladbare Software, digitale
+              Anwendungen und elektronische Lernmaterialien
+            </li>
+            <li>
+              <strong>Klasse 41:</strong> Bildung, Unterricht, Training,
+              Lernangebote und digitale Lerninhalte
+            </li>
+            <li>
+              <strong>Klasse 42:</strong> Software as a Service, Entwicklung,
+              Bereitstellung und Wartung von Webanwendungen
+            </li>
+          </ul>
+        </InfoCard>
+
+        <InfoCard title="9. Markenrechtliche Prüfung">
+          <p className="leading-7 text-slate-700">
+            Zur Vermeidung von Markenrechtsverletzungen würde vor einer realen
+            Veröffentlichung eine Recherche in Datenbanken wie EUIPO eSearch,
+            TMview und Madrid Monitor durchgeführt. Dabei würden insbesondere
+            Wortwahl, Bildwahl, Farbwahl, Positionswahl und Formwahl geprüft.
+            Die Marke verwendet keine bekannten Logos, geschützten Figuren oder
+            fremden Kennzeichen. Dieses Projekt dient einer
+            Lehrveranstaltungsübung.
+          </p>
+        </InfoCard>
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/accessibility/page.tsx
+
+// src/app/accessibility/page.tsx
+
+import { InfoCard } from "@/shared/ui/info-card";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+
+export default function AccessibilityPage() {
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Barrierefreiheit"
+        title="Barrierefreiheitserklärung"
+        description="Diese Website wurde mit dem Ziel entwickelt, die Anforderungen der WCAG 2.2 auf Konformitätsstufe AA zu berücksichtigen. Die Inhalte, Navigation und Formulare sollen möglichst zugänglich und verständlich gestaltet sein."
+      />
+
+      <div className="space-y-6">
+        <InfoCard title="1. Tastaturbedienbarkeit">
+          <p className="leading-7 text-slate-700">
+            Alle wichtigen interaktiven Elemente wie Navigation, Links, Buttons
+            und Formularfelder sind per Tastatur erreichbar. Sichtbare
+            Fokuszustände unterstützen die Orientierung bei der Bedienung ohne
+            Maus.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="2. Kontraste und Lesbarkeit">
+          <p className="leading-7 text-slate-700">
+            Die Website verwendet gut lesbare Schriftgrößen, klare Abstände und
+            kontrastreiche Farbkombinationen. Texte und Bedienelemente sind so
+            gestaltet, dass sie auch bei Vergrößerung gut nutzbar bleiben.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="3. Semantische Struktur">
+          <p className="leading-7 text-slate-700">
+            Die Seiten verwenden semantische HTML-Strukturen wie Header,
+            Navigation, Main-Bereich, Sections, Überschriften und Labels.
+            Dadurch können Screenreader und andere assistive Technologien die
+            Inhalte besser erfassen.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="4. Formulare">
+          <p className="leading-7 text-slate-700">
+            Formularfelder sind mit sichtbaren Labels verbunden. Dadurch ist
+            klar erkennbar, welche Eingaben erwartet werden. Das
+            Kontaktformular ist in dieser Übung gemockt und speichert keine
+            echten Daten.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="5. Aktueller Stand">
+          <p className="leading-7 text-slate-700">
+            Die Website wurde manuell auf grundlegende Barrierefreiheitsaspekte
+            geprüft. Zusätzlich können Tools wie WAVE oder AXE DevTools zur
+            weiteren Prüfung eingesetzt werden. Etwaige gefundene Probleme
+            würden im Rahmen der Weiterentwicklung behoben.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="6. Prüfung mit WAVE">
+          <p className="leading-7 text-slate-700">
+            Die Website wurde mit dem WAVE Evaluation Tool geprüft. Die
+            automatische Prüfung ergab auf den getesteten Seiten 0 Errors und 0
+            Contrast Errors. Der AIM Score betrug jeweils 10 von 10 Punkten.
+            Zusätzlich bleibt eine manuelle Prüfung notwendig, um eine optimale
+            Barrierefreiheit sicherzustellen.
+          </p>
+        </InfoCard>
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/cart/page.tsx
+
+// src/app/cart/page.tsx
+
+import { getPricingPlanById } from "@/shared/data/pricing-plans";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+import Link from "next/link";
+
+type CartPageProps = {
+  searchParams?: Promise<{
+    plan?: string;
+  }>;
+};
+
+export default async function CartPage({ searchParams }: CartPageProps) {
+  const params = await searchParams;
+  const selectedPlan = getPricingPlanById(params?.plan ?? null);
+  const periodLabel = selectedPlan.period.replace("/", "pro ");
+
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Warenkorb"
+        title="Ihr Warenkorb"
+        description="Dieser Warenkorb simuliert einen typischen Webshop-Prozess. Es findet keine echte Zahlung statt und es werden keine echten Bestellungen gespeichert."
+      />
+
+      <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_360px]">
+        <section className="rounded-2xl border border-slate-400 bg-white p-6 shadow-sm">
+          <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <h2 className="text-2xl font-bold text-slate-950">
+                Ausgewähltes Produkt
+              </h2>
+
+              <p className="mt-2 text-sm leading-6 text-slate-900">
+                Ihre aktuelle Auswahl für den gemockten Checkout.
+              </p>
+            </div>
+
+            <span className="w-fit rounded-full border border-slate-700 bg-white px-3 py-1 text-sm font-semibold text-slate-950">
+              1 Produkt
+            </span>
+          </div>
+
+          <article className="rounded-2xl border border-slate-400 bg-white p-5">
+            <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
+              <div className="min-w-0">
+                <p className="mb-2 text-sm font-bold uppercase tracking-wide text-slate-950">
+                  Abo-Modell
+                </p>
+
+                <h3 className="text-xl font-bold text-slate-950">
+                  {selectedPlan.name}
+                </h3>
+
+                <p className="mt-3 max-w-2xl leading-7 text-slate-900">
+                  {selectedPlan.description}
+                </p>
+
+                <ul className="mt-4 grid gap-2 text-sm text-slate-900 sm:grid-cols-2">
+                  {selectedPlan.features.map((feature) => (
+                    <li key={feature}>✓ {feature}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="shrink-0 rounded-xl border border-slate-400 bg-white px-5 py-4 text-left md:text-right">
+                <p className="whitespace-nowrap text-xl font-bold text-slate-950">
+                  {selectedPlan.price}
+                </p>
+
+                <p className="mt-1 text-sm font-medium text-slate-900">
+                  {periodLabel}
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <div className="mt-6 rounded-xl border border-dashed border-slate-700 bg-white p-4">
+            <p className="text-sm leading-6 text-slate-900">
+              Hinweis: Die Produktauswahl wird in diesem Übungsprojekt über die
+              URL simuliert. In einem echten Webshop würde der Warenkorb
+              dynamisch gespeichert und verwaltet werden.
+            </p>
+          </div>
+        </section>
+
+        <aside className="rounded-2xl border border-slate-400 bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-bold text-slate-950">
+            Zusammenfassung
+          </h2>
+
+          <div className="mt-6 space-y-4 text-slate-900">
+            <div className="flex justify-between gap-4">
+              <span>{selectedPlan.name}</span>
+              <span className="whitespace-nowrap font-bold text-slate-950">
+                {selectedPlan.price}
+              </span>
+            </div>
+
+            <div className="flex justify-between gap-4">
+              <span>Laufzeit</span>
+              <span className="whitespace-nowrap font-medium text-slate-950">
+                {periodLabel}
+              </span>
+            </div>
+
+            <div className="flex justify-between gap-4">
+              <span>MwSt.</span>
+              <span className="whitespace-nowrap font-medium text-slate-950">
+                inklusive
+              </span>
+            </div>
+
+            <div className="border-t border-slate-400 pt-4">
+              <div className="flex justify-between gap-4 text-lg font-bold text-slate-950">
+                <span>Gesamt</span>
+                <span className="whitespace-nowrap">{selectedPlan.price}</span>
+              </div>
+            </div>
+          </div>
+
+          <Link
+            href="/demo"
+            className="mt-6 inline-flex w-full justify-center rounded-xl bg-blue-800 px-6 py-3 font-semibold text-white hover:bg-blue-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+          >
+            Checkout simulieren
+          </Link>
+
+          <p className="mt-4 text-sm leading-6 text-slate-900">
+            Der Checkout ist gemockt. Es werden keine Zahlungs- oder
+            Bestelldaten verarbeitet.
+          </p>
+
+          <div className="mt-6">
+            <Link
+              href="/pricing"
+              className="inline-flex rounded-lg font-semibold text-blue-900 underline underline-offset-4 hover:text-blue-950 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Zurück zu den Preisen
+            </Link>
+          </div>
+        </aside>
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/contact/page.tsx
+
+// src/app/contact/page.tsx
+
+import { InfoCard } from "@/shared/ui/info-card";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+
+export default function ContactPage() {
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Kontakt"
+        title="Kontaktieren Sie GameBoxEdu"
+        description="Haben Sie Fragen zu GameBoxEdu, unseren Abo-Modellen oder zur Nutzung der Plattform? Über diese Seite können Kundinnen und Kunden Kontakt mit uns aufnehmen."
+      />
+
+      <div className="grid gap-8 md:grid-cols-2">
+        <InfoCard title="Kontaktdaten">
+          <p className="leading-7 text-slate-700">
+            GameBoxEdu GmbH
+            <br />
+            Fritz-Hahn-Gasse 1/49
+            <br />
+            1100 Wien
+            <br />
+            Österreich
+          </p>
+
+          <p className="mt-6 leading-7 text-slate-700">
+            E-Mail: e12134416@student.tuwien.ac.at
+            <br />
+            Telefon: +43 677 64420230
+          </p>
+        </InfoCard>
+
+        <InfoCard title="Kontaktformular">
+          <form className="space-y-4">
+            <div>
+              <label
+                htmlFor="name"
+                className="mb-2 block font-medium text-slate-900"
+              >
+                Name
+              </label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Ihr Name"
+                className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="email"
+                className="mb-2 block font-medium text-slate-900"
+              >
+                E-Mail-Adresse
+              </label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="max@example.com"
+                className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="message"
+                className="mb-2 block font-medium text-slate-900"
+              >
+                Nachricht
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                rows={5}
+                placeholder="Ihre Nachricht an GameBoxEdu..."
+                className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              />
+            </div>
+
+            <button
+              type="button"
+              className="rounded-xl bg-blue-700 px-6 py-3 font-semibold text-white hover:bg-blue-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Nachricht senden
+            </button>
+
+            <p className="text-sm leading-6 text-slate-600">
+              Hinweis: Dieses Formular ist im Rahmen der Übung gemockt. Es
+              werden keine echten Nachrichten gespeichert oder versendet.
+            </p>
+          </form>
+        </InfoCard>
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/copyright/page.tsx
+
+// src/app/copyright/page.tsx
+
+import { mediaItems } from "@/shared/data/media-items";
+import { InfoCard } from "@/shared/ui/info-card";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+
+export default function CopyrightPage() {
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Urheberrecht"
+        title="Urheberrecht und Mediennachweise"
+        description="Diese Seite dokumentiert die verwendeten Medienarten, Quellen, Lizenzen und Urheberrechtshinweise des GameBoxEdu Webshops."
+      />
+
+      <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <table className="w-full border-collapse text-left text-sm">
+          <thead className="bg-slate-100 text-slate-900">
+            <tr>
+              <th className="px-4 py-3 font-bold">Medium</th>
+              <th className="px-4 py-3 font-bold">Medienart</th>
+              <th className="px-4 py-3 font-bold">Quelle</th>
+              <th className="px-4 py-3 font-bold">Autor</th>
+              <th className="px-4 py-3 font-bold">Lizenz</th>
+              <th className="px-4 py-3 font-bold">Verwendung</th>
+            </tr>
+          </thead>
+
+          <tbody className="divide-y divide-slate-200">
+            {mediaItems.map((item) => (
+              <tr key={item.medium} className="align-top">
+                <td className="px-4 py-4 font-medium text-slate-900">
+                  {item.medium}
+                </td>
+                <td className="px-4 py-4 text-slate-700">{item.mediaType}</td>
+                <td className="px-4 py-4 text-slate-700">{item.source}</td>
+                <td className="px-4 py-4 text-slate-700">{item.author}</td>
+                <td className="px-4 py-4 text-slate-700">{item.license}</td>
+                <td className="px-4 py-4 text-slate-700">{item.usage}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div className="mt-8 space-y-6">
+        <InfoCard title="Sicherstellung der Verwertungsrechte">
+          <p className="leading-7 text-slate-700">
+            Für diesen Webshop werden überwiegend selbst erstellte Texte,
+            Layouts, Grafiken, Markenelemente und Interface-Komponenten
+            verwendet. Dadurch verbleiben die Verwertungsrechte grundsätzlich
+            beim Unternehmen GameBoxEdu GmbH. Externe Standarddateien
+            aus dem Next.js Starter Template werden nicht als zentrale
+            Medieninhalte des Webshops eingesetzt.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="Umgang mit externen Medien">
+          <p className="leading-7 text-slate-700">
+            Bei einer realen Veröffentlichung würden alle externen Bilder,
+            Grafiken, Videos, Animationen, Musik, Soundeffekte, Schriftarten und
+            Texte vor der Nutzung auf Urheberrecht, Lizenzbedingungen und
+            kommerzielle Verwendbarkeit geprüft. Medien ohne klare Lizenz oder
+            ohne ausreichende Nutzungsrechte würden nicht verwendet.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="Nicht verwendete Medien">
+          <p className="leading-7 text-slate-700">
+            Im aktuellen Prototyp werden keine echten Musikstücke, keine
+            Soundeffekte und keine externen Videos produktiv eingebunden. Diese
+            Medienarten werden dennoch dokumentiert, weil sie für einen
+            realistischen Webshop relevant sein könnten.
+          </p>
+        </InfoCard>
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/demo/page.tsx
+
+// src/app/demo/page.tsx
+
+"use client";
+
+import {
+  demoFlashcards,
+  demoMatchingItems,
+  demoQuizQuestions,
+  type Flashcard,
+  type MatchingItem,
+  type QuizQuestion,
+} from "@/shared/data/demo-content";
+import {
+  createDemoId,
+  FLASHCARDS_STORAGE_KEY,
+  loadFlashcards,
+  loadMatchingItems,
+  loadQuizQuestions,
+  MATCHING_STORAGE_KEY,
+  QUIZ_STORAGE_KEY,
+  resetDemoStorage,
+  saveToLocalStorage,
+} from "@/shared/lib/demo-storage";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+import Link from "next/link";
+import { FormEvent, useEffect, useState } from "react";
+
+export default function DemoPage() {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  const [flashcards, setFlashcards] = useState<Flashcard[]>(demoFlashcards);
+  const [quizQuestions, setQuizQuestions] =
+    useState<QuizQuestion[]>(demoQuizQuestions);
+  const [matchingItems, setMatchingItems] =
+    useState<MatchingItem[]>(demoMatchingItems);
+
+  const [flashcardFront, setFlashcardFront] = useState("");
+  const [flashcardBack, setFlashcardBack] = useState("");
+  const [editingFlashcardId, setEditingFlashcardId] = useState<string | null>(
+    null
+  );
+
+  const [quizQuestion, setQuizQuestion] = useState("");
+  const [quizAnswer, setQuizAnswer] = useState("");
+  const [editingQuizId, setEditingQuizId] = useState<string | null>(null);
+
+  const [matchingLeft, setMatchingLeft] = useState("");
+  const [matchingRight, setMatchingRight] = useState("");
+  const [editingMatchingId, setEditingMatchingId] = useState<string | null>(
+    null
+  );
+
+  useEffect(() => {
+    setFlashcards(loadFlashcards());
+    setQuizQuestions(loadQuizQuestions());
+    setMatchingItems(loadMatchingItems());
+    setIsLoaded(true);
+  }, []);
+
+  useEffect(() => {
+    if (isLoaded) {
+      saveToLocalStorage(FLASHCARDS_STORAGE_KEY, flashcards);
+    }
+  }, [flashcards, isLoaded]);
+
+  useEffect(() => {
+    if (isLoaded) {
+      saveToLocalStorage(QUIZ_STORAGE_KEY, quizQuestions);
+    }
+  }, [quizQuestions, isLoaded]);
+
+  useEffect(() => {
+    if (isLoaded) {
+      saveToLocalStorage(MATCHING_STORAGE_KEY, matchingItems);
+    }
+  }, [matchingItems, isLoaded]);
+
+  function resetFlashcardForm() {
+    setFlashcardFront("");
+    setFlashcardBack("");
+    setEditingFlashcardId(null);
+  }
+
+  function resetQuizForm() {
+    setQuizQuestion("");
+    setQuizAnswer("");
+    setEditingQuizId(null);
+  }
+
+  function resetMatchingForm() {
+    setMatchingLeft("");
+    setMatchingRight("");
+    setEditingMatchingId(null);
+  }
+
+  function submitFlashcard(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    if (!flashcardFront.trim() || !flashcardBack.trim()) {
+      return;
+    }
+
+    if (editingFlashcardId) {
+      setFlashcards((currentCards) =>
+        currentCards.map((card) =>
+          card.id === editingFlashcardId
+            ? {
+                ...card,
+                front: flashcardFront.trim(),
+                back: flashcardBack.trim(),
+              }
+            : card
+        )
+      );
+    } else {
+      setFlashcards((currentCards) => [
+        ...currentCards,
+        {
+          id: createDemoId("flashcard"),
+          front: flashcardFront.trim(),
+          back: flashcardBack.trim(),
+        },
+      ]);
+    }
+
+    resetFlashcardForm();
+  }
+
+  function startEditFlashcard(card: Flashcard) {
+    setEditingFlashcardId(card.id);
+    setFlashcardFront(card.front);
+    setFlashcardBack(card.back);
+  }
+
+  function deleteFlashcard(cardId: string) {
+    setFlashcards((currentCards) =>
+      currentCards.filter((card) => card.id !== cardId)
+    );
+  }
+
+  function submitQuiz(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    if (!quizQuestion.trim() || !quizAnswer.trim()) {
+      return;
+    }
+
+    if (editingQuizId) {
+      setQuizQuestions((currentQuestions) =>
+        currentQuestions.map((question) =>
+          question.id === editingQuizId
+            ? {
+                ...question,
+                question: quizQuestion.trim(),
+                answer: quizAnswer.trim(),
+              }
+            : question
+        )
+      );
+    } else {
+      setQuizQuestions((currentQuestions) => [
+        ...currentQuestions,
+        {
+          id: createDemoId("quiz"),
+          question: quizQuestion.trim(),
+          answer: quizAnswer.trim(),
+        },
+      ]);
+    }
+
+    resetQuizForm();
+  }
+
+  function startEditQuiz(question: QuizQuestion) {
+    setEditingQuizId(question.id);
+    setQuizQuestion(question.question);
+    setQuizAnswer(question.answer);
+  }
+
+  function deleteQuiz(questionId: string) {
+    setQuizQuestions((currentQuestions) =>
+      currentQuestions.filter((question) => question.id !== questionId)
+    );
+  }
+
+  function submitMatching(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    if (!matchingLeft.trim() || !matchingRight.trim()) {
+      return;
+    }
+
+    if (editingMatchingId) {
+      setMatchingItems((currentItems) =>
+        currentItems.map((item) =>
+          item.id === editingMatchingId
+            ? {
+                ...item,
+                left: matchingLeft.trim(),
+                right: matchingRight.trim(),
+              }
+            : item
+        )
+      );
+    } else {
+      setMatchingItems((currentItems) => [
+        ...currentItems,
+        {
+          id: createDemoId("matching"),
+          left: matchingLeft.trim(),
+          right: matchingRight.trim(),
+        },
+      ]);
+    }
+
+    resetMatchingForm();
+  }
+
+  function startEditMatching(item: MatchingItem) {
+    setEditingMatchingId(item.id);
+    setMatchingLeft(item.left);
+    setMatchingRight(item.right);
+  }
+
+  function deleteMatching(itemId: string) {
+    setMatchingItems((currentItems) =>
+      currentItems.filter((item) => item.id !== itemId)
+    );
+  }
+
+  function resetAllDemoData() {
+    resetDemoStorage();
+    setFlashcards(demoFlashcards);
+    setQuizQuestions(demoQuizQuestions);
+    setMatchingItems(demoMatchingItems);
+    resetFlashcardForm();
+    resetQuizForm();
+    resetMatchingForm();
+  }
+
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Produktdemo"
+        title="GameBoxEdu Plattform-Simulation"
+        description="Diese Seite simuliert die Verwaltungsoberfläche nach dem Checkout. Inhalte werden aus JSON-Dateien geladen und ohne Datenbank im Browser gespeichert."
+      />
+
+      <div className="mb-8 rounded-2xl border border-slate-300 bg-white p-6 shadow-sm">
+        <h2 className="text-2xl font-bold text-slate-950">
+          Demo-Verwaltung
+        </h2>
+
+        <p className="mt-3 leading-7 text-slate-800">
+          Hier können Lerninhalte hinzugefügt, geändert und gelöscht werden. Die
+          Startdaten kommen aus JSON-Dateien. Änderungen werden lokal im Browser
+          gespeichert.
+        </p>
+
+        <button
+          type="button"
+          onClick={resetAllDemoData}
+          className="mt-5 rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+        >
+          Alle Demo-Daten zurücksetzen
+        </button>
+      </div>
+
+      <div className="grid gap-6 xl:grid-cols-3">
+        <section className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h2 className="text-2xl font-bold text-slate-950">Flashcards</h2>
+              <p className="mt-2 text-slate-800">
+                Lernkarten verwalten und im Spielmodus umdrehen.
+              </p>
+            </div>
+
+            <Link
+              href="/demo/flashcards"
+              className="rounded-xl bg-blue-700 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Spielen
+            </Link>
+          </div>
+
+          <form onSubmit={submitFlashcard} className="mt-6 space-y-3">
+            <input
+              value={flashcardFront}
+              onChange={(event) => setFlashcardFront(event.target.value)}
+              className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              placeholder="Vorderseite"
+            />
+
+            <input
+              value={flashcardBack}
+              onChange={(event) => setFlashcardBack(event.target.value)}
+              className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              placeholder="Rückseite"
+            />
+
+            <div className="flex gap-3">
+              <button
+                type="submit"
+                className="flex-1 rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              >
+                {editingFlashcardId ? "Änderung speichern" : "Hinzufügen"}
+              </button>
+
+              {editingFlashcardId && (
+                <button
+                  type="button"
+                  onClick={resetFlashcardForm}
+                  className="rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+                >
+                  Abbrechen
+                </button>
+              )}
+            </div>
+          </form>
+
+          <div className="mt-6 space-y-3">
+            {flashcards.map((card) => (
+              <article
+                key={card.id}
+                className="rounded-xl border border-slate-300 bg-slate-50 p-4"
+              >
+                <p className="font-semibold text-slate-950">{card.front}</p>
+                <p className="mt-1 text-sm text-slate-800">{card.back}</p>
+
+                <details className="mt-3">
+                  <summary className="cursor-pointer rounded-lg border border-slate-400 bg-white px-3 py-2 text-sm font-semibold text-slate-950">
+                    Aktionen
+                  </summary>
+
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <button
+                      type="button"
+                      onClick={() => startEditFlashcard(card)}
+                      className="rounded-lg border border-slate-400 bg-white px-3 py-2 text-sm font-semibold text-slate-950 hover:bg-slate-100"
+                    >
+                      Ändern
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => deleteFlashcard(card.id)}
+                      className="rounded-lg border border-red-700 px-3 py-2 text-sm font-semibold text-red-800 hover:bg-red-50"
+                    >
+                      Löschen
+                    </button>
+                  </div>
+                </details>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h2 className="text-2xl font-bold text-slate-950">Quizze</h2>
+              <p className="mt-2 text-slate-800">
+                Quizfragen verwalten und im Spielmodus beantworten.
+              </p>
+            </div>
+
+            <Link
+              href="/demo/quiz"
+              className="rounded-xl bg-blue-700 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Spielen
+            </Link>
+          </div>
+
+          <form onSubmit={submitQuiz} className="mt-6 space-y-3">
+            <input
+              value={quizQuestion}
+              onChange={(event) => setQuizQuestion(event.target.value)}
+              className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              placeholder="Frage"
+            />
+
+            <input
+              value={quizAnswer}
+              onChange={(event) => setQuizAnswer(event.target.value)}
+              className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              placeholder="Antwort"
+            />
+
+            <div className="flex gap-3">
+              <button
+                type="submit"
+                className="flex-1 rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              >
+                {editingQuizId ? "Änderung speichern" : "Hinzufügen"}
+              </button>
+
+              {editingQuizId && (
+                <button
+                  type="button"
+                  onClick={resetQuizForm}
+                  className="rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+                >
+                  Abbrechen
+                </button>
+              )}
+            </div>
+          </form>
+
+          <div className="mt-6 space-y-3">
+            {quizQuestions.map((question) => (
+              <article
+                key={question.id}
+                className="rounded-xl border border-slate-300 bg-slate-50 p-4"
+              >
+                <p className="font-semibold text-slate-950">
+                  {question.question}
+                </p>
+                <p className="mt-1 text-sm text-slate-800">
+                  {question.answer}
+                </p>
+
+                <details className="mt-3">
+                  <summary className="cursor-pointer rounded-lg border border-slate-400 bg-white px-3 py-2 text-sm font-semibold text-slate-950">
+                    Aktionen
+                  </summary>
+
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <button
+                      type="button"
+                      onClick={() => startEditQuiz(question)}
+                      className="rounded-lg border border-slate-400 bg-white px-3 py-2 text-sm font-semibold text-slate-950 hover:bg-slate-100"
+                    >
+                      Ändern
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => deleteQuiz(question.id)}
+                      className="rounded-lg border border-red-700 px-3 py-2 text-sm font-semibold text-red-800 hover:bg-red-50"
+                    >
+                      Löschen
+                    </button>
+                  </div>
+                </details>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h2 className="text-2xl font-bold text-slate-950">
+                Matching Games
+              </h2>
+              <p className="mt-2 text-slate-800">
+                Paare verwalten und im Spielmodus zuordnen.
+              </p>
+            </div>
+
+            <Link
+              href="/demo/matching"
+              className="rounded-xl bg-blue-700 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Spielen
+            </Link>
+          </div>
+
+          <form onSubmit={submitMatching} className="mt-6 space-y-3">
+            <input
+              value={matchingLeft}
+              onChange={(event) => setMatchingLeft(event.target.value)}
+              className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              placeholder="Begriff"
+            />
+
+            <input
+              value={matchingRight}
+              onChange={(event) => setMatchingRight(event.target.value)}
+              className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              placeholder="Bedeutung"
+            />
+
+            <div className="flex gap-3">
+              <button
+                type="submit"
+                className="flex-1 rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+              >
+                {editingMatchingId ? "Änderung speichern" : "Hinzufügen"}
+              </button>
+
+              {editingMatchingId && (
+                <button
+                  type="button"
+                  onClick={resetMatchingForm}
+                  className="rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+                >
+                  Abbrechen
+                </button>
+              )}
+            </div>
+          </form>
+
+          <div className="mt-6 space-y-3">
+            {matchingItems.map((item) => (
+              <article
+                key={item.id}
+                className="rounded-xl border border-slate-300 bg-slate-50 p-4"
+              >
+                <p className="font-semibold text-slate-950">{item.left}</p>
+                <p className="mt-1 text-sm text-slate-800">{item.right}</p>
+
+                <details className="mt-3">
+                  <summary className="cursor-pointer rounded-lg border border-slate-400 bg-white px-3 py-2 text-sm font-semibold text-slate-950">
+                    Aktionen
+                  </summary>
+
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <button
+                      type="button"
+                      onClick={() => startEditMatching(item)}
+                      className="rounded-lg border border-slate-400 bg-white px-3 py-2 text-sm font-semibold text-slate-950 hover:bg-slate-100"
+                    >
+                      Ändern
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => deleteMatching(item.id)}
+                      className="rounded-lg border border-red-700 px-3 py-2 text-sm font-semibold text-red-800 hover:bg-red-50"
+                    >
+                      Löschen
+                    </button>
+                  </div>
+                </details>
+              </article>
+            ))}
+          </div>
+        </section>
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/demo/flashcards/page.tsx
+
+// src/app/demo/flashcards/page.tsx
+
+"use client";
+
+import { type Flashcard } from "@/shared/data/demo-content";
+import { loadFlashcards } from "@/shared/lib/demo-storage";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+
+export default function FlashcardsGamePage() {
+  const [flashcards, setFlashcards] = useState<Flashcard[]>([]);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [isBackVisible, setIsBackVisible] = useState(false);
+
+  useEffect(() => {
+    setFlashcards(loadFlashcards());
+  }, []);
+
+  const activeFlashcard = flashcards[activeIndex];
+
+  function showNextCard() {
+    if (flashcards.length === 0) {
+      return;
+    }
+
+    setActiveIndex((currentIndex) =>
+      currentIndex + 1 >= flashcards.length ? 0 : currentIndex + 1
+    );
+    setIsBackVisible(false);
+  }
+
+  function showPreviousCard() {
+    if (flashcards.length === 0) {
+      return;
+    }
+
+    setActiveIndex((currentIndex) =>
+      currentIndex - 1 < 0 ? flashcards.length - 1 : currentIndex - 1
+    );
+    setIsBackVisible(false);
+  }
+
+  function reloadFlashcards() {
+    setFlashcards(loadFlashcards());
+    setActiveIndex(0);
+    setIsBackVisible(false);
+  }
+
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Flashcards spielen"
+        title="Flashcards-Lernmodus"
+        description="In diesem Modus werden gespeicherte Flashcards nacheinander angezeigt. Die Karte kann mit einer 3D-Animation umgedreht werden."
+      />
+
+      <div className="mb-6 flex flex-wrap gap-4">
+        <Link
+          href="/demo"
+          className="inline-flex rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+        >
+          Zurück zur Verwaltung
+        </Link>
+
+        <button
+          type="button"
+          onClick={reloadFlashcards}
+          className="inline-flex rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+        >
+          Daten neu laden
+        </button>
+      </div>
+
+      {activeFlashcard ? (
+        <section className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm">
+          <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <h2 className="text-2xl font-bold text-slate-950">
+              Karte {activeIndex + 1} von {flashcards.length}
+            </h2>
+
+            <p className="rounded-full border border-slate-300 bg-slate-50 px-3 py-1 text-sm font-semibold text-slate-700">
+              3D Flip Animation
+            </p>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => setIsBackVisible((currentValue) => !currentValue)}
+            className="h-96 w-full rounded-2xl focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            aria-label="Flashcard umdrehen"
+          >
+            <div
+              className="relative h-full w-full"
+              style={{ perspective: "1200px" }}
+            >
+              <div
+                className="relative h-full w-full rounded-2xl transition-transform duration-700"
+                style={{
+                  transformStyle: "preserve-3d",
+                  transform: isBackVisible
+                    ? "rotateY(180deg)"
+                    : "rotateY(0deg)",
+                }}
+              >
+                <div
+                  className="absolute inset-0 flex flex-col justify-between rounded-2xl border border-slate-400 bg-slate-50 p-8 text-left shadow-sm"
+                  style={{ backfaceVisibility: "hidden" }}
+                >
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-wide text-blue-800">
+                      Vorderseite
+                    </p>
+
+                    <p className="mt-8 text-3xl font-bold leading-tight text-slate-950">
+                      {activeFlashcard.front}
+                    </p>
+                  </div>
+
+                  <p className="text-sm text-slate-700">
+                    Klicken Sie auf die Karte, um sie umzudrehen.
+                  </p>
+                </div>
+
+                <div
+                  className="absolute inset-0 flex flex-col justify-between rounded-2xl border border-blue-800 bg-blue-800 p-8 text-left text-white shadow-sm"
+                  style={{
+                    backfaceVisibility: "hidden",
+                    transform: "rotateY(180deg)",
+                  }}
+                >
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-wide text-blue-100">
+                      Rückseite
+                    </p>
+
+                    <p className="mt-8 text-3xl font-bold leading-tight">
+                      {activeFlashcard.back}
+                    </p>
+                  </div>
+
+                  <p className="text-sm text-blue-100">
+                    Klicken Sie erneut, um die Vorderseite zu sehen.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </button>
+
+          <div className="mt-6 flex flex-wrap gap-3">
+            <button
+              type="button"
+              onClick={showPreviousCard}
+              className="rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Vorherige Karte
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setIsBackVisible((currentValue) => !currentValue)}
+              className="rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Karte umdrehen
+            </button>
+
+            <button
+              type="button"
+              onClick={showNextCard}
+              className="rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-800 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Nächste Karte
+            </button>
+          </div>
+        </section>
+      ) : (
+        <section className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-bold text-slate-950">
+            Keine Flashcards vorhanden
+          </h2>
+
+          <p className="mt-3 leading-7 text-slate-800">
+            Erstellen Sie zuerst Flashcards in der Demo-Verwaltung.
+          </p>
+
+          <div className="mt-6">
+            <Link
+              href="/demo"
+              className="inline-flex rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Zur Verwaltung
+            </Link>
+          </div>
+        </section>
+      )}
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/demo/matching/page.tsx
+
+// src/app/demo/matching/page.tsx
+
+"use client";
+
+import { type MatchingItem } from "@/shared/data/demo-content";
+import { loadMatchingItems } from "@/shared/lib/demo-storage";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+import Link from "next/link";
+import { useEffect, useMemo, useState } from "react";
+
+type AnswerState = "idle" | "correct" | "wrong";
+
+function shuffleItems(items: MatchingItem[]) {
+  return [...items].sort(() => Math.random() - 0.5);
+}
+
+export default function MatchingGamePage() {
+  const [matchingItems, setMatchingItems] = useState<MatchingItem[]>([]);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [selectedAnswerId, setSelectedAnswerId] = useState<string | null>(null);
+  const [answerState, setAnswerState] = useState<AnswerState>("idle");
+  const [correctCount, setCorrectCount] = useState(0);
+  const [wrongCount, setWrongCount] = useState(0);
+  const [roundKey, setRoundKey] = useState(0);
+
+  useEffect(() => {
+    setMatchingItems(loadMatchingItems());
+  }, []);
+
+  const activeItem = matchingItems[activeIndex];
+
+  const answerOptions = useMemo(() => {
+    if (!activeItem) {
+      return [];
+    }
+
+    const wrongOptions = matchingItems
+      .filter((item) => item.id !== activeItem.id)
+      .slice(0, 3);
+
+    return shuffleItems([activeItem, ...wrongOptions]);
+  }, [activeItem, matchingItems, roundKey]);
+
+  const progress =
+    matchingItems.length > 0
+      ? Math.round(((activeIndex + 1) / matchingItems.length) * 100)
+      : 0;
+
+  function chooseAnswer(answerId: string) {
+    if (!activeItem || answerState !== "idle") {
+      return;
+    }
+
+    setSelectedAnswerId(answerId);
+
+    if (answerId === activeItem.id) {
+      setAnswerState("correct");
+      setCorrectCount((currentValue) => currentValue + 1);
+    } else {
+      setAnswerState("wrong");
+      setWrongCount((currentValue) => currentValue + 1);
+    }
+  }
+
+  function showNextItem() {
+    if (matchingItems.length === 0) {
+      return;
+    }
+
+    setActiveIndex((currentIndex) =>
+      currentIndex + 1 >= matchingItems.length ? 0 : currentIndex + 1
+    );
+
+    setSelectedAnswerId(null);
+    setAnswerState("idle");
+    setRoundKey((currentValue) => currentValue + 1);
+  }
+
+  function resetMatchingGame() {
+    setMatchingItems(loadMatchingItems());
+    setActiveIndex(0);
+    setSelectedAnswerId(null);
+    setAnswerState("idle");
+    setCorrectCount(0);
+    setWrongCount(0);
+    setRoundKey((currentValue) => currentValue + 1);
+  }
+
+  function getOptionClass(optionId: string) {
+    if (answerState === "idle") {
+      return "border-slate-300 bg-white text-slate-950 hover:-translate-y-0.5 hover:border-blue-700 hover:bg-blue-50 hover:shadow-sm";
+    }
+
+    if (optionId === activeItem?.id) {
+      return "border-green-700 bg-green-50 text-green-900";
+    }
+
+    if (optionId === selectedAnswerId && answerState === "wrong") {
+      return "border-red-700 bg-red-50 text-red-900";
+    }
+
+    return "border-slate-300 bg-slate-50 text-slate-500 opacity-70";
+  }
+
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Matching spielen"
+        title="Matching-Game-Modus"
+        description="Wählen Sie die passende Bedeutung zum angezeigten Begriff. Die Auswahl wird sofort als richtig oder falsch markiert."
+      />
+
+      <div className="mb-6 flex flex-wrap gap-4">
+        <Link
+          href="/demo"
+          className="inline-flex rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+        >
+          Zurück zur Verwaltung
+        </Link>
+
+        <button
+          type="button"
+          onClick={resetMatchingGame}
+          className="inline-flex rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+        >
+          Spiel neu starten
+        </button>
+      </div>
+
+      {activeItem ? (
+        <section className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm">
+          <div className="mb-6 grid gap-4 md:grid-cols-3">
+            <div className="rounded-xl border border-slate-300 bg-slate-50 p-4 transition hover:-translate-y-0.5 hover:shadow-sm">
+              <p className="text-sm font-semibold text-slate-700">Paar</p>
+              <p className="mt-1 text-xl font-bold text-slate-950">
+                {activeIndex + 1} / {matchingItems.length}
+              </p>
+            </div>
+
+            <div className="rounded-xl border border-slate-300 bg-slate-50 p-4 transition hover:-translate-y-0.5 hover:shadow-sm">
+              <p className="text-sm font-semibold text-slate-700">Richtig</p>
+              <p className="mt-1 text-xl font-bold text-slate-950">
+                {correctCount}
+              </p>
+            </div>
+
+            <div className="rounded-xl border border-slate-300 bg-slate-50 p-4 transition hover:-translate-y-0.5 hover:shadow-sm">
+              <p className="text-sm font-semibold text-slate-700">Falsch</p>
+              <p className="mt-1 text-xl font-bold text-slate-950">
+                {wrongCount}
+              </p>
+            </div>
+          </div>
+
+          <div className="mb-6 h-3 overflow-hidden rounded-full bg-slate-200">
+            <div
+              className="h-full rounded-full bg-blue-700 transition-all duration-500"
+              style={{ width: `${progress}%` }}
+            />
+          </div>
+
+          <div className="grid gap-6 lg:grid-cols-[1fr_1.4fr]">
+            <div className="rounded-2xl border border-blue-800 bg-blue-800 p-8 text-white shadow-sm">
+              <p className="text-sm font-bold uppercase tracking-wide text-blue-100">
+                Begriff
+              </p>
+
+              <h2 className="mt-5 text-3xl font-bold leading-tight">
+                {activeItem.left}
+              </h2>
+
+              <p className="mt-8 text-sm leading-6 text-blue-100">
+                Wählen Sie rechts die passende Bedeutung.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-300 bg-slate-50 p-5">
+              <p className="mb-4 text-sm font-bold uppercase tracking-wide text-slate-700">
+                Antwortmöglichkeiten
+              </p>
+
+              <div className="grid gap-3">
+                {answerOptions.map((option) => (
+                  <button
+                    key={option.id}
+                    type="button"
+                    onClick={() => chooseAnswer(option.id)}
+                    disabled={answerState !== "idle"}
+                    className={`rounded-xl border px-5 py-4 text-left font-semibold transition focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300 ${getOptionClass(
+                      option.id
+                    )}`}
+                  >
+                    {option.right}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div
+            className={`mt-6 overflow-hidden rounded-xl border transition-all duration-500 ${
+              answerState === "idle"
+                ? "max-h-0 border-transparent opacity-0"
+                : "max-h-40 border-slate-300 opacity-100"
+            }`}
+          >
+            {answerState === "correct" && (
+              <div className="bg-green-50 p-4 text-green-900">
+                <p className="font-bold">Richtig!</p>
+                <p className="mt-1 text-sm">
+                  Die passende Bedeutung wurde korrekt ausgewählt.
+                </p>
+              </div>
+            )}
+
+            {answerState === "wrong" && (
+              <div className="bg-red-50 p-4 text-red-900">
+                <p className="font-bold">Falsch.</p>
+                <p className="mt-1 text-sm">
+                  Die richtige Antwort ist:{" "}
+                  <span className="font-semibold">{activeItem.right}</span>
+                </p>
+              </div>
+            )}
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-3">
+            <button
+              type="button"
+              onClick={showNextItem}
+              className="rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-800 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Nächstes Paar
+            </button>
+          </div>
+        </section>
+      ) : (
+        <section className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-bold text-slate-950">
+            Keine Matching-Paare vorhanden
+          </h2>
+
+          <p className="mt-3 leading-7 text-slate-800">
+            Erstellen Sie zuerst Matching-Paare in der Demo-Verwaltung.
+          </p>
+
+          <div className="mt-6">
+            <Link
+              href="/demo"
+              className="inline-flex rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Zur Verwaltung
+            </Link>
+          </div>
+        </section>
+      )}
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/demo/quiz/page.tsx
+
+// src/app/demo/quiz/page.tsx
+
+"use client";
+
+import { type QuizQuestion } from "@/shared/data/demo-content";
+import { loadQuizQuestions } from "@/shared/lib/demo-storage";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+
+export default function QuizGamePage() {
+  const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([]);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [isAnswerVisible, setIsAnswerVisible] = useState(false);
+  const [knownCount, setKnownCount] = useState(0);
+  const [unknownCount, setUnknownCount] = useState(0);
+
+  useEffect(() => {
+    setQuizQuestions(loadQuizQuestions());
+  }, []);
+
+  const activeQuestion = quizQuestions[activeIndex];
+  const progress =
+    quizQuestions.length > 0
+      ? Math.round(((activeIndex + 1) / quizQuestions.length) * 100)
+      : 0;
+
+  function showNextQuestion() {
+    if (quizQuestions.length === 0) {
+      return;
+    }
+
+    setActiveIndex((currentIndex) =>
+      currentIndex + 1 >= quizQuestions.length ? 0 : currentIndex + 1
+    );
+    setIsAnswerVisible(false);
+  }
+
+  function markKnown() {
+    setKnownCount((currentValue) => currentValue + 1);
+    showNextQuestion();
+  }
+
+  function markUnknown() {
+    setUnknownCount((currentValue) => currentValue + 1);
+    showNextQuestion();
+  }
+
+  function resetQuizGame() {
+    setQuizQuestions(loadQuizQuestions());
+    setActiveIndex(0);
+    setIsAnswerVisible(false);
+    setKnownCount(0);
+    setUnknownCount(0);
+  }
+
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Quiz spielen"
+        title="Quizmodus"
+        description="In diesem Modus werden Quizfragen nacheinander angezeigt. Die Musterantwort erscheint mit einer weichen Animation."
+      />
+
+      <div className="mb-6 flex flex-wrap gap-4">
+        <Link
+          href="/demo"
+          className="inline-flex rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+        >
+          Zurück zur Verwaltung
+        </Link>
+
+        <button
+          type="button"
+          onClick={resetQuizGame}
+          className="inline-flex rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+        >
+          Quiz neu starten
+        </button>
+      </div>
+
+      {activeQuestion ? (
+        <section className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm">
+          <div className="mb-6 grid gap-4 md:grid-cols-3">
+            <div className="rounded-xl border border-slate-300 bg-slate-50 p-4 transition hover:-translate-y-0.5 hover:shadow-sm">
+              <p className="text-sm font-semibold text-slate-700">Frage</p>
+              <p className="mt-1 text-xl font-bold text-slate-950">
+                {activeIndex + 1} / {quizQuestions.length}
+              </p>
+            </div>
+
+            <div className="rounded-xl border border-slate-300 bg-slate-50 p-4 transition hover:-translate-y-0.5 hover:shadow-sm">
+              <p className="text-sm font-semibold text-slate-700">Gewusst</p>
+              <p className="mt-1 text-xl font-bold text-slate-950">
+                {knownCount}
+              </p>
+            </div>
+
+            <div className="rounded-xl border border-slate-300 bg-slate-50 p-4 transition hover:-translate-y-0.5 hover:shadow-sm">
+              <p className="text-sm font-semibold text-slate-700">
+                Nicht gewusst
+              </p>
+              <p className="mt-1 text-xl font-bold text-slate-950">
+                {unknownCount}
+              </p>
+            </div>
+          </div>
+
+          <div className="mb-6 h-3 overflow-hidden rounded-full bg-slate-200">
+            <div
+              className="h-full rounded-full bg-blue-700 transition-all duration-500"
+              style={{ width: `${progress}%` }}
+            />
+          </div>
+
+          <div className="rounded-2xl border border-slate-400 bg-slate-50 p-8 transition duration-300">
+            <p className="text-sm font-bold uppercase tracking-wide text-blue-800">
+              Quizfrage
+            </p>
+
+            <h2 className="mt-5 text-3xl font-bold leading-tight text-slate-950">
+              {activeQuestion.question}
+            </h2>
+
+            <div
+              className={`grid transition-all duration-500 ${
+                isAnswerVisible
+                  ? "mt-8 grid-rows-[1fr] opacity-100"
+                  : "mt-0 grid-rows-[0fr] opacity-0"
+              }`}
+            >
+              <div className="overflow-hidden">
+                <div className="rounded-xl border border-blue-700 bg-white p-5 shadow-sm">
+                  <p className="text-sm font-bold uppercase tracking-wide text-blue-800">
+                    Musterantwort
+                  </p>
+
+                  <p className="mt-3 text-xl leading-8 text-slate-950">
+                    {activeQuestion.answer}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-3">
+            <button
+              type="button"
+              onClick={() => setIsAnswerVisible((currentValue) => !currentValue)}
+              className="rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Antwort anzeigen
+            </button>
+
+            <button
+              type="button"
+              onClick={markUnknown}
+              className="rounded-xl border border-red-700 bg-white px-5 py-3 text-sm font-semibold text-red-800 transition hover:-translate-y-0.5 hover:bg-red-50 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-red-200"
+            >
+              Nicht gewusst
+            </button>
+
+            <button
+              type="button"
+              onClick={markKnown}
+              className="rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-800 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Gewusst / nächste Frage
+            </button>
+          </div>
+        </section>
+      ) : (
+        <section className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-bold text-slate-950">
+            Keine Quizfragen vorhanden
+          </h2>
+
+          <p className="mt-3 leading-7 text-slate-800">
+            Erstellen Sie zuerst Quizfragen in der Demo-Verwaltung.
+          </p>
+
+          <div className="mt-6">
+            <Link
+              href="/demo"
+              className="inline-flex rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+            >
+              Zur Verwaltung
+            </Link>
+          </div>
+        </section>
+      )}
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/impressum/page.tsx
+
+// src/app/impressum/page.tsx
+
+import { InfoCard } from "@/shared/ui/info-card";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+
+export default function ImpressumPage() {
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Impressum"
+        title="Impressum"
+        description="Diese Seite enthält die Anbieterkennzeichnung für den GameBoxEdu Webshop im Rahmen einer universitären Übung."
+      />
+
+      <div className="space-y-6">
+        <InfoCard title="Anbieter">
+          <p className="leading-7 text-slate-700">
+            GameBoxEdu GmbH
+            <br />
+            Fritz-Hahn-Gasse 1/49
+            <br />
+            1100 Wien
+            <br />
+            Österreich
+          </p>
+        </InfoCard>
+
+        <InfoCard title="Kontakt">
+          <p className="leading-7 text-slate-700">
+            E-Mail: e12134416@student.tuwien.ac.at
+            <br />
+            Telefon: +43 677 64420230
+          </p>
+        </InfoCard>
+
+        <InfoCard title="Unternehmensdaten">
+          <p className="leading-7 text-slate-700">
+            Unternehmensname: GameBoxEdu GmbH
+            <br />
+            Rechtsform: GmbH
+            <br />
+            Unternehmensgegenstand: Entwicklung und Vertrieb von
+            Bildungssoftware
+            <br />
+            Geschäftsführer: Zhangir Lekerov
+            <br />
+            Firmenbuchnummer: FN 483921p
+            <br />
+            Firmenbuchgericht: Handelsgericht Wien
+            <br />
+            UID-Nummer: ATU91234567
+          </p>
+        </InfoCard>
+
+        <InfoCard title="Medieninhaber und Offenlegung">
+          <p className="leading-7 text-slate-700">
+            Medieninhaber dieser Website ist die GameBoxEdu GmbH mit Sitz in
+            Wien. Die Website dient der Präsentation und dem Vertrieb der
+            Software GameBoxEdu. Es werden Informationen zu Produkt, Preisen,
+            Lizenz, Datenschutz und Kontaktmöglichkeiten bereitgestellt.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="Hinweis zum Übungsprojekt">
+          <p className="leading-7 text-slate-700">
+            Dieses Impressum wurde im Rahmen einer Lehrveranstaltungsübung
+            erstellt.
+          </p>
+        </InfoCard>
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/license/page.tsx
+
+// src/app/license/page.tsx
+
+import { InfoCard } from "@/shared/ui/info-card";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+
+export default function LicensePage() {
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Lizenz"
+        title="Lizenzbedingungen für GameBoxEdu"
+        description="Diese Seite beschreibt, welche Nutzungsrechte Kundinnen und Kunden durch den Kauf oder das Abonnement von GameBoxEdu erwerben und welche Rechte beim Unternehmen verbleiben."
+      />
+
+      <div className="space-y-6">
+        <InfoCard title="1. Erworbene Nutzungsrechte">
+          <p className="leading-7 text-slate-700">
+            Kundinnen und Kunden erhalten ein einfaches, nicht ausschließliches
+            und nicht übertragbares Nutzungsrecht an GameBoxEdu. Dieses Recht
+            erlaubt die Nutzung der Plattform im Rahmen des gewählten
+            Abonnements.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="2. Erlaubte Nutzung">
+          <ul className="list-disc space-y-2 pl-6 leading-7 text-slate-700">
+            <li>Erstellung und Bearbeitung digitaler Lernmaterialien</li>
+            <li>Nutzung von Flashcards, Quizzen und Matching Games</li>
+            <li>Teilen von Übungen mit Lernenden im Unterrichtskontext</li>
+            <li>Nutzung der gebuchten Funktionen während der Vertragslaufzeit</li>
+          </ul>
+        </InfoCard>
+
+        <InfoCard title="3. Rechte, die beim Unternehmen verbleiben">
+          <p className="mb-3 leading-7 text-slate-700">
+            Alle Rechte an der Software verbleiben bei der GameBoxEdu GmbH.
+            Dazu gehören insbesondere:
+          </p>
+
+          <ul className="list-disc space-y-2 pl-6 leading-7 text-slate-700">
+            <li>Quellcode und technische Architektur</li>
+            <li>Design, Benutzeroberfläche und Layout</li>
+            <li>Logo, Marken, Produktname und Corporate Design</li>
+            <li>Datenbankstruktur und Plattformfunktionen</li>
+            <li>Dokumentation, Texte und eigene Medieninhalte</li>
+          </ul>
+        </InfoCard>
+
+        <InfoCard title="4. Nicht erlaubte Nutzung">
+          <ul className="list-disc space-y-2 pl-6 leading-7 text-slate-700">
+            <li>Weiterverkauf oder Vermietung des Zugangs</li>
+            <li>Kopieren, Dekompilieren oder Reverse Engineering der Software</li>
+            <li>Entfernung von Urheberrechts- oder Markenhinweisen</li>
+            <li>Nutzung der Plattform für rechtswidrige Inhalte</li>
+            <li>Umgehung technischer Schutzmaßnahmen oder Zugriffsbeschränkungen</li>
+          </ul>
+        </InfoCard>
+
+        <InfoCard title="5. Haftungsbeschränkung">
+          <p className="leading-7 text-slate-700">
+            Die GameBoxEdu GmbH haftet im Rahmen der gesetzlichen Vorschriften.
+            Eine Haftung für indirekte Schäden, Datenverluste,
+            Nutzungsausfälle oder entgangene Gewinne wird, soweit gesetzlich
+            zulässig, ausgeschlossen. Dieses Lizenzmodell wurde im Rahmen einer
+            Lehrveranstaltungsübung erstellt.
+          </p>
+        </InfoCard>
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/pricing/page.tsx
+
+// src/app/pricing/page.tsx
+
+import { pricingPlans } from "@/shared/data/pricing-plans";
+import { ButtonLink } from "@/shared/ui/button";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+
+export default function PricingPage() {
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Preise"
+        title="Flexible Abo-Modelle für GameBoxEdu"
+        description="GameBoxEdu verwendet ein Freemium-Geschäftsmodell. Die Basisversion ist kostenlos. Erweiterte Funktionen werden über kostenpflichtige Abonnements angeboten."
+      />
+
+      <div className="grid gap-6 md:grid-cols-3">
+        {pricingPlans.map((plan) => (
+          <article
+            key={plan.id}
+            className="flex flex-col rounded-2xl border border-slate-300 bg-white p-6 shadow-sm"
+          >
+            <h2 className="text-2xl font-bold text-slate-950">{plan.name}</h2>
+
+            <p className="mt-3 text-slate-800">{plan.description}</p>
+
+            <div className="mt-6">
+              <span className="text-4xl font-bold text-slate-950">
+                {plan.price}
+              </span>
+              <span className="text-slate-800"> {plan.period}</span>
+            </div>
+
+            <ul className="mt-6 flex-1 space-y-3 text-slate-800">
+              {plan.features.map((feature) => (
+                <li key={feature}>✓ {feature}</li>
+              ))}
+            </ul>
+
+            <div className="mt-8">
+              <ButtonLink href={`/cart?plan=${plan.id}`}>
+                {plan.buttonLabel}
+              </ButtonLink>
+            </div>
+          </article>
+        ))}
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/privacy/page.tsx
+
+// src/app/privacy/page.tsx
+
+import { InfoCard } from "@/shared/ui/info-card";
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+
+export default function PrivacyPage() {
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Datenschutz"
+        title="Datenschutzerklärung"
+        description="Diese Datenschutzerklärung beschreibt, wie GameBoxEdu im Rahmen dieses Webshops mit personenbezogenen Daten, Cookies, Kontaktformularen und Analyse-Tools umgehen würde."
+      />
+
+      <div className="space-y-6">
+        <InfoCard title="1. Verantwortlicher">
+          <p className="leading-7 text-slate-700">
+            Verantwortlich für die Verarbeitung personenbezogener Daten ist die
+            GameBoxEdu GmbH, Fritz-Hahn-Gasse 1/49, 1100 Wien, Österreich.
+            Kontakt: e12134416@student.tuwien.ac.at. Dieses Projekt wurde im
+            Rahmen einer Übung erstellt.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="2. Kontaktformular">
+          <p className="leading-7 text-slate-700">
+            Das Kontaktformular ist in dieser Übung gemockt. Es werden keine
+            echten Nachrichten gespeichert oder versendet. In einem realen
+            Betrieb würden Name, E-Mail-Adresse und Nachricht verarbeitet
+            werden, um Anfragen zu beantworten. Zweck der Verarbeitung wäre die
+            Bearbeitung der Anfrage.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="3. Warenkorb und Checkout">
+          <p className="leading-7 text-slate-700">
+            Der Warenkorb und der Checkout-Prozess sind in diesem Webshop nur
+            simuliert. Es findet keine echte Bestellung statt. Es werden keine
+            Zahlungsdaten, Rechnungsdaten oder Bestelldaten an externe
+            Zahlungsdienstleister übermittelt.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="4. Cookies und Cookie-Banner">
+          <p className="leading-7 text-slate-700">
+            Der Webshop enthält einen gemockten Cookie-Banner. Die Auswahl der
+            Nutzerinnen und Nutzer wird lokal im Browser über localStorage unter
+            dem Schlüssel gameboxedu-cookie-consent gespeichert. Dadurch wird
+            verhindert, dass der Banner bei jedem Seitenaufruf erneut angezeigt
+            wird. Diese Speicherung dient ausschließlich der Simulation einer
+            Cookie-Einwilligung im Rahmen der Übung.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="5. Analyse-Tools">
+          <p className="leading-7 text-slate-700">
+            Analyse-Tools werden in diesem Projekt nur erwähnt und simuliert. Es
+            findet keine echte Analyse des Nutzerverhaltens statt. Es werden
+            keine Tracking-Cookies gesetzt und keine personenbezogenen
+            Nutzungsprofile erstellt.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="6. Speicherdauer">
+          <p className="leading-7 text-slate-700">
+            In diesem Webshop werden keine echten personenbezogenen Daten
+            dauerhaft gespeichert, da Kontaktformular, Warenkorb und Checkout im
+            Rahmen der Übung nur simuliert werden. Die Cookie-Auswahl im
+            localStorage bleibt im Browser gespeichert, bis sie durch die
+            Nutzerin oder den Nutzer gelöscht wird.
+          </p>
+        </InfoCard>
+
+        <InfoCard title="7. Rechte der Nutzerinnen und Nutzer">
+          <p className="leading-7 text-slate-700">
+            Betroffene Personen hätten in einem realen Betrieb insbesondere das
+            Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der
+            Verarbeitung, Datenübertragbarkeit und Widerspruch gegen bestimmte
+            Verarbeitungen. Außerdem könnten sie eine erteilte Einwilligung mit
+            Wirkung für die Zukunft widerrufen.
+          </p>
+        </InfoCard>
+      </div>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+
+// src/app/product/page.tsx
+
+// src/app/product/page.tsx
+
+import { PageContainer } from "@/shared/ui/page-container";
+import { PageHeader } from "@/shared/ui/page-header";
+
+export default function ProductPage() {
+  return (
+    <PageContainer>
+      <PageHeader
+        eyebrow="Produkt"
+        title="GameBoxEdu Lernplattform"
+        description="GameBoxEdu ist eine webbasierte Lernplattform für interaktive Unterrichtsmaterialien. Lehrkräfte können digitale Flashcards, Quizze und Matching Games direkt im Browser erstellen, bearbeiten und mit Lernenden teilen."
+      />
+
+      <ul className="grid gap-4 text-slate-700 md:grid-cols-3">
+        <li className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h2 className="mb-2 font-bold text-slate-900">Flashcards</h2>
+          <p>Digitale Lernkarten mit Texten und Bildern erstellen.</p>
+        </li>
+
+        <li className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h2 className="mb-2 font-bold text-slate-900">Quizze</h2>
+          <p>Interaktive Fragen für Wiederholung und Prüfungsvorbereitung.</p>
+        </li>
+
+        <li className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h2 className="mb-2 font-bold text-slate-900">Matching Games</h2>
+          <p>Begriffe, Bilder und Definitionen spielerisch zuordnen.</p>
+        </li>
+      </ul>
+    </PageContainer>
+  );
+}
+
+// --------------------------------------------------------------------------------
+

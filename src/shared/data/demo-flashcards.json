@@ -1,0 +1,17 @@
+[
+  {
+    "id": "flashcard-1",
+    "front": "Was ist eine Flashcard?",
+    "back": "Eine digitale Lernkarte mit Frage und Antwort."
+  },
+  {
+    "id": "flashcard-2",
+    "front": "Wofür steht WCAG?",
+    "back": "Web Content Accessibility Guidelines."
+  },
+  {
+    "id": "flashcard-3",
+    "front": "Was ist ein Matching Game?",
+    "back": "Eine Übung, bei der passende Begriffe zugeordnet werden."
+  }
+]

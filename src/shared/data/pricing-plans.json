@@ -1,0 +1,44 @@
+[
+  {
+    "id": "free",
+    "name": "Free Plan",
+    "price": "0 €",
+    "period": "/ Monat",
+    "description": "Für den Einstieg und zum Testen der Plattform.",
+    "features": [
+      "Begrenzte Anzahl an Lernsets",
+      "Einfache Flashcards",
+      "Einfache Quizfunktionen",
+      "Nutzung direkt im Browser"
+    ],
+    "buttonLabel": "Kostenlos starten"
+  },
+  {
+    "id": "teacher",
+    "name": "Teacher Plan",
+    "price": "9,99 €",
+    "period": "/ Monat",
+    "description": "Für Lehrkräfte, die regelmäßig interaktive Übungen erstellen.",
+    "features": [
+      "Unbegrenzte Lernsets",
+      "Flashcards mit Bildern",
+      "Matching Games",
+      "Teilen von Übungen per Link"
+    ],
+    "buttonLabel": "Teacher Plan wählen"
+  },
+  {
+    "id": "school",
+    "name": "School Plan",
+    "price": "199 €",
+    "period": "/ Jahr",
+    "description": "Für Schulen, Kurse und Bildungseinrichtungen.",
+    "features": [
+      "Mehrere Lehrkraft-Accounts",
+      "Zentrale Verwaltung für Schulen",
+      "Schullizenz für Teams",
+      "Priorisierter Support"
+    ],
+    "buttonLabel": "School Plan wählen"
+  }
+]

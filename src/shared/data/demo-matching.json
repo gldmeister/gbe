@@ -1,0 +1,17 @@
+[
+  {
+    "id": "matching-1",
+    "left": "Flashcards",
+    "right": "Digitale Lernkarten"
+  },
+  {
+    "id": "matching-2",
+    "left": "Quizze",
+    "right": "Interaktive Fragen"
+  },
+  {
+    "id": "matching-3",
+    "left": "Matching Games",
+    "right": "Begriffe zuordnen"
+  }
+]
