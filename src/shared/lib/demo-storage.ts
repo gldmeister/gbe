@@ -46,11 +46,39 @@ export function loadFlashcards(): Flashcard[] {
   );
 }
 
+type LegacyQuizQuestion = Partial<QuizQuestion> & {
+  answer?: string;
+};
+
 export function loadQuizQuestions(): QuizQuestion[] {
-  return loadFromLocalStorage<QuizQuestion[]>(
+  const savedQuestions = loadFromLocalStorage<LegacyQuizQuestion[]>(
     QUIZ_STORAGE_KEY,
     demoQuizQuestions
   );
+
+  return savedQuestions.map((question, index) => {
+    const correctAnswer =
+      question.correctAnswer ?? question.answer ?? "Keine Antwort hinterlegt.";
+
+    const options =
+      Array.isArray(question.options) && question.options.length > 0
+        ? question.options
+        : [correctAnswer];
+
+    const uniqueOptions = Array.from(new Set([correctAnswer, ...options]));
+
+    return {
+      id: question.id ?? `quiz-${index + 1}`,
+      topic: question.topic ?? "Allgemein",
+      source: question.source ?? "Demo-Daten",
+      question: question.question ?? "Keine Frage hinterlegt.",
+      correctAnswer,
+      options: uniqueOptions,
+      explanation:
+        question.explanation ??
+        "Für diese Frage wurde noch keine Erklärung hinterlegt.",
+    };
+  });
 }
 
 export function loadMatchingItems(): MatchingItem[] {

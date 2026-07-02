@@ -1,17 +1,72 @@
 [
   {
-    "id": "quiz-1",
-    "question": "Welche Funktion gehört zu GameBoxEdu?",
-    "answer": "Flashcards, Quizze und Matching Games erstellen."
+    "id": "quiz-dsgvo-1",
+    "topic": "DSGVO",
+    "source": "Vorlesung Datenschutz / DSGVO",
+    "question": "Was ist nach der DSGVO ein personenbezogenes Datum?",
+    "correctAnswer": "Eine Information, die sich auf eine identifizierte oder identifizierbare natürliche Person bezieht.",
+    "options": [
+      "Eine Information, die sich auf eine identifizierte oder identifizierbare natürliche Person bezieht.",
+      "Nur Daten über Unternehmen.",
+      "Nur besonders sensible Gesundheitsdaten.",
+      "Nur Daten, die im Internet veröffentlicht wurden."
+    ],
+    "explanation": "Personenbezogene Daten sind alle Informationen mit Bezug zu einer identifizierten oder identifizierbaren natürlichen Person."
   },
   {
-    "id": "quiz-2",
-    "question": "Wo wird GameBoxEdu genutzt?",
-    "answer": "Direkt im Webbrowser ohne Installation."
+    "id": "quiz-dsgvo-2",
+    "topic": "DSGVO",
+    "source": "Vorlesung Datenschutz / Betroffenenrechte",
+    "question": "Welches Recht gehört zu den Betroffenenrechten nach der DSGVO?",
+    "correctAnswer": "Recht auf Auskunft.",
+    "options": [
+      "Recht auf Auskunft.",
+      "Recht auf kostenlose Software.",
+      "Recht auf unbegrenzte Datenspeicherung.",
+      "Recht auf anonyme Prüfungsteilnahme."
+    ],
+    "explanation": "Betroffene Personen haben unter anderem ein Recht auf Auskunft über die Verarbeitung ihrer personenbezogenen Daten."
   },
   {
-    "id": "quiz-3",
-    "question": "Was passiert mit Daten in dieser Demo?",
-    "answer": "Sie werden lokal im Browser gespeichert."
+    "id": "quiz-exam-1",
+    "topic": "Prüfungsmodus",
+    "source": "Prüfungsinformation schriftliche Vorlesungsprüfung",
+    "question": "Wie ist die schriftliche Vorlesungsprüfung aufgebaut?",
+    "correctAnswer": "Sie besteht aus 40 Single-Choice-Fragen.",
+    "options": [
+      "Sie besteht aus 40 Single-Choice-Fragen.",
+      "Sie besteht aus 20 offenen Fragen.",
+      "Sie besteht nur aus einem Fallbeispiel.",
+      "Sie ist eine mündliche Prüfung ohne schriftlichen Teil."
+    ],
+    "explanation": "Laut Prüfungsinformation gibt es 40 Single-Choice-Fragen, wobei genau eine Antwort korrekt ist."
+  },
+  {
+    "id": "quiz-exam-2",
+    "topic": "Prüfungsmodus",
+    "source": "Prüfungsinformation Punktevergabe",
+    "question": "Was passiert bei einer falschen Antwort in der schriftlichen Prüfung?",
+    "correctAnswer": "Es werden 1,5 Punkte vom Gesamtergebnis abgezogen.",
+    "options": [
+      "Es werden 1,5 Punkte vom Gesamtergebnis abgezogen.",
+      "Es gibt keine Auswirkung.",
+      "Die gesamte Prüfung wird negativ bewertet.",
+      "Es werden automatisch 0,5 Punkte vergeben."
+    ],
+    "explanation": "Für eine richtige Antwort gibt es 1,5 Punkte, für eine falsche Antwort 1,5 Punkte Abzug. Die Mindestpunktezahl bleibt aber 0."
+  },
+  {
+    "id": "quiz-exam-3",
+    "topic": "Erlaubte Hilfsmittel",
+    "source": "Prüfungsinformation Hilfsmittel",
+    "question": "Welche Unterlagen dürfen bei der Prüfung verwendet werden?",
+    "correctAnswer": "Kodex und ausgedruckte DSGVO, sofern sie keine unzulässigen Notizen enthalten.",
+    "options": [
+      "Kodex und ausgedruckte DSGVO, sofern sie keine unzulässigen Notizen enthalten.",
+      "Beliebige eigene Zusammenfassungen.",
+      "Laptop mit Internetzugang.",
+      "ChatGPT und digitale Notizen."
+    ],
+    "explanation": "Erlaubt sind Kodex und DSGVO in ausgedruckter Form. Markierungen nur soweit erlaubt, Notizen sind nicht erlaubt."
   }
 ]

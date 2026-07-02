@@ -42,7 +42,11 @@ export default function DemoPage() {
   );
 
   const [quizQuestion, setQuizQuestion] = useState("");
-  const [quizAnswer, setQuizAnswer] = useState("");
+  const [quizCorrectAnswer, setQuizCorrectAnswer] = useState("");
+  const [quizWrongAnswers, setQuizWrongAnswers] = useState("");
+  const [quizTopic, setQuizTopic] = useState("");
+  const [quizSource, setQuizSource] = useState("");
+  const [quizExplanation, setQuizExplanation] = useState("");
   const [editingQuizId, setEditingQuizId] = useState<string | null>(null);
 
   const [matchingLeft, setMatchingLeft] = useState("");
@@ -84,7 +88,11 @@ export default function DemoPage() {
 
   function resetQuizForm() {
     setQuizQuestion("");
-    setQuizAnswer("");
+    setQuizCorrectAnswer("");
+    setQuizWrongAnswers("");
+    setQuizTopic("");
+    setQuizSource("");
+    setQuizExplanation("");
     setEditingQuizId(null);
   }
 
@@ -92,6 +100,15 @@ export default function DemoPage() {
     setMatchingLeft("");
     setMatchingRight("");
     setEditingMatchingId(null);
+  }
+
+  function buildQuizOptions(correctAnswer: string, wrongAnswersText: string) {
+    const wrongAnswers = wrongAnswersText
+      .split("\n")
+      .map((answer) => answer.trim())
+      .filter(Boolean);
+
+    return Array.from(new Set([correctAnswer.trim(), ...wrongAnswers]));
   }
 
   function submitFlashcard(event: FormEvent<HTMLFormElement>) {
@@ -142,9 +159,22 @@ export default function DemoPage() {
   function submitQuiz(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    if (!quizQuestion.trim() || !quizAnswer.trim()) {
+    const options = buildQuizOptions(quizCorrectAnswer, quizWrongAnswers);
+
+    if (!quizQuestion.trim() || !quizCorrectAnswer.trim() || options.length < 2) {
       return;
     }
+
+    const quizPayload = {
+      question: quizQuestion.trim(),
+      correctAnswer: quizCorrectAnswer.trim(),
+      options,
+      topic: quizTopic.trim() || "Allgemein",
+      source: quizSource.trim() || "Eigene Eingabe",
+      explanation:
+        quizExplanation.trim() ||
+        "Für diese Frage wurde noch keine Erklärung hinterlegt.",
+    };
 
     if (editingQuizId) {
       setQuizQuestions((currentQuestions) =>
@@ -152,8 +182,7 @@ export default function DemoPage() {
           question.id === editingQuizId
             ? {
                 ...question,
-                question: quizQuestion.trim(),
-                answer: quizAnswer.trim(),
+                ...quizPayload,
               }
             : question
         )
@@ -163,8 +192,7 @@ export default function DemoPage() {
         ...currentQuestions,
         {
           id: createDemoId("quiz"),
-          question: quizQuestion.trim(),
-          answer: quizAnswer.trim(),
+          ...quizPayload,
         },
       ]);
     }
@@ -175,7 +203,15 @@ export default function DemoPage() {
   function startEditQuiz(question: QuizQuestion) {
     setEditingQuizId(question.id);
     setQuizQuestion(question.question);
-    setQuizAnswer(question.answer);
+    setQuizCorrectAnswer(question.correctAnswer);
+    setQuizWrongAnswers(
+      question.options
+        .filter((option) => option !== question.correctAnswer)
+        .join("\n")
+    );
+    setQuizTopic(question.topic);
+    setQuizSource(question.source);
+    setQuizExplanation(question.explanation);
   }
 
   function deleteQuiz(questionId: string) {
@@ -417,19 +453,93 @@ export default function DemoPage() {
 
             <div>
               <label
-                htmlFor="quiz-answer"
+                htmlFor="quiz-correct-answer"
                 className="mb-1 block text-sm font-semibold text-slate-950"
               >
-                Antwort
+                Richtige Antwort
               </label>
 
               <input
-                id="quiz-answer"
-                name="quiz-answer"
-                value={quizAnswer}
-                onChange={(event) => setQuizAnswer(event.target.value)}
+                id="quiz-correct-answer"
+                name="quiz-correct-answer"
+                value={quizCorrectAnswer}
+                onChange={(event) => setQuizCorrectAnswer(event.target.value)}
                 className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
-                placeholder="Antwort"
+                placeholder="Richtige Antwort"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="quiz-wrong-answers"
+                className="mb-1 block text-sm font-semibold text-slate-950"
+              >
+                Falsche Antworten
+              </label>
+
+              <textarea
+                id="quiz-wrong-answers"
+                name="quiz-wrong-answers"
+                rows={4}
+                value={quizWrongAnswers}
+                onChange={(event) => setQuizWrongAnswers(event.target.value)}
+                className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+                placeholder={"Eine falsche Antwort pro Zeile\nFalsche Antwort 1\nFalsche Antwort 2\nFalsche Antwort 3"}
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="quiz-topic"
+                className="mb-1 block text-sm font-semibold text-slate-950"
+              >
+                Thema
+              </label>
+
+              <input
+                id="quiz-topic"
+                name="quiz-topic"
+                value={quizTopic}
+                onChange={(event) => setQuizTopic(event.target.value)}
+                className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+                placeholder="z.B. DSGVO, Grundrechte, Prüfung"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="quiz-source"
+                className="mb-1 block text-sm font-semibold text-slate-950"
+              >
+                Quelle
+              </label>
+
+              <input
+                id="quiz-source"
+                name="quiz-source"
+                value={quizSource}
+                onChange={(event) => setQuizSource(event.target.value)}
+                className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+                placeholder="z.B. Vorlesung 3, Altfrage 2025, TUWEL"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="quiz-explanation"
+                className="mb-1 block text-sm font-semibold text-slate-950"
+              >
+                Erklärung
+              </label>
+
+              <textarea
+                id="quiz-explanation"
+                name="quiz-explanation"
+                rows={4}
+                value={quizExplanation}
+                onChange={(event) => setQuizExplanation(event.target.value)}
+                className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
+                placeholder="Kurze Erklärung, warum diese Antwort richtig ist."
               />
             </div>
 
@@ -463,7 +573,19 @@ export default function DemoPage() {
                   {question.question}
                 </p>
                 <p className="mt-1 text-sm text-slate-800">
-                  {question.answer}
+                  <span className="font-semibold">Richtig:</span> {question.correctAnswer}
+                </p>
+
+                <p className="mt-1 text-sm text-slate-700">
+                  <span className="font-semibold">Thema:</span> {question.topic}
+                </p>
+
+                <p className="mt-1 text-sm text-slate-700">
+                  <span className="font-semibold">Quelle:</span> {question.source}
+                </p>
+
+                <p className="mt-2 text-xs leading-5 text-slate-600">
+                  Optionen: {question.options.join(" | ")}
                 </p>
 
                 <details className="mt-3">

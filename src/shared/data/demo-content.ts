@@ -12,8 +12,12 @@ export type Flashcard = {
 
 export type QuizQuestion = {
   id: string;
+  topic: string;
+  source: string;
   question: string;
-  answer: string;
+  correctAnswer: string;
+  options: string[];
+  explanation: string;
 };
 
 export type MatchingItem = {

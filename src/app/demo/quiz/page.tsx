@@ -7,20 +7,37 @@ import { loadQuizQuestions } from "@/shared/lib/demo-storage";
 import { PageContainer } from "@/shared/ui/page-container";
 import { PageHeader } from "@/shared/ui/page-header";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+
+type AnswerState = "idle" | "correct" | "wrong";
+
+function shuffleItems<T>(items: T[]) {
+  return [...items].sort(() => Math.random() - 0.5);
+}
 
 export default function QuizGamePage() {
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([]);
   const [activeIndex, setActiveIndex] = useState(0);
-  const [isAnswerVisible, setIsAnswerVisible] = useState(false);
-  const [knownCount, setKnownCount] = useState(0);
-  const [unknownCount, setUnknownCount] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [answerState, setAnswerState] = useState<AnswerState>("idle");
+  const [correctCount, setCorrectCount] = useState(0);
+  const [wrongCount, setWrongCount] = useState(0);
+  const [roundKey, setRoundKey] = useState(0);
 
   useEffect(() => {
     setQuizQuestions(loadQuizQuestions());
   }, []);
 
   const activeQuestion = quizQuestions[activeIndex];
+
+  const answerOptions = useMemo(() => {
+    if (!activeQuestion) {
+      return [];
+    }
+
+    return shuffleItems(activeQuestion.options);
+  }, [activeQuestion, roundKey]);
+
   const progress =
     quizQuestions.length > 0
       ? Math.round(((activeIndex + 1) / quizQuestions.length) * 100)
@@ -34,33 +51,60 @@ export default function QuizGamePage() {
     setActiveIndex((currentIndex) =>
       currentIndex + 1 >= quizQuestions.length ? 0 : currentIndex + 1
     );
-    setIsAnswerVisible(false);
+
+    setSelectedAnswer(null);
+    setAnswerState("idle");
+    setRoundKey((currentValue) => currentValue + 1);
   }
 
-  function markKnown() {
-    setKnownCount((currentValue) => currentValue + 1);
-    showNextQuestion();
-  }
+  function chooseAnswer(answer: string) {
+    if (!activeQuestion || answerState !== "idle") {
+      return;
+    }
 
-  function markUnknown() {
-    setUnknownCount((currentValue) => currentValue + 1);
-    showNextQuestion();
+    setSelectedAnswer(answer);
+
+    if (answer === activeQuestion.correctAnswer) {
+      setAnswerState("correct");
+      setCorrectCount((currentValue) => currentValue + 1);
+    } else {
+      setAnswerState("wrong");
+      setWrongCount((currentValue) => currentValue + 1);
+    }
   }
 
   function resetQuizGame() {
     setQuizQuestions(loadQuizQuestions());
     setActiveIndex(0);
-    setIsAnswerVisible(false);
-    setKnownCount(0);
-    setUnknownCount(0);
+    setSelectedAnswer(null);
+    setAnswerState("idle");
+    setCorrectCount(0);
+    setWrongCount(0);
+    setRoundKey((currentValue) => currentValue + 1);
+  }
+
+  function getOptionClass(option: string) {
+    if (answerState === "idle") {
+      return "border-slate-300 bg-white text-slate-950 hover:-translate-y-0.5 hover:border-blue-700 hover:bg-blue-50 hover:shadow-sm";
+    }
+
+    if (option === activeQuestion?.correctAnswer) {
+      return "border-green-700 bg-green-50 text-green-900";
+    }
+
+    if (option === selectedAnswer && answerState === "wrong") {
+      return "border-red-700 bg-red-50 text-red-900";
+    }
+
+    return "border-slate-300 bg-slate-50 text-slate-500 opacity-70";
   }
 
   return (
     <PageContainer>
       <PageHeader
         eyebrow="Quiz spielen"
-        title="Quizmodus"
-        description="In diesem Modus werden Quizfragen nacheinander angezeigt. Die Musterantwort erscheint mit einer weichen Animation."
+        title="Multiple-Choice-Quizmodus"
+        description="In diesem Modus werden Prüfungsfragen mit zufällig gemischten Antwortmöglichkeiten angezeigt. Nach der Auswahl erscheint eine Erklärung."
       />
 
       <div className="mb-6 flex flex-wrap gap-4">
@@ -91,18 +135,16 @@ export default function QuizGamePage() {
             </div>
 
             <div className="rounded-xl border border-slate-300 bg-slate-50 p-4 transition hover:-translate-y-0.5 hover:shadow-sm">
-              <p className="text-sm font-semibold text-slate-700">Gewusst</p>
+              <p className="text-sm font-semibold text-slate-700">Richtig</p>
               <p className="mt-1 text-xl font-bold text-slate-950">
-                {knownCount}
+                {correctCount}
               </p>
             </div>
 
             <div className="rounded-xl border border-slate-300 bg-slate-50 p-4 transition hover:-translate-y-0.5 hover:shadow-sm">
-              <p className="text-sm font-semibold text-slate-700">
-                Nicht gewusst
-              </p>
+              <p className="text-sm font-semibold text-slate-700">Falsch</p>
               <p className="mt-1 text-xl font-bold text-slate-950">
-                {unknownCount}
+                {wrongCount}
               </p>
             </div>
           </div>
@@ -115,58 +157,80 @@ export default function QuizGamePage() {
           </div>
 
           <div className="rounded-2xl border border-slate-400 bg-slate-50 p-8 transition duration-300">
+            <div className="mb-5 flex flex-wrap gap-3">
+              <span className="rounded-full border border-blue-700 bg-white px-3 py-1 text-sm font-semibold text-blue-800">
+                {activeQuestion.topic}
+              </span>
+
+              <span className="rounded-full border border-slate-300 bg-white px-3 py-1 text-sm font-semibold text-slate-700">
+                {activeQuestion.source}
+              </span>
+            </div>
+
             <p className="text-sm font-bold uppercase tracking-wide text-blue-800">
-              Quizfrage
+              Prüfungsfrage
             </p>
 
             <h2 className="mt-5 text-3xl font-bold leading-tight text-slate-950">
               {activeQuestion.question}
             </h2>
 
-            <div
-              className={`grid transition-all duration-500 ${
-                isAnswerVisible
-                  ? "mt-8 grid-rows-[1fr] opacity-100"
-                  : "mt-0 grid-rows-[0fr] opacity-0"
-              }`}
-            >
-              <div className="overflow-hidden">
-                <div className="rounded-xl border border-blue-700 bg-white p-5 shadow-sm">
-                  <p className="text-sm font-bold uppercase tracking-wide text-blue-800">
-                    Musterantwort
-                  </p>
-
-                  <p className="mt-3 text-xl leading-8 text-slate-950">
-                    {activeQuestion.answer}
-                  </p>
-                </div>
-              </div>
+            <div className="mt-8 grid gap-3">
+              {answerOptions.map((option) => (
+                <button
+                  key={option}
+                  type="button"
+                  onClick={() => chooseAnswer(option)}
+                  disabled={answerState !== "idle"}
+                  className={`rounded-xl border px-5 py-4 text-left font-semibold transition focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300 ${getOptionClass(
+                    option
+                  )}`}
+                >
+                  {option}
+                </button>
+              ))}
             </div>
+          </div>
+
+          <div
+            className={`mt-6 overflow-hidden rounded-xl border transition-all duration-500 ${
+              answerState === "idle"
+                ? "max-h-0 border-transparent opacity-0"
+                : "max-h-96 border-slate-300 opacity-100"
+            }`}
+          >
+            {answerState === "correct" && (
+              <div className="bg-green-50 p-4 text-green-900">
+                <p className="font-bold">Richtig!</p>
+                <p className="mt-2 text-sm leading-6">
+                  {activeQuestion.explanation}
+                </p>
+              </div>
+            )}
+
+            {answerState === "wrong" && (
+              <div className="bg-red-50 p-4 text-red-900">
+                <p className="font-bold">Falsch.</p>
+                <p className="mt-2 text-sm leading-6">
+                  Die richtige Antwort ist:{" "}
+                  <span className="font-semibold">
+                    {activeQuestion.correctAnswer}
+                  </span>
+                </p>
+                <p className="mt-2 text-sm leading-6">
+                  {activeQuestion.explanation}
+                </p>
+              </div>
+            )}
           </div>
 
           <div className="mt-6 flex flex-wrap gap-3">
             <button
               type="button"
-              onClick={() => setIsAnswerVisible((currentValue) => !currentValue)}
-              className="rounded-xl border border-slate-400 bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
-            >
-              Antwort anzeigen
-            </button>
-
-            <button
-              type="button"
-              onClick={markUnknown}
-              className="rounded-xl border border-red-700 bg-white px-5 py-3 text-sm font-semibold text-red-800 transition hover:-translate-y-0.5 hover:bg-red-50 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-red-200"
-            >
-              Nicht gewusst
-            </button>
-
-            <button
-              type="button"
-              onClick={markKnown}
+              onClick={showNextQuestion}
               className="rounded-xl bg-blue-700 px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-800 hover:shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
             >
-              Gewusst / nächste Frage
+              Nächste Frage
             </button>
           </div>
         </section>
