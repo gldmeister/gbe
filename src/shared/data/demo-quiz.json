@@ -1,72 +1,1430 @@
 [
   {
-    "id": "quiz-dsgvo-1",
-    "topic": "DSGVO",
-    "source": "Vorlesung Datenschutz / DSGVO",
-    "question": "Was ist nach der DSGVO ein personenbezogenes Datum?",
-    "correctAnswer": "Eine Information, die sich auf eine identifizierte oder identifizierbare natürliche Person bezieht.",
+    "id": "quiz-og-001",
+    "topic": "Normen",
+    "source": "Öffentlich-rechtliche Grundlagen – Normen",
+    "question": "Welche Aussage beschreibt einen normativen Satz am besten?",
+    "correctAnswer": "Er beschreibt, dass etwas sein soll, nicht sein soll oder sein darf.",
     "options": [
-      "Eine Information, die sich auf eine identifizierte oder identifizierbare natürliche Person bezieht.",
-      "Nur Daten über Unternehmen.",
-      "Nur besonders sensible Gesundheitsdaten.",
-      "Nur Daten, die im Internet veröffentlicht wurden."
+      "Er beschreibt, dass etwas sein soll, nicht sein soll oder sein darf.",
+      "Er beschreibt ausschließlich messbare Tatsachen.",
+      "Er ist immer empirisch beweisbar.",
+      "Er enthält nie eine Verhaltensanordnung."
     ],
-    "explanation": "Personenbezogene Daten sind alle Informationen mit Bezug zu einer identifizierten oder identifizierbaren natürlichen Person."
+    "explanation": "Normative Sätze sind präskriptiv: Sie formulieren ein Sollen, Dürfen oder Nicht-Sollen."
   },
   {
-    "id": "quiz-dsgvo-2",
-    "topic": "DSGVO",
-    "source": "Vorlesung Datenschutz / Betroffenenrechte",
-    "question": "Welches Recht gehört zu den Betroffenenrechten nach der DSGVO?",
-    "correctAnswer": "Recht auf Auskunft.",
+    "id": "quiz-og-002",
+    "topic": "Normen",
+    "source": "Öffentlich-rechtliche Grundlagen – Normen",
+    "question": "Was unterscheidet rechtliche Normen von konventionellen Normen?",
+    "correctAnswer": "Rechtliche Normen stammen von staatlicher Autorität und können durch organisierten Zwang durchgesetzt werden.",
     "options": [
-      "Recht auf Auskunft.",
-      "Recht auf kostenlose Software.",
-      "Recht auf unbegrenzte Datenspeicherung.",
-      "Recht auf anonyme Prüfungsteilnahme."
+      "Rechtliche Normen stammen von staatlicher Autorität und können durch organisierten Zwang durchgesetzt werden.",
+      "Rechtliche Normen gelten nur in kleinen Gruppen.",
+      "Konventionelle Normen werden immer von Gerichten durchgesetzt.",
+      "Rechtliche Normen haben nie Sanktionen."
     ],
-    "explanation": "Betroffene Personen haben unter anderem ein Recht auf Auskunft über die Verarbeitung ihrer personenbezogenen Daten."
+    "explanation": "Konventionen beruhen auf sozialem Druck; rechtliche Normen auf staatlicher Autorität und organisiertem Zwang."
   },
   {
-    "id": "quiz-exam-1",
-    "topic": "Prüfungsmodus",
-    "source": "Prüfungsinformation schriftliche Vorlesungsprüfung",
-    "question": "Wie ist die schriftliche Vorlesungsprüfung aufgebaut?",
-    "correctAnswer": "Sie besteht aus 40 Single-Choice-Fragen.",
+    "id": "quiz-og-003",
+    "topic": "Normen",
+    "source": "Öffentlich-rechtliche Grundlagen – Rechtsnormen",
+    "question": "Aus welchen Teilen besteht eine vollständige Zwangsnorm?",
+    "correctAnswer": "Aus Gebotsteil und Sanktionsteil.",
     "options": [
-      "Sie besteht aus 40 Single-Choice-Fragen.",
-      "Sie besteht aus 20 offenen Fragen.",
-      "Sie besteht nur aus einem Fallbeispiel.",
-      "Sie ist eine mündliche Prüfung ohne schriftlichen Teil."
+      "Aus Gebotsteil und Sanktionsteil.",
+      "Aus Präambel und Erläuterungen.",
+      "Aus Staatsgebiet und Staatsvolk.",
+      "Aus Urteil und Bescheid."
     ],
-    "explanation": "Laut Prüfungsinformation gibt es 40 Single-Choice-Fragen, wobei genau eine Antwort korrekt ist."
+    "explanation": "Eine vollständige Zwangsnorm ordnet Verhalten an und bestimmt die Sanktion bei Verstoß."
   },
   {
-    "id": "quiz-exam-2",
-    "topic": "Prüfungsmodus",
-    "source": "Prüfungsinformation Punktevergabe",
-    "question": "Was passiert bei einer falschen Antwort in der schriftlichen Prüfung?",
-    "correctAnswer": "Es werden 1,5 Punkte vom Gesamtergebnis abgezogen.",
+    "id": "quiz-og-004",
+    "topic": "Normen",
+    "source": "Öffentlich-rechtliche Grundlagen – Rechtsnormen",
+    "question": "Was regeln Erzeugungsnormen?",
+    "correctAnswer": "Wer welche Rechtsnormen erzeugen darf.",
     "options": [
-      "Es werden 1,5 Punkte vom Gesamtergebnis abgezogen.",
-      "Es gibt keine Auswirkung.",
-      "Die gesamte Prüfung wird negativ bewertet.",
-      "Es werden automatisch 0,5 Punkte vergeben."
+      "Wer welche Rechtsnormen erzeugen darf.",
+      "Welche Strafe bei Mord droht.",
+      "Wie Private Verträge abschließen müssen.",
+      "Welche Sprache im Amt verwendet wird."
     ],
-    "explanation": "Für eine richtige Antwort gibt es 1,5 Punkte, für eine falsche Antwort 1,5 Punkte Abzug. Die Mindestpunktezahl bleibt aber 0."
+    "explanation": "Erzeugungsnormen regeln Normerzeugung und organisieren damit staatliche Zuständigkeiten."
   },
   {
-    "id": "quiz-exam-3",
-    "topic": "Erlaubte Hilfsmittel",
-    "source": "Prüfungsinformation Hilfsmittel",
-    "question": "Welche Unterlagen dürfen bei der Prüfung verwendet werden?",
-    "correctAnswer": "Kodex und ausgedruckte DSGVO, sofern sie keine unzulässigen Notizen enthalten.",
+    "id": "quiz-og-005",
+    "topic": "Normen",
+    "source": "Öffentlich-rechtliche Grundlagen – Zweck von Normen",
+    "question": "Welches Problem beschreibt ein Nullsummenspiel bei der Normenlehre?",
+    "correctAnswer": "Ein Verteilungsproblem.",
     "options": [
-      "Kodex und ausgedruckte DSGVO, sofern sie keine unzulässigen Notizen enthalten.",
-      "Beliebige eigene Zusammenfassungen.",
-      "Laptop mit Internetzugang.",
-      "ChatGPT und digitale Notizen."
+      "Ein Verteilungsproblem.",
+      "Ein Koordinationsproblem.",
+      "Ein Auslegungsproblem.",
+      "Ein Gewaltenteilungsproblem."
     ],
-    "explanation": "Erlaubt sind Kodex und DSGVO in ausgedruckter Form. Markierungen nur soweit erlaubt, Notizen sind nicht erlaubt."
+    "explanation": "Bei Verteilungsproblemen soll ein begrenztes Gut aufgeteilt werden."
+  },
+  {
+    "id": "quiz-og-006",
+    "topic": "Normen",
+    "source": "Öffentlich-rechtliche Grundlagen – Zweck von Normen",
+    "question": "Wann liegt ein Kooperationsproblem vor?",
+    "correctAnswer": "Wenn alle durch Kooperation besser wären, aber Einzelne Anreiz haben, nicht zu kooperieren.",
+    "options": [
+      "Wenn alle durch Kooperation besser wären, aber Einzelne Anreiz haben, nicht zu kooperieren.",
+      "Wenn alle dasselbe Ziel haben und nur eine Uhrzeit abstimmen müssen.",
+      "Wenn ein Gesetz in Kraft tritt.",
+      "Wenn ein Gericht einen Bescheid prüft."
+    ],
+    "explanation": "Kooperationsprobleme sind Positivsummenspiele, bei denen Regeln Kooperation sichern können."
+  },
+  {
+    "id": "quiz-og-007",
+    "topic": "Rechtspolitik",
+    "source": "Öffentlich-rechtliche Grundlagen – Rechtspolitik",
+    "question": "Was bedeutet de lege ferenda?",
+    "correctAnswer": "Überlegungen zur künftigen Gestaltung des Rechts.",
+    "options": [
+      "Überlegungen zur künftigen Gestaltung des Rechts.",
+      "Analyse des geltenden Rechts.",
+      "Rechtsprechung des VfGH.",
+      "Unmittelbare Geltung von Unionsrecht."
+    ],
+    "explanation": "Rechtspolitik fragt de lege ferenda, wie Recht sein sollte."
+  },
+  {
+    "id": "quiz-og-008",
+    "topic": "Rechtspolitik",
+    "source": "Öffentlich-rechtliche Grundlagen – Effizienz",
+    "question": "Was besagt das Pareto-Kriterium?",
+    "correctAnswer": "Ein Zustand ist vorzugswürdig, wenn mindestens eine Person besser und niemand schlechter gestellt wird.",
+    "options": [
+      "Ein Zustand ist vorzugswürdig, wenn mindestens eine Person besser und niemand schlechter gestellt wird.",
+      "Ein Zustand ist besser, wenn die Mehrheit abstimmt.",
+      "Ein Zustand ist besser, wenn der Staat mehr Einnahmen erzielt.",
+      "Ein Zustand ist immer besser, wenn er günstiger ist."
+    ],
+    "explanation": "Pareto-Effizienz berücksichtigt Verbesserungen ohne Verschlechterung anderer."
+  },
+  {
+    "id": "quiz-og-009",
+    "topic": "Rechtspolitik",
+    "source": "Öffentlich-rechtliche Grundlagen – Effizienz",
+    "question": "Was ist der Kerngedanke des Coase-Theorems?",
+    "correctAnswer": "Bei Transaktionskosten von null ist jede Rechtezuteilung gleichermaßen effizient.",
+    "options": [
+      "Bei Transaktionskosten von null ist jede Rechtezuteilung gleichermaßen effizient.",
+      "Bei hohen Steuern entstehen immer effiziente Märkte.",
+      "Jede staatliche Regelung ist automatisch ungerecht.",
+      "Rechte dürfen nie übertragen werden."
+    ],
+    "explanation": "Das Recht soll Rechte so festlegen, dass Umverteilungen mit geringen Transaktionskosten möglich sind."
+  },
+  {
+    "id": "quiz-og-010",
+    "topic": "Rechtspolitik",
+    "source": "Öffentlich-rechtliche Grundlagen – Gemeinwohl",
+    "question": "Warum können Grundrechte Grenzen des Gemeinwohldenkens bilden?",
+    "correctAnswer": "Weil Gemeinwohlargumente sonst zur erheblichen Belastung Einzelner missbraucht werden können.",
+    "options": [
+      "Weil Gemeinwohlargumente sonst zur erheblichen Belastung Einzelner missbraucht werden können.",
+      "Weil Grundrechte nur für Staaten gelten.",
+      "Weil Gemeinwohl immer privatrechtlich ist.",
+      "Weil Grundrechte keine subjektiven Rechte sind."
+    ],
+    "explanation": "Bei allgemeinen Interessen und kollektivem Nutzen besteht Missbrauchsgefahr; Grundrechte begrenzen staatliche Eingriffe."
+  },
+  {
+    "id": "quiz-og-011",
+    "topic": "Staat",
+    "source": "Öffentlich-rechtliche Grundlagen – Staatsbegriff",
+    "question": "Welche Elemente nennt Jellineks Drei-Elemente-Lehre?",
+    "correctAnswer": "Staatsgebiet, Staatsvolk und Staatsgewalt.",
+    "options": [
+      "Staatsgebiet, Staatsvolk und Staatsgewalt.",
+      "Bund, Länder und Gemeinden.",
+      "Legislative, Exekutive und Judikative.",
+      "Norm, Tatbestand und Rechtsfolge."
+    ],
+    "explanation": "Nach der Drei-Elemente-Lehre setzt Staatlichkeit Gebiet, Volk und Gewalt voraus."
+  },
+  {
+    "id": "quiz-og-012",
+    "topic": "Staat",
+    "source": "Öffentlich-rechtliche Grundlagen – Staatsbegriff",
+    "question": "Was ist der Staatsbegriff nach Max Weber?",
+    "correctAnswer": "Gemeinschaft mit Monopol legitimer physischer Gewalt innerhalb eines Gebiets.",
+    "options": [
+      "Gemeinschaft mit Monopol legitimer physischer Gewalt innerhalb eines Gebiets.",
+      "Gesamtheit aller Privatrechtsverträge.",
+      "Reine Ansammlung von Bürgerrechten.",
+      "Nur die Verwaltung eines Bundeslandes."
+    ],
+    "explanation": "Weber beschreibt den Staat soziologisch über legitime Gewalt und Herrschaft."
+  },
+  {
+    "id": "quiz-og-013",
+    "topic": "Staat",
+    "source": "Öffentlich-rechtliche Grundlagen – Staatsbegriff",
+    "question": "Was ist der Staatsbegriff nach Kelsen?",
+    "correctAnswer": "Der Staat ist die Gesamtheit aller Rechtsvorschriften.",
+    "options": [
+      "Der Staat ist die Gesamtheit aller Rechtsvorschriften.",
+      "Der Staat ist nur das Parlament.",
+      "Der Staat ist jede internationale Organisation.",
+      "Der Staat ist nur physische Gewalt ohne Recht."
+    ],
+    "explanation": "Kelsen versteht Staat rechtspositivistisch als Rechtsordnung."
+  },
+  {
+    "id": "quiz-og-014",
+    "topic": "Staat",
+    "source": "Öffentlich-rechtliche Grundlagen – Staatsgewalt",
+    "question": "Was bedeutet Kompetenz-Kompetenz?",
+    "correctAnswer": "Die Kompetenz, über die eigene Kompetenz zu verfügen.",
+    "options": [
+      "Die Kompetenz, über die eigene Kompetenz zu verfügen.",
+      "Die Pflicht zur Zahlung von Steuern.",
+      "Die Zuständigkeit des EuGH für alle Fragen.",
+      "Die Parteistellung im AVG."
+    ],
+    "explanation": "Kompetenz-Kompetenz ist ein Kernmerkmal originärer Staatsgewalt."
+  },
+  {
+    "id": "quiz-og-015",
+    "topic": "Staat",
+    "source": "Öffentlich-rechtliche Grundlagen – Staatsgliederung",
+    "question": "Was ist ein Bundesstaat?",
+    "correctAnswer": "Ein Zusammenschluss mit einem gemeinsamen Oberstaat und aufgeteilten Staatsfunktionen.",
+    "options": [
+      "Ein Zusammenschluss mit einem gemeinsamen Oberstaat und aufgeteilten Staatsfunktionen.",
+      "Ein Staat ohne jede Untergliederung.",
+      "Ein Vertrag ohne gemeinsame Organe.",
+      "Eine reine Verwaltungseinheit ohne Staatsgewalt."
+    ],
+    "explanation": "Im Bundesstaat teilen Bund und Gliedstaaten Staatsgewalt."
+  },
+  {
+    "id": "quiz-og-016",
+    "topic": "Staat",
+    "source": "Öffentlich-rechtliche Grundlagen – Österreich",
+    "question": "Welche Aussage beschreibt Österreichs Staatsorganisation zutreffend?",
+    "correctAnswer": "Österreich ist eine semipräsidentielle Republik mit repräsentativer Demokratie und direktdemokratischen Elementen.",
+    "options": [
+      "Österreich ist eine semipräsidentielle Republik mit repräsentativer Demokratie und direktdemokratischen Elementen.",
+      "Österreich ist eine absolute Monarchie.",
+      "Österreich ist ein Einheitsstaat ohne Länder.",
+      "Österreich hat parlamentarische Souveränität nach britischem Vorbild."
+    ],
+    "explanation": "Österreich verbindet Volkssouveränität, Repräsentativsystem und Bundesstaat."
+  },
+  {
+    "id": "quiz-og-017",
+    "topic": "Stufenbau",
+    "source": "Öffentlich-rechtliche Grundlagen – Grundnorm",
+    "question": "Was ist Kelsens Grundnorm?",
+    "correctAnswer": "Eine fiktive oberste Norm zur Begründung der Geltung der Rechtsordnung.",
+    "options": [
+      "Eine fiktive oberste Norm zur Begründung der Geltung der Rechtsordnung.",
+      "Eine EU-Verordnung.",
+      "Ein Bescheid der Bezirkshauptmannschaft.",
+      "Ein besonderer Staatsvertrag über Grenzen."
+    ],
+    "explanation": "Die Grundnorm löst den infiniten Regress der Normgeltung in Kelsens Theorie."
+  },
+  {
+    "id": "quiz-og-018",
+    "topic": "Stufenbau",
+    "source": "Öffentlich-rechtliche Grundlagen – Stufenbau",
+    "question": "Welche Norm steht typischerweise höher als ein einfaches Gesetz?",
+    "correctAnswer": "Verfassungsrecht.",
+    "options": [
+      "Verfassungsrecht.",
+      "Bescheid.",
+      "Verordnung.",
+      "Organstrafverfügung."
+    ],
+    "explanation": "Einfache Gesetze müssen Verfassungsrecht entsprechen."
+  },
+  {
+    "id": "quiz-og-019",
+    "topic": "Stufenbau",
+    "source": "Öffentlich-rechtliche Grundlagen – Rechtsanwendung",
+    "question": "Was bedeutet Subsumtion?",
+    "correctAnswer": "Prüfung, ob der konkrete Sachverhalt einen abstrakten Tatbestand erfüllt.",
+    "options": [
+      "Prüfung, ob der konkrete Sachverhalt einen abstrakten Tatbestand erfüllt.",
+      "Abstimmung im Nationalrat.",
+      "Veröffentlichung im Bundesgesetzblatt.",
+      "Anerkennung eines Staates."
+    ],
+    "explanation": "Subsumtion verbindet faktische Ebene mit normativer Ebene."
+  },
+  {
+    "id": "quiz-og-020",
+    "topic": "Stufenbau",
+    "source": "Öffentlich-rechtliche Grundlagen – Auslegung",
+    "question": "Was bedeutet lex specialis derogat legi generali?",
+    "correctAnswer": "Die speziellere Norm verdrängt die allgemeinere Norm.",
+    "options": [
+      "Die speziellere Norm verdrängt die allgemeinere Norm.",
+      "Das spätere Gesetz verdrängt immer die Verfassung.",
+      "Das ältere Gesetz gilt immer stärker.",
+      "Privatrecht verdrängt öffentliches Recht."
+    ],
+    "explanation": "Der Spezialitätsgrundsatz löst Widersprüche zwischen gleichrangigen Normen."
+  },
+  {
+    "id": "quiz-og-021",
+    "topic": "Stufenbau",
+    "source": "Öffentlich-rechtliche Grundlagen – Lücken",
+    "question": "Wann darf eine Lücke durch Rechtsanwendung geschlossen werden?",
+    "correctAnswer": "Wenn sie planwidrig und ungewollt ist.",
+    "options": [
+      "Wenn sie planwidrig und ungewollt ist.",
+      "Wenn sie vom Gesetzgeber bewusst gelassen wurde.",
+      "Immer wenn ein Richter es politisch wünscht.",
+      "Nur bei Staatsverträgen."
+    ],
+    "explanation": "Gewollte politische Lücken muss der Gesetzgeber schließen; planwidrige Lücken können durch Analogie usw. geschlossen werden."
+  },
+  {
+    "id": "quiz-og-022",
+    "topic": "Rechtsgebiete",
+    "source": "Öffentlich-rechtliche Grundlagen – Öffentlich/Privat",
+    "question": "Was ist nach der Subordinationstheorie typisch für öffentliches Recht?",
+    "correctAnswer": "Über- und Unterordnung der Normadressaten.",
+    "options": [
+      "Über- und Unterordnung der Normadressaten.",
+      "Privatautonomie gleichrangiger Parteien.",
+      "Ausschließlich dispositive Regeln.",
+      "Nur Erbrecht und Kaufrecht."
+    ],
+    "explanation": "Öffentliches Recht ist häufig durch Hoheitsgewalt gekennzeichnet."
+  },
+  {
+    "id": "quiz-og-023",
+    "topic": "Verfassung",
+    "source": "Öffentlich-rechtliche Grundlagen – B-VG",
+    "question": "Wann wurde das B-VG als grundlegende Verfassungsurkunde beschlossen?",
+    "correctAnswer": "1920.",
+    "options": [
+      "1920.",
+      "1867.",
+      "1938.",
+      "1995."
+    ],
+    "explanation": "Das Bundes-Verfassungsgesetz stammt aus der Ersten Republik."
+  },
+  {
+    "id": "quiz-og-024",
+    "topic": "Verfassung",
+    "source": "Öffentlich-rechtliche Grundlagen – Zweite Republik",
+    "question": "Was bewirkte das Verfassungs-Überleitungsgesetz 1945?",
+    "correctAnswer": "Es setzte das B-VG 1920 in der Fassung 1929 wieder in Kraft.",
+    "options": [
+      "Es setzte das B-VG 1920 in der Fassung 1929 wieder in Kraft.",
+      "Es schaffte alle Länder ab.",
+      "Es machte Österreich zum EU-Mitglied.",
+      "Es führte das monarchische System wieder ein."
+    ],
+    "explanation": "1945 wurde die demokratische Republik im Geist der Verfassung von 1920 wiederhergestellt."
+  },
+  {
+    "id": "quiz-og-025",
+    "topic": "Verfassung",
+    "source": "Öffentlich-rechtliche Grundlagen – Verfassungszersplitterung",
+    "question": "Was bedeutet Verfassungszersplitterung?",
+    "correctAnswer": "Verfassungsrecht ist auf viele Quellen außerhalb des B-VG verteilt.",
+    "options": [
+      "Verfassungsrecht ist auf viele Quellen außerhalb des B-VG verteilt.",
+      "Es gibt keine Bundesverfassung.",
+      "Nur Gerichte dürfen Verfassungsrecht schaffen.",
+      "Alle einfachen Gesetze sind automatisch Verfassungsrecht."
+    ],
+    "explanation": "In Österreich finden sich Verfassungsbestimmungen in vielen BVG, Staatsverträgen und Einzelbestimmungen."
+  },
+  {
+    "id": "quiz-og-026",
+    "topic": "Baugesetze",
+    "source": "Öffentlich-rechtliche Grundlagen – Art 44 B-VG",
+    "question": "Wann liegt eine Gesamtänderung der Bundesverfassung vor?",
+    "correctAnswer": "Wenn ein leitender Grundsatz der Bundesverfassung wesentlich geändert oder beseitigt wird.",
+    "options": [
+      "Wenn ein leitender Grundsatz der Bundesverfassung wesentlich geändert oder beseitigt wird.",
+      "Wenn ein einfaches Gesetz beschlossen wird.",
+      "Wenn ein Bescheid aufgehoben wird.",
+      "Wenn der Bundesrat keinen Einspruch erhebt."
+    ],
+    "explanation": "Gesamtänderungen betreffen Bauprinzipien und verlangen obligatorische Volksabstimmung."
+  },
+  {
+    "id": "quiz-og-027",
+    "topic": "Baugesetze",
+    "source": "Öffentlich-rechtliche Grundlagen – Baugesetze",
+    "question": "Welche Baugesetze sind jedenfalls anerkannt?",
+    "correctAnswer": "Demokratisch, rechtsstaatlich und bundesstaatlich.",
+    "options": [
+      "Demokratisch, rechtsstaatlich und bundesstaatlich.",
+      "Sozialstaatlich, monarchisch und absolutistisch.",
+      "Nur finanzverfassungsrechtlich.",
+      "Nur völkerrechtlich."
+    ],
+    "explanation": "Diese drei sind jedenfalls anerkannt; weitere werden von der Lehre angenommen."
+  },
+  {
+    "id": "quiz-og-028",
+    "topic": "Baugesetze",
+    "source": "Öffentlich-rechtliche Grundlagen – Republikanisch",
+    "question": "Was bedeutet republikanisches Prinzip?",
+    "correctAnswer": "Ein auf Zeit bestelltes, verantwortliches und absetzbares Staatsoberhaupt.",
+    "options": [
+      "Ein auf Zeit bestelltes, verantwortliches und absetzbares Staatsoberhaupt.",
+      "Ein erbliches Staatsoberhaupt auf Lebenszeit.",
+      "Abschaffung aller Wahlen.",
+      "Herrschaft einer einzigen Partei."
+    ],
+    "explanation": "Das republikanische Prinzip grenzt die Republik von der Monarchie ab."
+  },
+  {
+    "id": "quiz-og-029",
+    "topic": "Baugesetze",
+    "source": "Öffentlich-rechtliche Grundlagen – Rechtsstaat",
+    "question": "Was ist formeller Rechtsstaat?",
+    "correctAnswer": "Staatliches Handeln ist an vorhersehbare und kontrollierbare Rechtsvorschriften gebunden.",
+    "options": [
+      "Staatliches Handeln ist an vorhersehbare und kontrollierbare Rechtsvorschriften gebunden.",
+      "Der Staat darf ohne Gesetz frei handeln.",
+      "Nur Private sind an Recht gebunden.",
+      "Gerichte sind nicht zuständig."
+    ],
+    "explanation": "Formeller Rechtsstaat umfasst Gesetzesbindung, Kundmachung und Rechtsschutz."
+  },
+  {
+    "id": "quiz-og-030",
+    "topic": "Baugesetze",
+    "source": "Öffentlich-rechtliche Grundlagen – Gewaltentrennung",
+    "question": "Was verlangt Art 94 Abs 1 B-VG?",
+    "correctAnswer": "Trennung von Justiz und Verwaltung.",
+    "options": [
+      "Trennung von Justiz und Verwaltung.",
+      "Vereinigung aller Gewalten in einem Organ.",
+      "Ausschließliche Zuständigkeit der EU.",
+      "Verbot von Verordnungen."
+    ],
+    "explanation": "Ein Organ darf nicht gleichzeitig Gerichts- und Verwaltungsorgan sein."
+  },
+  {
+    "id": "quiz-og-031",
+    "topic": "Bundesstaat",
+    "source": "Öffentlich-rechtliche Grundlagen – Bundesgebiet",
+    "question": "Was sagt Art 3 Abs 1 B-VG zum Bundesgebiet?",
+    "correctAnswer": "Es umfasst die Gebiete der Bundesländer.",
+    "options": [
+      "Es umfasst die Gebiete der Bundesländer.",
+      "Es umfasst nur Wien.",
+      "Es umfasst auch alle Botschaften im Ausland.",
+      "Es enthält bundesunmittelbare Gebiete."
+    ],
+    "explanation": "Österreichs Bundesgebiet setzt sich aus den Ländern zusammen."
+  },
+  {
+    "id": "quiz-og-032",
+    "topic": "Bundesstaat",
+    "source": "Öffentlich-rechtliche Grundlagen – Kompetenzverteilung",
+    "question": "Was bedeutet die Exklusivität der Kompetenzverteilung?",
+    "correctAnswer": "Eine Angelegenheit wird einem Kompetenztatbestand zugeordnet.",
+    "options": [
+      "Eine Angelegenheit wird einem Kompetenztatbestand zugeordnet.",
+      "Jeder Sachverhalt darf nur eine einzige Rechtsfrage enthalten.",
+      "Nur Länder dürfen Gesetze erlassen.",
+      "Nur die EU entscheidet über Kompetenzen."
+    ],
+    "explanation": "Ein Sachverhalt kann mehrere Regelungsgesichtspunkte haben, aber die Materie wird kompetenzrechtlich zugeordnet."
+  },
+  {
+    "id": "quiz-og-033",
+    "topic": "Bundesstaat",
+    "source": "Öffentlich-rechtliche Grundlagen – Art 15 B-VG",
+    "question": "Was besagt die Generalklausel des Art 15 Abs 1 B-VG?",
+    "correctAnswer": "Nicht dem Bund zugeordnete Materien fallen grundsätzlich in die Länderkompetenz.",
+    "options": [
+      "Nicht dem Bund zugeordnete Materien fallen grundsätzlich in die Länderkompetenz.",
+      "Alle Materien fallen automatisch dem Bund zu.",
+      "Alle Materien fallen der EU zu.",
+      "Gemeinden haben Kompetenz-Kompetenz."
+    ],
+    "explanation": "Art 15 Abs 1 B-VG begründet die Restkompetenz der Länder."
+  },
+  {
+    "id": "quiz-og-034",
+    "topic": "Bundesstaat",
+    "source": "Öffentlich-rechtliche Grundlagen – Art 15a B-VG",
+    "question": "Was ist eine Art-15a-B-VG-Vereinbarung?",
+    "correctAnswer": "Eine Vereinbarung zwischen Bund und Ländern oder Ländern untereinander über Angelegenheiten ihres Wirkungsbereichs.",
+    "options": [
+      "Eine Vereinbarung zwischen Bund und Ländern oder Ländern untereinander über Angelegenheiten ihres Wirkungsbereichs.",
+      "Eine EU-Richtlinie.",
+      "Eine Organstrafverfügung.",
+      "Ein Erkenntnis des OGH."
+    ],
+    "explanation": "Art-15a-Vereinbarungen koordinieren Aufgaben im Bundesstaat."
+  },
+  {
+    "id": "quiz-og-035",
+    "topic": "Gesetzgebung",
+    "source": "Öffentlich-rechtliche Grundlagen – Nationalrat",
+    "question": "Wie viele Mandate hat der Nationalrat?",
+    "correctAnswer": "183.",
+    "options": [
+      "183.",
+      "96.",
+      "750.",
+      "12."
+    ],
+    "explanation": "Der Nationalrat besteht aus 183 Mitgliedern."
+  },
+  {
+    "id": "quiz-og-036",
+    "topic": "Gesetzgebung",
+    "source": "Öffentlich-rechtliche Grundlagen – Nationalratswahl",
+    "question": "Welcher Wahlrechtsgrundsatz schließt Wahlmänner aus?",
+    "correctAnswer": "Unmittelbares Wahlrecht.",
+    "options": [
+      "Unmittelbares Wahlrecht.",
+      "Geheimes Wahlrecht.",
+      "Persönliches Wahlrecht.",
+      "Freies Wahlrecht."
+    ],
+    "explanation": "Unmittelbar bedeutet, dass direkt gewählt wird und keine Wahlmänner dazwischengeschaltet sind."
+  },
+  {
+    "id": "quiz-og-037",
+    "topic": "Gesetzgebung",
+    "source": "Öffentlich-rechtliche Grundlagen – Volksbegehren",
+    "question": "Wann muss der Nationalrat ein Volksbegehren behandeln?",
+    "correctAnswer": "Bei ausreichender Unterstützung, etwa durch 100.000 Stimmberechtigte.",
+    "options": [
+      "Bei ausreichender Unterstützung, etwa durch 100.000 Stimmberechtigte.",
+      "Schon bei einer einzelnen E-Mail.",
+      "Nur wenn der Bundespräsident zustimmt.",
+      "Nur nach einem Urteil des EuGH."
+    ],
+    "explanation": "Das Volksbegehren verpflichtet zur parlamentarischen Behandlung, nicht zur Annahme."
+  },
+  {
+    "id": "quiz-og-038",
+    "topic": "Gesetzgebung",
+    "source": "Öffentlich-rechtliche Grundlagen – Bundesrat",
+    "question": "Was ist die Hauptfunktion des Bundesrats in der Gesetzgebung?",
+    "correctAnswer": "Einspruchsrecht gegenüber Gesetzesbeschlüssen des Nationalrats.",
+    "options": [
+      "Einspruchsrecht gegenüber Gesetzesbeschlüssen des Nationalrats.",
+      "Er wählt alle Nationalratsabgeordneten.",
+      "Er erlässt Bescheide.",
+      "Er führt Verwaltungsstrafverfahren."
+    ],
+    "explanation": "Der Bundesrat wirkt als Länderkammer an der Bundesgesetzgebung mit."
+  },
+  {
+    "id": "quiz-og-039",
+    "topic": "Gesetzgebung",
+    "source": "Öffentlich-rechtliche Grundlagen – Bundesversammlung",
+    "question": "Welche praktische Hauptaufgabe hat die Bundesversammlung?",
+    "correctAnswer": "Angelobung des Bundespräsidenten.",
+    "options": [
+      "Angelobung des Bundespräsidenten.",
+      "Erlassung aller Verordnungen.",
+      "Leitung der Gemeinden.",
+      "Entscheidung über Verwaltungsstrafen."
+    ],
+    "explanation": "Theoretisch hat sie weitere Kompetenzen, praktisch ist die Angelobung des Bundespräsidenten zentral."
+  },
+  {
+    "id": "quiz-og-040",
+    "topic": "Gesetzgebung",
+    "source": "Öffentlich-rechtliche Grundlagen – Abgeordnete",
+    "question": "Was bedeutet freies Mandat?",
+    "correctAnswer": "Abgeordnete sind rechtlich an keinen Auftrag gebunden.",
+    "options": [
+      "Abgeordnete sind rechtlich an keinen Auftrag gebunden.",
+      "Abgeordnete müssen immer ihrer Partei folgen.",
+      "Abgeordnete dürfen nie abstimmen.",
+      "Mandate können privat verkauft werden."
+    ],
+    "explanation": "Parteidisziplin ist faktisch möglich, aber kein rechtlicher Auftrag."
+  },
+  {
+    "id": "quiz-og-041",
+    "topic": "Gesetzgebung",
+    "source": "Öffentlich-rechtliche Grundlagen – Immunität",
+    "question": "Was schützt berufliche Immunität besonders?",
+    "correctAnswer": "Abstimmungen und berufliche Äußerungen von Abgeordneten.",
+    "options": [
+      "Abstimmungen und berufliche Äußerungen von Abgeordneten.",
+      "Privatgeschäfte jedes Abgeordneten.",
+      "Alle Straftaten ohne Ausnahme.",
+      "Nur Steuerverfahren."
+    ],
+    "explanation": "Berufliche Immunität schützt die parlamentarische Tätigkeit."
+  },
+  {
+    "id": "quiz-og-042",
+    "topic": "Verwaltung",
+    "source": "Öffentlich-rechtliche Grundlagen – Verwaltung",
+    "question": "Was ist Verwaltung im Sinn des B-VG?",
+    "correctAnswer": "Tätigkeit von Organen, die weder Gesetzgebung noch Gerichtsbarkeit sind.",
+    "options": [
+      "Tätigkeit von Organen, die weder Gesetzgebung noch Gerichtsbarkeit sind.",
+      "Nur private Unternehmen.",
+      "Nur ordentliche Gerichte.",
+      "Nur der Nationalrat."
+    ],
+    "explanation": "Der Verwaltungsbegriff ist weit."
+  },
+  {
+    "id": "quiz-og-043",
+    "topic": "Verwaltung",
+    "source": "Öffentlich-rechtliche Grundlagen – Legalitätsprinzip",
+    "question": "Was verlangt Art 18 Abs 1 B-VG?",
+    "correctAnswer": "Die staatliche Verwaltung wird nur aufgrund der Gesetze ausgeübt.",
+    "options": [
+      "Die staatliche Verwaltung wird nur aufgrund der Gesetze ausgeübt.",
+      "Die Verwaltung darf ohne Gesetz handeln.",
+      "Nur Gerichte sind an Gesetze gebunden.",
+      "Der Bundesrat erlässt Bescheide."
+    ],
+    "explanation": "Das Legalitätsprinzip bindet die Hoheitsverwaltung an gesetzliche Ermächtigung."
+  },
+  {
+    "id": "quiz-og-044",
+    "topic": "Verwaltung",
+    "source": "Öffentlich-rechtliche Grundlagen – Weisung",
+    "question": "Wann darf die Befolgung einer Weisung abgelehnt werden?",
+    "correctAnswer": "Bei Weisung eines unzuständigen Organs oder strafgesetzwidriger Befolgung.",
+    "options": [
+      "Bei Weisung eines unzuständigen Organs oder strafgesetzwidriger Befolgung.",
+      "Bei jeder politisch unpassenden Weisung.",
+      "Wenn die Weisung mündlich ist.",
+      "Wenn sie von einem Vorgesetzten kommt."
+    ],
+    "explanation": "Weisungsgebundenheit ist nicht absolut."
+  },
+  {
+    "id": "quiz-og-045",
+    "topic": "Verwaltung",
+    "source": "Öffentlich-rechtliche Grundlagen – Amtshaftung",
+    "question": "Wann liegt Amtshaftung vor?",
+    "correctAnswer": "Bei schuldhaft rechtswidrigem Verhalten eines Organs in Vollziehung der Gesetze mit Schaden.",
+    "options": [
+      "Bei schuldhaft rechtswidrigem Verhalten eines Organs in Vollziehung der Gesetze mit Schaden.",
+      "Bei jedem privaten Vertrag.",
+      "Bei jeder politischen Kritik.",
+      "Nur bei EU-Richtlinien."
+    ],
+    "explanation": "Der Rechtsträger haftet, wenn Organe in Vollziehung der Gesetze schuldhaft rechtswidrig handeln."
+  },
+  {
+    "id": "quiz-og-046",
+    "topic": "Verwaltung",
+    "source": "Öffentlich-rechtliche Grundlagen – Hoheitsakte",
+    "question": "Was ist ein Bescheid?",
+    "correctAnswer": "Ein individueller, hoheitlicher, normativer Verwaltungsakt.",
+    "options": [
+      "Ein individueller, hoheitlicher, normativer Verwaltungsakt.",
+      "Eine generelle parlamentarische Norm.",
+      "Ein völkerrechtlicher Vertrag.",
+      "Eine interne Parteianweisung."
+    ],
+    "explanation": "Bescheide richten sich an individuell bestimmte Adressaten."
+  },
+  {
+    "id": "quiz-og-047",
+    "topic": "Verwaltung",
+    "source": "Öffentlich-rechtliche Grundlagen – Hoheitsakte",
+    "question": "Was ist eine Verordnung?",
+    "correctAnswer": "Eine generelle Norm der Verwaltung aufgrund der Gesetze.",
+    "options": [
+      "Eine generelle Norm der Verwaltung aufgrund der Gesetze.",
+      "Ein Urteil des VfGH.",
+      "Ein Vertrag zwischen Privaten.",
+      "Eine Parteimitgliedschaft."
+    ],
+    "explanation": "Verordnungen sind materielle Gesetze der Verwaltung."
+  },
+  {
+    "id": "quiz-og-048",
+    "topic": "Verwaltung",
+    "source": "Öffentlich-rechtliche Grundlagen – Hoheitsakte",
+    "question": "Was ist ein AuvBZ?",
+    "correctAnswer": "Ein unmittelbarer verwaltungsbehördlicher Befehls- und Zwangsakt.",
+    "options": [
+      "Ein unmittelbarer verwaltungsbehördlicher Befehls- und Zwangsakt.",
+      "Ein abstraktes Gesetz.",
+      "Ein EU-Beschluss.",
+      "Eine bloße Empfehlung."
+    ],
+    "explanation": "AuvBZ ist verfahrensfrei oder verfahrensreduziert und dient oft Gefahrenabwehr."
+  },
+  {
+    "id": "quiz-og-049",
+    "topic": "Verwaltung",
+    "source": "Öffentlich-rechtliche Grundlagen – Bundesverwaltung",
+    "question": "Was ist mittelbare Bundesverwaltung?",
+    "correctAnswer": "Bundesverwaltung durch Landeshauptmann und Landesbehörden.",
+    "options": [
+      "Bundesverwaltung durch Landeshauptmann und Landesbehörden.",
+      "Bundesverwaltung ausschließlich durch EU-Organe.",
+      "Landesverwaltung ohne Bundesmaterien.",
+      "Gemeinderecht ohne Weisungen."
+    ],
+    "explanation": "Der Bund bedient sich bei nicht unmittelbar besorgten Bundesmaterien der Länderorgane."
+  },
+  {
+    "id": "quiz-og-050",
+    "topic": "Gemeinde",
+    "source": "Öffentlich-rechtliche Grundlagen – Gemeinde",
+    "question": "Was kennzeichnet den eigenen Wirkungsbereich der Gemeinde?",
+    "correctAnswer": "Er ist gesetzesgebunden, aber weisungsfrei.",
+    "options": [
+      "Er ist gesetzesgebunden, aber weisungsfrei.",
+      "Er ist völlig rechtsfrei.",
+      "Er ist immer EU-Kompetenz.",
+      "Er wird nur durch den Bundesrat ausgeübt."
+    ],
+    "explanation": "Die Gemeinde handelt im eigenen Wirkungsbereich ohne Weisungen, aber innerhalb der Gesetze."
+  },
+  {
+    "id": "quiz-og-051",
+    "topic": "Gemeinde",
+    "source": "Öffentlich-rechtliche Grundlagen – Gemeinde",
+    "question": "Was kennzeichnet den übertragenen Wirkungsbereich der Gemeinde?",
+    "correctAnswer": "Aufgaben im Auftrag und nach Weisungen von Bund oder Land.",
+    "options": [
+      "Aufgaben im Auftrag und nach Weisungen von Bund oder Land.",
+      "Nur private Aufgaben der Bürger.",
+      "Weisungsfreie Landesgesetzgebung.",
+      "Ausschließlich gerichtliche Entscheidungen."
+    ],
+    "explanation": "Im übertragenen Wirkungsbereich ist der Bürgermeister zentral und weisungsgebunden."
+  },
+  {
+    "id": "quiz-og-052",
+    "topic": "Gerichtsbarkeit",
+    "source": "Öffentlich-rechtliche Grundlagen – Ordentliche Gerichte",
+    "question": "Was bedeutet Art 83 Abs 2 B-VG?",
+    "correctAnswer": "Niemand darf seinem gesetzlichen Richter entzogen werden.",
+    "options": [
+      "Niemand darf seinem gesetzlichen Richter entzogen werden.",
+      "Niemand darf vor Gericht erscheinen.",
+      "Jede Behörde ist Gericht.",
+      "Nur die EU bestimmt Richter."
+    ],
+    "explanation": "Das ist ein grundrechtlich geschütztes Recht auf das zuständige gesetzliche Gericht."
+  },
+  {
+    "id": "quiz-og-053",
+    "topic": "Gerichtsbarkeit",
+    "source": "Öffentlich-rechtliche Grundlagen – Richter",
+    "question": "Was bedeutet richterliche Unabhängigkeit?",
+    "correctAnswer": "Richter sind in Ausübung ihres richterlichen Amts weisungsfrei.",
+    "options": [
+      "Richter sind in Ausübung ihres richterlichen Amts weisungsfrei.",
+      "Richter sind der Bundesregierung weisungsgebunden.",
+      "Richter dürfen keine Gesetze anwenden.",
+      "Richter sind Verwaltungsorgane."
+    ],
+    "explanation": "Unabhängigkeit schützt die Gerichtsbarkeit vor Weisungen."
+  },
+  {
+    "id": "quiz-og-054",
+    "topic": "VfGH",
+    "source": "Öffentlich-rechtliche Grundlagen – VfGH",
+    "question": "Welche Funktion ist zentral für den VfGH?",
+    "correctAnswer": "Normenkontrolle von Gesetzen und Verordnungen.",
+    "options": [
+      "Normenkontrolle von Gesetzen und Verordnungen.",
+      "Einhebung von Steuern.",
+      "Wahl aller Abgeordneten.",
+      "Erlassung von Strafverfügungen."
+    ],
+    "explanation": "Der VfGH prüft generelle Normen auf Übereinstimmung mit höherrangigem Recht."
+  },
+  {
+    "id": "quiz-og-055",
+    "topic": "VfGH",
+    "source": "Öffentlich-rechtliche Grundlagen – VfGH",
+    "question": "Was prüft der VfGH bei einer Gesetzesprüfung nach Art 140 B-VG?",
+    "correctAnswer": "Verfassungswidrigkeit von Bundes- oder Landesgesetzen.",
+    "options": [
+      "Verfassungswidrigkeit von Bundes- oder Landesgesetzen.",
+      "Zweckmäßigkeit jeder Verwaltungsentscheidung.",
+      "Privatrechtliche Kaufpreise.",
+      "Nur EU-Verordnungen."
+    ],
+    "explanation": "Art 140 B-VG regelt die Gesetzesprüfung."
+  },
+  {
+    "id": "quiz-og-056",
+    "topic": "VwG/VwGH",
+    "source": "Öffentlich-rechtliche Grundlagen – Verwaltungsgerichtsbarkeit",
+    "question": "Welche Beschwerde richtet sich gegen einen Bescheid?",
+    "correctAnswer": "Bescheidbeschwerde.",
+    "options": [
+      "Bescheidbeschwerde.",
+      "Nichtigkeitsklage.",
+      "Volksbegehren.",
+      "Retorsion."
+    ],
+    "explanation": "Die Bescheidbeschwerde ist Rechtsschutz gegen hoheitliche Verwaltungsakte."
+  },
+  {
+    "id": "quiz-og-057",
+    "topic": "VwG/VwGH",
+    "source": "Öffentlich-rechtliche Grundlagen – Verwaltungsgerichtsbarkeit",
+    "question": "Welche Beschwerde richtet sich gegen einen AuvBZ?",
+    "correctAnswer": "Maßnahmenbeschwerde.",
+    "options": [
+      "Maßnahmenbeschwerde.",
+      "Säumnisbeschwerde.",
+      "Ministeranklage.",
+      "Staatenklage."
+    ],
+    "explanation": "Ein AuvBZ wird mit Maßnahmenbeschwerde bekämpft."
+  },
+  {
+    "id": "quiz-og-058",
+    "topic": "VwG/VwGH",
+    "source": "Öffentlich-rechtliche Grundlagen – VwGH",
+    "question": "Wann ist Revision an den VwGH typischerweise zulässig?",
+    "correctAnswer": "Bei Rechtsfragen von grundsätzlicher Bedeutung.",
+    "options": [
+      "Bei Rechtsfragen von grundsätzlicher Bedeutung.",
+      "Immer automatisch nach jedem Bescheid.",
+      "Nur bei Volksabstimmungen.",
+      "Nur bei Strafverfügungen."
+    ],
+    "explanation": "Der VwGH prüft nicht jede Sache, sondern vor allem Grundsatzfragen."
+  },
+  {
+    "id": "quiz-og-059",
+    "topic": "Kontrolle",
+    "source": "Öffentlich-rechtliche Grundlagen – Rechnungshof",
+    "question": "Was prüft der Rechnungshof?",
+    "correctAnswer": "Gebarung nach Sparsamkeit, Wirtschaftlichkeit, Zweckmäßigkeit, Richtigkeit und Rechtmäßigkeit.",
+    "options": [
+      "Gebarung nach Sparsamkeit, Wirtschaftlichkeit, Zweckmäßigkeit, Richtigkeit und Rechtmäßigkeit.",
+      "Nur Grundrechte.",
+      "Nur privates Erbrecht.",
+      "Nur Staatsangehörigkeit."
+    ],
+    "explanation": "Der Rechnungshof ist eine zentrale Kontrolleinrichtung."
+  },
+  {
+    "id": "quiz-og-060",
+    "topic": "Grundrechte",
+    "source": "Öffentlich-rechtliche Grundlagen – Grundrechte",
+    "question": "Was sind Grundrechte?",
+    "correctAnswer": "Verfassungsgesetzlich gewährleistete subjektive Rechte.",
+    "options": [
+      "Verfassungsgesetzlich gewährleistete subjektive Rechte.",
+      "Nur politische Programme ohne Rechtswirkung.",
+      "Einfache Verwaltungsvorschriften.",
+      "Reine EU-Empfehlungen."
+    ],
+    "explanation": "Grundrechte schützen Individuen gegenüber dem Staat."
+  },
+  {
+    "id": "quiz-og-061",
+    "topic": "Grundrechte",
+    "source": "Öffentlich-rechtliche Grundlagen – Grundrechtsträger",
+    "question": "Welche Aussage ist richtig?",
+    "correctAnswer": "Die meisten Grundrechte in Österreich sind Menschenrechte.",
+    "options": [
+      "Die meisten Grundrechte in Österreich sind Menschenrechte.",
+      "Alle Grundrechte gelten nur für Österreicher.",
+      "Juristische Personen können nie Grundrechtsträger sein.",
+      "Grundrechte gelten nur zwischen Privaten."
+    ],
+    "explanation": "Viele Grundrechte gelten für alle Menschen, teilweise auch für juristische Personen."
+  },
+  {
+    "id": "quiz-og-062",
+    "topic": "Grundrechte",
+    "source": "Öffentlich-rechtliche Grundlagen – Drittwirkung",
+    "question": "Was bedeutet mittelbare Drittwirkung?",
+    "correctAnswer": "Grundrechte wirken über Generalklauseln in Privatrechtsverhältnisse ein.",
+    "options": [
+      "Grundrechte wirken über Generalklauseln in Privatrechtsverhältnisse ein.",
+      "Private sind unmittelbar wie Staaten an alle Grundrechte gebunden.",
+      "Grundrechte gelten nur im Strafrecht.",
+      "Grundrechte gelten nicht für Gerichte."
+    ],
+    "explanation": "In Österreich wird unmittelbare Drittwirkung meist verneint, mittelbare Drittwirkung anerkannt."
+  },
+  {
+    "id": "quiz-og-063",
+    "topic": "Grundrechte",
+    "source": "Öffentlich-rechtliche Grundlagen – Schranken",
+    "question": "Was ist Kern der Verhältnismäßigkeitsprüfung?",
+    "correctAnswer": "Öffentliches Interesse, Geeignetheit, Erforderlichkeit und Abwägung.",
+    "options": [
+      "Öffentliches Interesse, Geeignetheit, Erforderlichkeit und Abwägung.",
+      "Nur Mehrheitsentscheidung.",
+      "Nur finanzielle Kosten.",
+      "Nur historische Auslegung."
+    ],
+    "explanation": "Grundrechtseingriffe müssen verhältnismäßig sein."
+  },
+  {
+    "id": "quiz-og-064",
+    "topic": "Grundrechte",
+    "source": "Öffentlich-rechtliche Grundlagen – Meinungsfreiheit",
+    "question": "Was umfasst Art 10 EMRK?",
+    "correctAnswer": "Meinungsäußerung sowie Empfang und Mitteilung von Nachrichten und Ideen.",
+    "options": [
+      "Meinungsäußerung sowie Empfang und Mitteilung von Nachrichten und Ideen.",
+      "Nur Eigentumsschutz.",
+      "Nur Wahlrecht.",
+      "Nur Schutz vor Auslieferung."
+    ],
+    "explanation": "Art 10 EMRK schützt aktive und passive Kommunikationsfreiheit."
+  },
+  {
+    "id": "quiz-og-065",
+    "topic": "Grundrechte",
+    "source": "Öffentlich-rechtliche Grundlagen – Medienfreiheit",
+    "question": "Was bedeutet Zensurverbot im Kern?",
+    "correctAnswer": "Keine behördliche Vorabgenehmigung für Veröffentlichungen.",
+    "options": [
+      "Keine behördliche Vorabgenehmigung für Veröffentlichungen.",
+      "Keine nachträgliche Strafbarkeit jemals.",
+      "Pflicht des Staates, jede Information zu veröffentlichen.",
+      "Verbot aller Medienregulierung."
+    ],
+    "explanation": "Vorzensur ist verboten; Nachzensur kann unter engen Voraussetzungen zulässig sein."
+  },
+  {
+    "id": "quiz-og-066",
+    "topic": "Verwaltungsrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Verwaltungsrecht",
+    "question": "Was ist Eingriffsverwaltung?",
+    "correctAnswer": "Hoheitliche Tätigkeit zur Gefahrenabwehr und Ordnungssicherung.",
+    "options": [
+      "Hoheitliche Tätigkeit zur Gefahrenabwehr und Ordnungssicherung.",
+      "Privatrechtlicher Verkauf von Grundstücken.",
+      "Wahl der Nationalratspräsidenten.",
+      "Reine EU-Rechtssetzung."
+    ],
+    "explanation": "Eingriffsverwaltung entspricht der Ordnungsfunktion des Staates."
+  },
+  {
+    "id": "quiz-og-067",
+    "topic": "Verwaltungsrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Verwaltungsrecht",
+    "question": "Was ist Leistungsverwaltung?",
+    "correctAnswer": "Verwaltung, die Leistungen und Dienstleistungen bereitstellt.",
+    "options": [
+      "Verwaltung, die Leistungen und Dienstleistungen bereitstellt.",
+      "Nur völkerrechtliche Verträge.",
+      "Nur richterliche Unabhängigkeit.",
+      "Nur Konzessionen für Medien."
+    ],
+    "explanation": "Leistungsverwaltung dient Kultur- und Wohlfahrtszwecken."
+  },
+  {
+    "id": "quiz-og-068",
+    "topic": "Verwaltungsrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Polizei",
+    "question": "Was ist Verwaltungspolizei?",
+    "correctAnswer": "Abwehr spezifischer Gefahren in einer bestimmten Materie.",
+    "options": [
+      "Abwehr spezifischer Gefahren in einer bestimmten Materie.",
+      "Gefahrenabwehr ohne jedes Gesetz.",
+      "Nur private Sicherheitsdienste.",
+      "Ausschließlich Militär."
+    ],
+    "explanation": "Baupolizei oder Gewerbepolizei sind Beispiele für Verwaltungspolizei."
+  },
+  {
+    "id": "quiz-og-069",
+    "topic": "Verwaltungsrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Verwaltungsorganisation",
+    "question": "Was ist Beleihung?",
+    "correctAnswer": "Private werden mit hoheitlicher Organfunktion betraut.",
+    "options": [
+      "Private werden mit hoheitlicher Organfunktion betraut.",
+      "Private beraten unverbindlich ohne Aufgaben.",
+      "Die EU hebt ein Gesetz auf.",
+      "Ein Staat erkennt einen anderen an."
+    ],
+    "explanation": "Beliehene handeln mit eigener hoheitlicher Zuständigkeit."
+  },
+  {
+    "id": "quiz-og-070",
+    "topic": "Verwaltungsverfahren",
+    "source": "Öffentlich-rechtliche Grundlagen – AVG",
+    "question": "Welcher AVG-Grundsatz verlangt vollständige Sachverhaltsermittlung?",
+    "correctAnswer": "Materielle Wahrheit.",
+    "options": [
+      "Materielle Wahrheit.",
+      "Parteidisziplin.",
+      "Subsidiarität.",
+      "Gewaltverbot."
+    ],
+    "explanation": "Die Behörde muss den wahren Sachverhalt vollständig ermitteln."
+  },
+  {
+    "id": "quiz-og-071",
+    "topic": "Verwaltungsverfahren",
+    "source": "Öffentlich-rechtliche Grundlagen – AVG",
+    "question": "Wer ist Partei im Verwaltungsverfahren?",
+    "correctAnswer": "Wer ein subjektives Recht geltend macht oder gesetzlich als Partei vorgesehen ist.",
+    "options": [
+      "Wer ein subjektives Recht geltend macht oder gesetzlich als Partei vorgesehen ist.",
+      "Jeder bloß interessierte Beobachter.",
+      "Nur Bundesminister.",
+      "Nur Gerichte."
+    ],
+    "explanation": "Parteistellung hängt von subjektiver Rechtssphäre oder gesetzlicher Zuweisung ab."
+  },
+  {
+    "id": "quiz-og-072",
+    "topic": "Verwaltungsverfahren",
+    "source": "Öffentlich-rechtliche Grundlagen – Bescheid",
+    "question": "Wann gilt ein Bescheid als erlassen?",
+    "correctAnswer": "Bei Zustellung oder Verkündung.",
+    "options": [
+      "Bei Zustellung oder Verkündung.",
+      "Schon beim internen Entwurf.",
+      "Erst nach einer Volksabstimmung.",
+      "Nur nach Veröffentlichung im Amtsblatt der EU."
+    ],
+    "explanation": "Bescheide wirken gegenüber Adressaten, denen sie erlassen oder verkündet wurden."
+  },
+  {
+    "id": "quiz-og-073",
+    "topic": "Verwaltungsverfahren",
+    "source": "Öffentlich-rechtliche Grundlagen – Rechtsschutz",
+    "question": "Wie lange beträgt die Frist für Bescheidbeschwerde grundsätzlich?",
+    "correctAnswer": "Vier Wochen.",
+    "options": [
+      "Vier Wochen.",
+      "Zwei Stunden.",
+      "Sechs Jahre.",
+      "Ein Jahr."
+    ],
+    "explanation": "Die Bescheidbeschwerde ist grundsätzlich binnen vier Wochen einzubringen."
+  },
+  {
+    "id": "quiz-og-074",
+    "topic": "Verwaltungsverfahren",
+    "source": "Öffentlich-rechtliche Grundlagen – VStG",
+    "question": "Welche abgekürzte Verwaltungsstrafe hat keinen Rechtsmittelweg und wird bei Nichtzahlung gegenstandslos?",
+    "correctAnswer": "Anonymverfügung.",
+    "options": [
+      "Anonymverfügung.",
+      "Gesetzesbeschwerde.",
+      "Volksbegehren.",
+      "Nichtigkeitsklage."
+    ],
+    "explanation": "Bei Anonymverfügung führt Nichtzahlung zur Ausforschung des wahren Täters."
+  },
+  {
+    "id": "quiz-og-075",
+    "topic": "EU-Recht",
+    "source": "Öffentlich-rechtliche Grundlagen – EU-Recht",
+    "question": "Was gehört zum primären Unionsrecht?",
+    "correctAnswer": "EUV, AEUV und EU-Grundrechtecharta.",
+    "options": [
+      "EUV, AEUV und EU-Grundrechtecharta.",
+      "Bescheide der Bezirkshauptmannschaft.",
+      "Nur nationale Verordnungen.",
+      "Alle privaten Verträge."
+    ],
+    "explanation": "Primärrecht ist die vertragliche und grundsätzliche Basis der EU."
+  },
+  {
+    "id": "quiz-og-076",
+    "topic": "EU-Recht",
+    "source": "Öffentlich-rechtliche Grundlagen – Unmittelbare Geltung",
+    "question": "Welcher Fall ist mit unmittelbarer Anwendbarkeit von Unionsrecht verbunden?",
+    "correctAnswer": "Van Gend en Loos.",
+    "options": [
+      "Van Gend en Loos.",
+      "Nottebohm.",
+      "Caroline.",
+      "Nicaragua."
+    ],
+    "explanation": "Van Gend en Loos begründet die unmittelbare Wirkung hinreichend bestimmter Unionsnormen."
+  },
+  {
+    "id": "quiz-og-077",
+    "topic": "EU-Recht",
+    "source": "Öffentlich-rechtliche Grundlagen – Vorrang",
+    "question": "Was folgt aus dem Vorrang des Unionsrechts?",
+    "correctAnswer": "Nationales Recht ist bei Kollision unangewendet zu lassen.",
+    "options": [
+      "Nationales Recht ist bei Kollision unangewendet zu lassen.",
+      "Nationales Recht ist automatisch nicht existent.",
+      "EU-Recht gilt nur, wenn jedes Parlament zustimmt.",
+      "Verordnungen müssen immer umgesetzt werden."
+    ],
+    "explanation": "Der Vorrang verdrängt nationale Anwendung, nicht zwingend die Existenz der Norm."
+  },
+  {
+    "id": "quiz-og-078",
+    "topic": "EU-Institutionen",
+    "source": "Öffentlich-rechtliche Grundlagen – EU-Organe",
+    "question": "Welches EU-Organ hat das Initiativmonopol und gilt als Hüterin der Verträge?",
+    "correctAnswer": "Europäische Kommission.",
+    "options": [
+      "Europäische Kommission.",
+      "Europäischer Rat.",
+      "Ausschuss der Regionen.",
+      "Europäische Zentralbank."
+    ],
+    "explanation": "Die Kommission schlägt Rechtsakte vor und überwacht Einhaltung des Unionsrechts."
+  },
+  {
+    "id": "quiz-og-079",
+    "topic": "EU-Institutionen",
+    "source": "Öffentlich-rechtliche Grundlagen – Europäischer Rat",
+    "question": "Was ist die Hauptaufgabe des Europäischen Rates?",
+    "correctAnswer": "Politische Gesamtleitung, aber keine Gesetzgebung.",
+    "options": [
+      "Politische Gesamtleitung, aber keine Gesetzgebung.",
+      "Erlassung aller Verordnungen allein.",
+      "Entscheidung privater Mietstreitigkeiten.",
+      "Kontrolle österreichischer Gemeinden."
+    ],
+    "explanation": "Der Europäische Rat legt politische Leitlinien fest."
+  },
+  {
+    "id": "quiz-og-080",
+    "topic": "EU-Institutionen",
+    "source": "Öffentlich-rechtliche Grundlagen – Rat",
+    "question": "Wie wird qualifizierte Mehrheit im Rat grundsätzlich bestimmt?",
+    "correctAnswer": "55 % der Mitglieder, mindestens 15 Staaten, die 65 % der EU-Bevölkerung vertreten.",
+    "options": [
+      "55 % der Mitglieder, mindestens 15 Staaten, die 65 % der EU-Bevölkerung vertreten.",
+      "Einstimmigkeit aller nationalen Gerichte.",
+      "Einfache Mehrheit der Gemeinden.",
+      "Zweidrittel aller Weltstaaten."
+    ],
+    "explanation": "Die qualifizierte Mehrheit kombiniert Staaten- und Bevölkerungsanteil."
+  },
+  {
+    "id": "quiz-og-081",
+    "topic": "EU-Recht",
+    "source": "Öffentlich-rechtliche Grundlagen – EU-Rechtsakte",
+    "question": "Was ist eine EU-Verordnung?",
+    "correctAnswer": "Allgemein gültig, in allen Teilen verbindlich und unmittelbar in jedem Mitgliedstaat geltend.",
+    "options": [
+      "Allgemein gültig, in allen Teilen verbindlich und unmittelbar in jedem Mitgliedstaat geltend.",
+      "Nur Zielvorgabe mit freier Umsetzung.",
+      "Unverbindliche Empfehlung.",
+      "Nur nationaler Bescheid."
+    ],
+    "explanation": "Art 288 AEUV definiert die Verordnung."
+  },
+  {
+    "id": "quiz-og-082",
+    "topic": "EU-Recht",
+    "source": "Öffentlich-rechtliche Grundlagen – EU-Rechtsakte",
+    "question": "Was ist eine Richtlinie?",
+    "correctAnswer": "Sie bindet hinsichtlich des Ziels, überlässt aber Form und Mittel der Umsetzung den Mitgliedstaaten.",
+    "options": [
+      "Sie bindet hinsichtlich des Ziels, überlässt aber Form und Mittel der Umsetzung den Mitgliedstaaten.",
+      "Sie gilt nie verbindlich.",
+      "Sie ist immer nur an Private gerichtet.",
+      "Sie ist ein völkerrechtlicher Vertrag."
+    ],
+    "explanation": "Richtlinien brauchen grundsätzlich normative Umsetzung im Mitgliedstaat."
+  },
+  {
+    "id": "quiz-og-083",
+    "topic": "EU-Recht",
+    "source": "Öffentlich-rechtliche Grundlagen – Richtlinienwirkung",
+    "question": "Wann kann sich ein Bürger direkt auf eine Richtlinie berufen?",
+    "correctAnswer": "Wenn sie Rechte einräumt, hinreichend genau ist und nicht fristgerecht umgesetzt wurde.",
+    "options": [
+      "Wenn sie Rechte einräumt, hinreichend genau ist und nicht fristgerecht umgesetzt wurde.",
+      "Immer gegenüber jedem anderen Bürger.",
+      "Nur wenn sie unklar ist.",
+      "Nie gegenüber dem Staat."
+    ],
+    "explanation": "Die unmittelbare Richtlinienwirkung wirkt grundsätzlich vertikal zugunsten des Bürgers."
+  },
+  {
+    "id": "quiz-og-084",
+    "topic": "EU-Recht",
+    "source": "Öffentlich-rechtliche Grundlagen – Staatshaftung",
+    "question": "Ist Verschulden Voraussetzung der unionsrechtlichen Staatshaftung?",
+    "correctAnswer": "Nein.",
+    "options": [
+      "Nein.",
+      "Ja, immer Vorsatz.",
+      "Ja, nur grobe Fahrlässigkeit.",
+      "Nur bei privaten Unternehmen."
+    ],
+    "explanation": "Bei Unionsrechtshaftung sind Verstoß, Zurechenbarkeit, qualifizierter Verstoß und Kausalität zentral; Verschulden ist nicht maßgeblich."
+  },
+  {
+    "id": "quiz-og-085",
+    "topic": "EU-Recht",
+    "source": "Öffentlich-rechtliche Grundlagen – Binnenmarkt",
+    "question": "Welche Freiheiten gehören zum Binnenmarkt?",
+    "correctAnswer": "Waren, Personen, Dienstleistungen und Kapital.",
+    "options": [
+      "Waren, Personen, Dienstleistungen und Kapital.",
+      "Nur Rundfunk und Presse.",
+      "Nur Gemeindeautonomie.",
+      "Nur Staatsverträge."
+    ],
+    "explanation": "Art 26 AEUV beschreibt den Binnenmarkt als Raum ohne Binnengrenzen."
+  },
+  {
+    "id": "quiz-og-086",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Begriff",
+    "question": "Was ist Völkerrecht?",
+    "correctAnswer": "Die rechtliche Basis internationaler Beziehungen.",
+    "options": [
+      "Die rechtliche Basis internationaler Beziehungen.",
+      "Nur nationales Strafrecht.",
+      "Nur Verwaltungsverfahren in Österreich.",
+      "Nur Privatrecht zwischen Unternehmen."
+    ],
+    "explanation": "Völkerrecht regelt vor allem Beziehungen zwischen Völkerrechtssubjekten."
+  },
+  {
+    "id": "quiz-og-087",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Völkerrechtssubjekte",
+    "question": "Wer ist ein geborenes Völkerrechtssubjekt?",
+    "correctAnswer": "Der Staat.",
+    "options": [
+      "Der Staat.",
+      "Der einzelne Verein immer vollständig.",
+      "Jede Gemeinde.",
+      "Jede politische Partei."
+    ],
+    "explanation": "Staaten besitzen volle Völkerrechtssubjektivität."
+  },
+  {
+    "id": "quiz-og-088",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Anerkennung",
+    "question": "Welche Wirkung hat Anerkennung eines Staates grundsätzlich?",
+    "correctAnswer": "Deklaratorische Wirkung.",
+    "options": [
+      "Deklaratorische Wirkung.",
+      "Konstitutive Wirkung in jedem Fall.",
+      "Automatische Änderung seiner Grenzen.",
+      "Aufhebung aller Verträge."
+    ],
+    "explanation": "Anerkennung behandelt den Anerkannten als Völkerrechtssubjekt, schafft Staatlichkeit aber grundsätzlich nicht."
+  },
+  {
+    "id": "quiz-og-089",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Staatsgebiet",
+    "question": "Was ist Annexion?",
+    "correctAnswer": "Einseitige Inbesitznahme fremden Staatsgebiets.",
+    "options": [
+      "Einseitige Inbesitznahme fremden Staatsgebiets.",
+      "Freiwillige Abtretung durch Vertrag.",
+      "Schiedsgerichtliche Entscheidung.",
+      "Einbürgerung einer Person."
+    ],
+    "explanation": "Annexion unterscheidet sich von Zession und Adjudikation."
+  },
+  {
+    "id": "quiz-og-090",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Staatsgewalt",
+    "question": "Was bedeutet der Lotus-Grundsatz vereinfacht?",
+    "correctAnswer": "Kein Staat darf Hoheitsakte auf dem Gebiet eines anderen Staates setzen.",
+    "options": [
+      "Kein Staat darf Hoheitsakte auf dem Gebiet eines anderen Staates setzen.",
+      "Jeder Staat darf überall vollziehen.",
+      "Staaten haben keine Gebietshoheit.",
+      "Nur die EU hat Hoheitsgewalt."
+    ],
+    "explanation": "Gebietshoheit schließt fremde Hoheitsakte grundsätzlich aus."
+  },
+  {
+    "id": "quiz-og-091",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Organisationen",
+    "question": "Was ist eine internationale Organisation?",
+    "correctAnswer": "Eine dauerhafte Vereinigung von mindestens zwei Staaten, die Aufgaben selbstständig wahrnimmt.",
+    "options": [
+      "Eine dauerhafte Vereinigung von mindestens zwei Staaten, die Aufgaben selbstständig wahrnimmt.",
+      "Ein privater Kaufvertrag.",
+      "Ein Gemeindeorgan.",
+      "Ein einzelner Bescheid."
+    ],
+    "explanation": "Internationale Organisationen haben Völkerrechtssubjektivität nach Maßgabe ihrer Satzung."
+  },
+  {
+    "id": "quiz-og-092",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Quellen",
+    "question": "Welche Quellen sind Primärquellen des Völkerrechts?",
+    "correctAnswer": "Verträge, Gewohnheitsrecht und allgemeine Rechtsprinzipien.",
+    "options": [
+      "Verträge, Gewohnheitsrecht und allgemeine Rechtsprinzipien.",
+      "Nur EU-Verordnungen.",
+      "Nur Bescheide.",
+      "Nur Parteiprogramme."
+    ],
+    "explanation": "Diese Quellen sind untereinander grundsätzlich gleichwertig."
+  },
+  {
+    "id": "quiz-og-093",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – ius cogens",
+    "question": "Welche Folge hat ein Vertrag, der gegen ius cogens verstößt?",
+    "correctAnswer": "Er ist nichtig.",
+    "options": [
+      "Er ist nichtig.",
+      "Er gilt automatisch als EU-Recht.",
+      "Er wird nur unverbindlich empfohlen.",
+      "Er bindet nur Gemeinden."
+    ],
+    "explanation": "Zwingendes Völkerrecht begrenzt die Vertragsfreiheit von Völkerrechtssubjekten."
+  },
+  {
+    "id": "quiz-og-094",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Gewohnheitsrecht",
+    "question": "Woraus entsteht völkerrechtliches Gewohnheitsrecht?",
+    "correctAnswer": "Aus Staatspraxis und opinio iuris.",
+    "options": [
+      "Aus Staatspraxis und opinio iuris.",
+      "Nur aus einer Regierungserklärung.",
+      "Nur aus nationalen Bescheiden.",
+      "Nur aus privaten Verträgen."
+    ],
+    "explanation": "Bloße Wiederholung ohne Rechtsüberzeugung genügt nicht."
+  },
+  {
+    "id": "quiz-og-095",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – UN-Resolutionen",
+    "question": "Sind UN-Generalversammlungsresolutionen grundsätzlich bindend?",
+    "correctAnswer": "Nein.",
+    "options": [
+      "Nein.",
+      "Ja, immer unmittelbar.",
+      "Nur für Privatpersonen.",
+      "Nur in Österreich."
+    ],
+    "explanation": "Sie können aber Rechtsüberzeugung anzeigen und Gewohnheitsrecht fördern."
+  },
+  {
+    "id": "quiz-og-096",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Durchsetzung",
+    "question": "Was ist Retorsion?",
+    "correctAnswer": "Ein unfreundlicher, aber völkerrechtmäßiger Akt.",
+    "options": [
+      "Ein unfreundlicher, aber völkerrechtmäßiger Akt.",
+      "Ein völkerrechtlicher Vertrag.",
+      "Eine EU-Verordnung.",
+      "Ein Strafurteil des ICC."
+    ],
+    "explanation": "Retorsion ist eine dezentrale Reaktion auf Verhalten eines anderen Staates."
+  },
+  {
+    "id": "quiz-og-097",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Verantwortlichkeit",
+    "question": "Was ist für Staatenverantwortlichkeit nicht erforderlich?",
+    "correctAnswer": "Verschulden.",
+    "options": [
+      "Verschulden.",
+      "Zurechenbarkeit.",
+      "Bruch einer Verpflichtung.",
+      "Ein völkerrechtswidriger Akt."
+    ],
+    "explanation": "Schuld oder Fahrlässigkeit sind nicht entscheidend."
+  },
+  {
+    "id": "quiz-og-098",
+    "topic": "Völkerstrafrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – ICC",
+    "question": "Was bedeutet Komplementarität beim ICC?",
+    "correctAnswer": "Der ICC wird tätig, wenn zuständige Staaten unwillig oder unfähig sind.",
+    "options": [
+      "Der ICC wird tätig, wenn zuständige Staaten unwillig oder unfähig sind.",
+      "Der ICC ersetzt automatisch alle nationalen Gerichte.",
+      "Der ICC entscheidet nur Steuerfragen.",
+      "Der ICC ist ein Organ des österreichischen Nationalrats."
+    ],
+    "explanation": "Der ICC ergänzt nationale Strafverfolgung, ersetzt sie aber nicht grundsätzlich."
+  },
+  {
+    "id": "quiz-og-099",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Gewaltverbot",
+    "question": "Welche Ausnahme vom Gewaltverbot nennt Art 51 UN-Charta?",
+    "correctAnswer": "Selbstverteidigung bei bewaffnetem Angriff.",
+    "options": [
+      "Selbstverteidigung bei bewaffnetem Angriff.",
+      "Wirtschaftliche Interessen.",
+      "Beliebige Prävention ohne Angriff.",
+      "Einfacher politischer Streit."
+    ],
+    "explanation": "Selbstverteidigung muss unmittelbar und verhältnismäßig sein."
+  },
+  {
+    "id": "quiz-og-100",
+    "topic": "Völkerrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Interventionsverbot",
+    "question": "Was ist beim Interventionsverbot zentral?",
+    "correctAnswer": "Keine zwangsweise Einmischung in innere Angelegenheiten eines anderen Staates.",
+    "options": [
+      "Keine zwangsweise Einmischung in innere Angelegenheiten eines anderen Staates.",
+      "Jeder diplomatische Kontakt ist verboten.",
+      "Jede Kritik ist verboten.",
+      "Jeder Vertrag ist verboten."
+    ],
+    "explanation": "Intervention setzt Einmischung und Zwang voraus."
+  },
+  {
+    "id": "quiz-og-101",
+    "topic": "Diplomatenrecht",
+    "source": "Öffentlich-rechtliche Grundlagen – Diplomatenrecht",
+    "question": "Sind Räume einer diplomatischen Mission exterritorial?",
+    "correctAnswer": "Nein, sie sind unverletzlich, aber bleiben Gebiet des Empfangsstaats.",
+    "options": [
+      "Nein, sie sind unverletzlich, aber bleiben Gebiet des Empfangsstaats.",
+      "Ja, sie werden Staatsgebiet des Entsendestaats.",
+      "Nein, sie dürfen jederzeit ohne Zustimmung betreten werden.",
+      "Sie gehören automatisch der UNO."
+    ],
+    "explanation": "Diplomatische Räumlichkeiten sind geschützt, aber nicht exterritorial."
+  },
+  {
+    "id": "quiz-og-102",
+    "topic": "Neutralität",
+    "source": "Öffentlich-rechtliche Grundlagen – Neutralität",
+    "question": "Was ist eine Pflicht neutraler Staaten?",
+    "correctAnswer": "Keine Teilnahme am Krieg und keine direkte Waffenhilfe.",
+    "options": [
+      "Keine Teilnahme am Krieg und keine direkte Waffenhilfe.",
+      "Pflicht zur Teilnahme an jedem Konflikt.",
+      "Pflicht zur Annexion fremden Gebiets.",
+      "Pflicht zur Abschaffung der Diplomatie."
+    ],
+    "explanation": "Neutralität verlangt Nichtteilnahme und Nichtunterstützung von Konfliktparteien."
   }
 ]

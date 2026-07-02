@@ -1,17 +1,1142 @@
 [
   {
-    "id": "flashcard-1",
-    "front": "Was ist eine Flashcard?",
-    "back": "Eine digitale Lernkarte mit Frage und Antwort."
+    "id": "flashcard-og-001",
+    "front": "Was ist das Ziel des Allgemeinen Teils der Vorlesung Daten- und Informatikrecht?",
+    "back": "Er soll grundlegende Zusammenhänge des Rechtssystems erklären: Funktion von Recht, westliche Staatenlehre, öffentlich-rechtliche Ordnung Österreichs und österreichisches Verfassungsrecht."
   },
   {
-    "id": "flashcard-2",
-    "front": "Wofür steht WCAG?",
-    "back": "Web Content Accessibility Guidelines."
+    "id": "flashcard-og-002",
+    "front": "Warum ist Daten- und Informatikrecht eine Querschnittsmaterie?",
+    "back": "Weil es sich nur verstehen lässt, wenn man mehrere Rechtsgebiete und Grundstrukturen des Rechtssystems miteinander verbindet."
   },
   {
-    "id": "flashcard-3",
-    "front": "Was ist ein Matching Game?",
-    "back": "Eine Übung, bei der passende Begriffe zugeordnet werden."
+    "id": "flashcard-og-003",
+    "front": "Welche Hauptthemen behandelt Öffentlich-rechtliche Grundlagen?",
+    "back": "Normen, Staat, Stufenbau und Rechtsanwendung, Verfassungsrecht, Bundesstaat, Gesetzgebung, Verwaltung, Gerichtsbarkeit, Grundrechte, Verwaltungsrecht, Unionsrecht und Völkerrecht."
+  },
+  {
+    "id": "flashcard-og-004",
+    "front": "Was sind empirische oder deskriptive Sätze?",
+    "back": "Sätze, die Tatsachen der Realität beschreiben und wahr oder falsch sein können."
+  },
+  {
+    "id": "flashcard-og-005",
+    "front": "Was sind normative oder präskriptive Sätze?",
+    "back": "Sätze, die ausdrücken, dass etwas sein soll, nicht sein soll oder sein darf."
+  },
+  {
+    "id": "flashcard-og-006",
+    "front": "Was ist der Unterschied zwischen individuellen und generellen Normen?",
+    "back": "Individuelle Normen richten sich an bestimmte Adressaten, generelle Normen an einen unbestimmten Adressatenkreis."
+  },
+  {
+    "id": "flashcard-og-007",
+    "front": "Was sind Werturteile?",
+    "back": "Aussagen mit wertendem Inhalt. Sie sind nicht einfach wahr oder falsch, sondern hängen von Wertmaßstäben ab."
+  },
+  {
+    "id": "flashcard-og-008",
+    "front": "Was unterscheidet konventionelle Normen von rechtlichen Normen?",
+    "back": "Konventionelle Normen beruhen auf sozialer Übung und sozialem Druck. Rechtliche Normen gehen von staatlicher Autorität aus und werden durch organisierten Zwang durchgesetzt."
+  },
+  {
+    "id": "flashcard-og-009",
+    "front": "Was ist eine vollständige Zwangsnorm?",
+    "back": "Eine Rechtsnorm mit Gebotsteil und Sanktionsteil: Sie sagt, wie man sich verhalten soll und welche Sanktion bei Verstoß droht."
+  },
+  {
+    "id": "flashcard-og-010",
+    "front": "Was regeln Zwangsnormvollzugsnormen?",
+    "back": "Sie regeln, wer eine Zwangsnorm wie durchsetzen soll. Dazu gehören Organisationsrecht und Prozessrecht."
+  },
+  {
+    "id": "flashcard-og-011",
+    "front": "Was sind Erzeugungsnormen?",
+    "back": "Normen, die regeln, wer andere Rechtsnormen erzeugen darf. Sie organisieren den Staat und gehören materiell oft zum Verfassungsrecht."
+  },
+  {
+    "id": "flashcard-og-012",
+    "front": "Welche Probleme sollen Normen lösen?",
+    "back": "Verteilungsprobleme, Kooperationsprobleme und Koordinationsprobleme."
+  },
+  {
+    "id": "flashcard-og-013",
+    "front": "Was ist ein Verteilungsproblem?",
+    "back": "Ein Problem, bei dem ein begrenztes Gut verteilt werden muss und Konflikt droht, wenn nicht festgelegt wird, wer was bekommt."
+  },
+  {
+    "id": "flashcard-og-014",
+    "front": "Was ist ein Kooperationsproblem?",
+    "back": "Eine Situation, in der alle durch Kooperation besser wären, aber Einzelne ohne verbindliche Regelung einen Anreiz haben, nicht zu kooperieren."
+  },
+  {
+    "id": "flashcard-og-015",
+    "front": "Was ist ein Koordinationsproblem?",
+    "back": "Eine Situation, in der Beteiligte ein gemeinsames Ziel haben, dafür aber ihr Verhalten abstimmen müssen."
+  },
+  {
+    "id": "flashcard-og-016",
+    "front": "Warum reicht soziale Selbstregulierung in großen Gesellschaften oft nicht aus?",
+    "back": "Weil Interaktionen häufig einmalig, anonym und flüchtig sind. Deshalb braucht es eine Instanz, die Normen schafft und durchsetzt."
+  },
+  {
+    "id": "flashcard-og-017",
+    "front": "Warum werden Rechtsnormen als „verfestigte Politik“ beschrieben?",
+    "back": "Weil sie das formalisierte Ergebnis politischer Denk- und Entscheidungsprozesse sind."
+  },
+  {
+    "id": "flashcard-og-018",
+    "front": "Was bedeutet rechtspositivistisch: Recht und Staat sind verschränkt?",
+    "back": "Recht ist staatliches Recht, und der Staat selbst wird durch Rechtsnormen als rechtliche Institution gestaltet."
+  },
+  {
+    "id": "flashcard-og-019",
+    "front": "Was bedeutet de lege ferenda?",
+    "back": "Überlegungen dazu, wie das Recht künftig gestaltet, bewertet oder kritisiert werden soll."
+  },
+  {
+    "id": "flashcard-og-020",
+    "front": "Was bedeutet de lege lata?",
+    "back": "Analyse des geltenden Rechts, also Rechtsdogmatik."
+  },
+  {
+    "id": "flashcard-og-021",
+    "front": "Welche drei Arten rechtspolitischer Erwägungen nennt die Vorlesung?",
+    "back": "Technische Erwägungen wie Zweckmäßigkeit, pragmatische Erwägungen wie Gemeinwohl und moralische Erwägungen wie Gerechtigkeit."
+  },
+  {
+    "id": "flashcard-og-022",
+    "front": "Was besagt das Pareto-Kriterium?",
+    "back": "Ein Zustand ist besser, wenn mindestens eine Person besser gestellt wird und niemand schlechter gestellt wird."
+  },
+  {
+    "id": "flashcard-og-023",
+    "front": "Was besagt das Kaldor-Hicks-Kriterium?",
+    "back": "Ein Zustand kann vorzugswürdig sein, wenn die Gewinner die Verlierer theoretisch entschädigen könnten."
+  },
+  {
+    "id": "flashcard-og-024",
+    "front": "Was beschreibt das Coase-Theorem?",
+    "back": "Bei Transaktionskosten von null führt jede Zuteilung von Rechten zu effizienten Ergebnissen. Recht soll daher Transaktionskosten möglichst niedrig halten."
+  },
+  {
+    "id": "flashcard-og-025",
+    "front": "Was ist die Tragedy of the Commons?",
+    "back": "Ein Gemeingut wird übernutzt, weil Einzelne ihren Nutzen maximieren und externe Kosten nicht berücksichtigen."
+  },
+  {
+    "id": "flashcard-og-026",
+    "front": "Was bedeutet formelle Gerechtigkeit?",
+    "back": "Gleiches ist gleich zu behandeln."
+  },
+  {
+    "id": "flashcard-og-027",
+    "front": "Was bedeutet materielle Gerechtigkeit?",
+    "back": "Sie fragt, welche Umstände für Gleich- oder Ungleichbehandlung relevant sind und wie Personen unter diesen Umständen behandelt werden sollen."
+  },
+  {
+    "id": "flashcard-og-028",
+    "front": "Welche Gerechtigkeitsarten werden unterschieden?",
+    "back": "Verteilungsgerechtigkeit, Tauschgerechtigkeit, politische Gerechtigkeit, korrektive Gerechtigkeit und soziale Gerechtigkeit."
+  },
+  {
+    "id": "flashcard-og-029",
+    "front": "Was ist der Staatsbegriff nach der Drei-Elemente-Lehre?",
+    "back": "Ein Staat besteht aus Staatsgebiet, Staatsvolk und Staatsgewalt."
+  },
+  {
+    "id": "flashcard-og-030",
+    "front": "Was ist der soziologische Staatsbegriff nach Max Weber?",
+    "back": "Ein Staat ist eine Gemeinschaft, die innerhalb eines bestimmten Gebiets das Monopol legitimer physischer Gewalt beansprucht."
+  },
+  {
+    "id": "flashcard-og-031",
+    "front": "Was ist der rechtspositivistische Staatsbegriff nach Kelsen?",
+    "back": "Der Staat ist die Gesamtheit aller Rechtsvorschriften."
+  },
+  {
+    "id": "flashcard-og-032",
+    "front": "Was ist Staatsgebiet?",
+    "back": "Das Territorium, in dem Staatsgewalt über die dort lebenden Menschen ausgeübt wird."
+  },
+  {
+    "id": "flashcard-og-033",
+    "front": "Was ist Staatsvolk?",
+    "back": "Die Gesamtheit der Staatsbürger, deren Zugehörigkeit durch innerstaatliche Normen geregelt wird."
+  },
+  {
+    "id": "flashcard-og-034",
+    "front": "Was ist Staatsgewalt?",
+    "back": "Ein dauerhaftes, originäres und effektives Herrschaftssystem mit Kompetenz-Kompetenz und Souveränität."
+  },
+  {
+    "id": "flashcard-og-035",
+    "front": "Was bedeutet innere Souveränität?",
+    "back": "Das Monopol auf Rechtserzeugung und Rechtsdurchsetzung innerhalb des eigenen Gebiets."
+  },
+  {
+    "id": "flashcard-og-036",
+    "front": "Was ist Kompetenz-Kompetenz?",
+    "back": "Die Kompetenz, über die eigene Kompetenzordnung zu verfügen."
+  },
+  {
+    "id": "flashcard-og-037",
+    "front": "Was unterscheidet Staatenbund und Bundesstaat?",
+    "back": "Beim Staatenbund bleiben die Staaten Träger der Staatsgewalt. Beim Bundesstaat entsteht ein gemeinsamer Oberstaat mit aufgeteilter Staatsgewalt."
+  },
+  {
+    "id": "flashcard-og-038",
+    "front": "Was ist ein Einheitsstaat?",
+    "back": "Ein Staat, dessen Untergliederungen nur Verwaltungseinheiten ohne eigene Staatsgewalt sind."
+  },
+  {
+    "id": "flashcard-og-039",
+    "front": "Welche horizontalen Staatsgewalten werden genannt?",
+    "back": "Gesetzgebung, Vollziehung, Gerichtsbarkeit und Verwaltung."
+  },
+  {
+    "id": "flashcard-og-040",
+    "front": "Was ist der Rechtszweck des Staates?",
+    "back": "Soziale Ordnung durch Normsetzung und legitime Durchsetzung von Normen."
+  },
+  {
+    "id": "flashcard-og-041",
+    "front": "Was ist der Kultur- und Wohlfahrtszweck des Staates?",
+    "back": "Gewährleistung materieller Daseinsvoraussetzungen und Förderung von Wohlstand."
+  },
+  {
+    "id": "flashcard-og-042",
+    "front": "Was ist der Unterschied zwischen Staatsform und Regierungssystem?",
+    "back": "Staatsform beschreibt Träger, Oberhaupt oder Gliederung des Staates; Regierungssystem beschreibt Organisation und Funktion der Regierung."
+  },
+  {
+    "id": "flashcard-og-043",
+    "front": "Was lehrte Hobbes im Leviathan vereinfacht?",
+    "back": "Menschen überwinden den rechtslosen Naturzustand durch einen Vertrag, der einen starken ordnenden Staat schafft."
+  },
+  {
+    "id": "flashcard-og-044",
+    "front": "Was ist Montesquieus Gewaltenteilungsidee?",
+    "back": "Legislative, Exekutive und Judikative sollen getrennte Funktionen erfüllen, kooperieren und einander kontrollieren."
+  },
+  {
+    "id": "flashcard-og-045",
+    "front": "Was kennzeichnet Österreichs Staatsorganisation?",
+    "back": "Volkssouveränität, semipräsidentielle Republik, repräsentative Demokratie mit direktdemokratischen Elementen, horizontale und vertikale Gewaltengliederung."
+  },
+  {
+    "id": "flashcard-og-046",
+    "front": "Was ist pouvoir constituant?",
+    "back": "Die verfassungsgebende Gewalt des Souveräns, die politisch-historisch eine Rechtsordnung begründet oder ersetzt."
+  },
+  {
+    "id": "flashcard-og-047",
+    "front": "Was ist pouvoir constitué?",
+    "back": "Die verfasste Staatsgewalt, die aus der Verfassungsgebung hervorgeht und nur innerhalb der Rechtsordnung handeln kann."
+  },
+  {
+    "id": "flashcard-og-048",
+    "front": "Was ist Kelsens Grundnorm?",
+    "back": "Eine fiktive höchste Norm, aus der die Geltung der positiven Rechtsordnung abgeleitet wird."
+  },
+  {
+    "id": "flashcard-og-049",
+    "front": "Was ist der Stufenbau der Rechtsordnung?",
+    "back": "Eine Ordnung von Normen nach Rang, bei der niederrangige Normen höherrangigen Normen entsprechen müssen."
+  },
+  {
+    "id": "flashcard-og-050",
+    "front": "Welche Normenstufen werden in Österreich typischerweise unterschieden?",
+    "back": "Verfassungsprinzipien, Verfassungsrecht, einfache Gesetze, Verordnungen, Bescheide und Urteile."
+  },
+  {
+    "id": "flashcard-og-051",
+    "front": "Was passiert, wenn niederrangiges Recht höherrangigem Recht widerspricht?",
+    "back": "Es kann bekämpft und von der zuständigen Instanz aufgehoben werden."
+  },
+  {
+    "id": "flashcard-og-052",
+    "front": "Was bedeutet Subsumtion?",
+    "back": "Prüfung, ob ein konkreter Sachverhalt die abstrakten Tatbestandsmerkmale einer Norm erfüllt."
+  },
+  {
+    "id": "flashcard-og-053",
+    "front": "Was ist der Unterschied zwischen Sachverhalt, Tatbestand und Rechtsfolge?",
+    "back": "Sachverhalt ist die reale Situation, Tatbestand die abstrakte gesetzliche Beschreibung, Rechtsfolge die angeordnete Konsequenz."
+  },
+  {
+    "id": "flashcard-og-054",
+    "front": "Was ist das Verbot des non liquet?",
+    "back": "Ein Gericht darf sich nicht darauf berufen, das Gesetz sei unklar oder lückenhaft, sondern muss entscheiden."
+  },
+  {
+    "id": "flashcard-og-055",
+    "front": "Was ist Wortinterpretation?",
+    "back": "Auslegung nach allgemeinem Sprachgebrauch, Legaldefinitionen und der äußersten möglichen Wortbedeutung."
+  },
+  {
+    "id": "flashcard-og-056",
+    "front": "Was ist systematische Auslegung?",
+    "back": "Auslegung anhand des Gesamtzusammenhangs der Rechtsordnung und anderer Normen."
+  },
+  {
+    "id": "flashcard-og-057",
+    "front": "Was bedeutet lex posterior derogat legi anteriori?",
+    "back": "Das spätere Gesetz verdrängt das frühere Gesetz."
+  },
+  {
+    "id": "flashcard-og-058",
+    "front": "Was bedeutet lex specialis derogat legi generali?",
+    "back": "Die speziellere Norm verdrängt die allgemeinere Norm."
+  },
+  {
+    "id": "flashcard-og-059",
+    "front": "Was ist subjektiv-historische Auslegung?",
+    "back": "Auslegung danach, was der Gesetzgeber zum Zeitpunkt des Erlasses gemeint hat."
+  },
+  {
+    "id": "flashcard-og-060",
+    "front": "Was ist objektiv-teleologische Auslegung?",
+    "back": "Auslegung nach Zweck, Prinzipien und Grundgedanken der Norm."
+  },
+  {
+    "id": "flashcard-og-061",
+    "front": "Was ist die Herzog-Mantel-Theorie?",
+    "back": "Eine Durchführungsverordnung verliert bei Änderung oder Wegfall ihrer gesetzlichen Grundlage ihre Geltung beziehungsweise muss aufgehoben werden."
+  },
+  {
+    "id": "flashcard-og-062",
+    "front": "Was ist die Versteinerungstheorie?",
+    "back": "Kompetenzbegriffe werden in jener Bedeutung verstanden, die sie zum Zeitpunkt ihrer Entstehung nach damaliger Rechtslage hatten."
+  },
+  {
+    "id": "flashcard-og-063",
+    "front": "Wann liegt eine planwidrige Lücke vor?",
+    "back": "Wenn kein Tatbestand passt, obwohl der Gesetzgeber nach seinem Plan eine Regelung hätte schaffen wollen."
+  },
+  {
+    "id": "flashcard-og-064",
+    "front": "Welche Methoden des Lückenschlusses gibt es?",
+    "back": "Analogie, Größenschluss und Umkehrschluss."
+  },
+  {
+    "id": "flashcard-og-065",
+    "front": "Was unterscheidet öffentliches Recht und Privatrecht nach der Subordinationstheorie?",
+    "back": "Öffentliches Recht ist durch Über-/Unterordnung geprägt, Privatrecht grundsätzlich durch Gleichordnung."
+  },
+  {
+    "id": "flashcard-og-066",
+    "front": "Was unterscheidet zwingendes und dispositives Recht?",
+    "back": "Zwingendes Recht kann von Privaten nicht geändert werden; dispositives Recht kann durch Vereinbarung abbedungen oder ergänzt werden."
+  },
+  {
+    "id": "flashcard-og-067",
+    "front": "Wann wurde das B-VG erstmals beschlossen?",
+    "back": "Am 1. Oktober 1920 als Grundlage der Ersten Republik."
+  },
+  {
+    "id": "flashcard-og-068",
+    "front": "Was bewirkte die B-VG-Novelle 1929?",
+    "back": "Sie stärkte den Bundespräsidenten und änderte das Regierungssystem in Richtung semipräsidentielle Republik."
+  },
+  {
+    "id": "flashcard-og-069",
+    "front": "Was passierte verfassungsrechtlich 1945?",
+    "back": "Die Zweite Republik stellte die demokratische Republik wieder her und setzte das B-VG 1920 in der Fassung 1929 wieder in Kraft."
+  },
+  {
+    "id": "flashcard-og-070",
+    "front": "Was bedeutet Verfassungszersplitterung in Österreich?",
+    "back": "Verfassungsrecht findet sich nicht nur im B-VG, sondern auch in zahlreichen Bundesverfassungsgesetzen, Einzelverfassungsbestimmungen und Staatsverträgen."
+  },
+  {
+    "id": "flashcard-og-071",
+    "front": "Was verlangt Art 44 Abs 1 B-VG für Bundesverfassungsrecht?",
+    "back": "Erhöhtes Präsenzquorum und Zweidrittelmehrheit im Nationalrat."
+  },
+  {
+    "id": "flashcard-og-072",
+    "front": "Wann verlangt Art 44 Abs 3 B-VG eine Volksabstimmung?",
+    "back": "Bei einer Gesamtänderung der Bundesverfassung, also wesentlicher Änderung eines Bauprinzips."
+  },
+  {
+    "id": "flashcard-og-073",
+    "front": "Welche Baugesetze sind jedenfalls anerkannt?",
+    "back": "Demokratisches, rechtsstaatliches und bundesstaatliches Prinzip."
+  },
+  {
+    "id": "flashcard-og-074",
+    "front": "Welche weiteren Bauprinzipien nimmt die Lehre an?",
+    "back": "Republikanisches, gewaltenteilendes und möglicherweise liberales Prinzip."
+  },
+  {
+    "id": "flashcard-og-075",
+    "front": "Gibt es ein sozialstaatliches Baugesetz in Österreich?",
+    "back": "Nein, der Sozialstaat ist einfachgesetzlich stark ausgestaltet, aber kein anerkanntes Baugesetz."
+  },
+  {
+    "id": "flashcard-og-076",
+    "front": "Was bedeutet demokratisches Prinzip im B-VG?",
+    "back": "Die Staatsgewalt ist vom Volk legitimiert, insbesondere durch Wahlen zu Vertretungskörpern."
+  },
+  {
+    "id": "flashcard-og-077",
+    "front": "Was bedeutet republikanisches Prinzip?",
+    "back": "Das Staatsoberhaupt ist auf Zeit bestellt, verantwortlich und absetzbar."
+  },
+  {
+    "id": "flashcard-og-078",
+    "front": "Was bedeutet bundesstaatliches Prinzip?",
+    "back": "Bund und Länder verfügen über eigene Gesetzgebungs- und Vollzugsfunktionen."
+  },
+  {
+    "id": "flashcard-og-079",
+    "front": "Was ist das rechtsstaatliche Prinzip im formellen Sinn?",
+    "back": "Der Staat ist an Rechtsvorschriften gebunden, wodurch staatliches Handeln vorhersehbar und kontrollierbar wird."
+  },
+  {
+    "id": "flashcard-og-080",
+    "front": "Was ist das Legalitätsprinzip?",
+    "back": "Die gesamte staatliche Verwaltung darf nur auf Grundlage der Gesetze ausgeübt werden."
+  },
+  {
+    "id": "flashcard-og-081",
+    "front": "Was bedeutet gewaltentrennendes Prinzip in Österreich?",
+    "back": "Verwaltung und Gerichtsbarkeit sind getrennt; Organe dürfen nicht zugleich Verwaltungs- und Gerichtsorgan sein."
+  },
+  {
+    "id": "flashcard-og-082",
+    "front": "Was umfasst das Bundesgebiet Österreichs?",
+    "back": "Die Gebiete der Bundesländer; es gibt keine bundesunmittelbaren Gebiete."
+  },
+  {
+    "id": "flashcard-og-083",
+    "front": "Was bedeutet einheitliches Staatsbürgerschaftsrecht?",
+    "back": "Für die Republik Österreich besteht ein einheitliches Staatsbürgerschaftsrecht; Landesbürgerschaft knüpft vor allem an den Hauptwohnsitz an."
+  },
+  {
+    "id": "flashcard-og-084",
+    "front": "Was ist eine Art-15a-B-VG-Vereinbarung?",
+    "back": "Ein Gliedstaatsvertrag zwischen Bund und Ländern oder Ländern untereinander zur Koordination im jeweiligen Wirkungsbereich."
+  },
+  {
+    "id": "flashcard-og-085",
+    "front": "Was ist die Staatssprache Österreichs nach Art 8 B-VG?",
+    "back": "Deutsch, unbeschadet besonderer Rechte sprachlicher Minderheiten."
+  },
+  {
+    "id": "flashcard-og-086",
+    "front": "Was bedeutet Exklusivität der Kompetenzverteilung?",
+    "back": "Eine Angelegenheit kann nur einem Kompetenztatbestand zugerechnet werden, auch wenn ein Sachverhalt mehrere Regelungsgesichtspunkte haben kann."
+  },
+  {
+    "id": "flashcard-og-087",
+    "front": "Was bedeutet Generalklausel zugunsten der Länder?",
+    "back": "Materien, die nicht Bundessache sind und keinem Bundeskompetenztatbestand zugeordnet werden können, fallen in die Länderkompetenz."
+  },
+  {
+    "id": "flashcard-og-088",
+    "front": "Was ist eine Annex-Kompetenz?",
+    "back": "Eine Nebenkompetenz, die der Zuständigkeit für die Hauptmaterie folgt, etwa Organisation oder Verfahren."
+  },
+  {
+    "id": "flashcard-og-089",
+    "front": "Wie lange dauert die Gesetzgebungsperiode des Nationalrats?",
+    "back": "Fünf Jahre."
+  },
+  {
+    "id": "flashcard-og-090",
+    "front": "Wie viele Mandate hat der Nationalrat?",
+    "back": "183 Mandate."
+  },
+  {
+    "id": "flashcard-og-091",
+    "front": "Welche Wahlrechtsgrundsätze gelten für den Nationalrat?",
+    "back": "Allgemeines, gleiches, unmittelbares, persönliches, geheimes und freies Wahlrecht."
+  },
+  {
+    "id": "flashcard-og-092",
+    "front": "Wer kann eine Gesetzesinitiative im Bund einbringen?",
+    "back": "Mitglieder des Nationalrats, Ausschüsse, Bundesregierung, ein Drittel des Bundesrats und ein Volksbegehren."
+  },
+  {
+    "id": "flashcard-og-093",
+    "front": "Was ist ein Volksbegehren nach Art 41 Abs 2 B-VG?",
+    "back": "Ein direktdemokratisches Instrument, das den Nationalrat bei ausreichender Unterstützung zur parlamentarischen Behandlung verpflichtet."
+  },
+  {
+    "id": "flashcard-og-094",
+    "front": "Welche Rolle hat der Bundesrat bei der Bundesgesetzgebung?",
+    "back": "Er wirkt mit, vor allem durch ein Einspruchsrecht gegenüber Gesetzesbeschlüssen des Nationalrats."
+  },
+  {
+    "id": "flashcard-og-095",
+    "front": "Was ist ein suspensives Veto des Bundesrats?",
+    "back": "Ein Einspruch, den der Nationalrat durch Beharrungsbeschluss überwinden kann."
+  },
+  {
+    "id": "flashcard-og-096",
+    "front": "Wann hat der Bundesrat ein absolutes Veto?",
+    "back": "Wenn seine Zustimmung ausdrücklich erforderlich ist, etwa bei Kompetenzverschiebungen zulasten der Länder."
+  },
+  {
+    "id": "flashcard-og-097",
+    "front": "Was ist die Bundesversammlung?",
+    "back": "Das Zusammentreten von Nationalrat und Bundesrat zu einer gemeinsamen öffentlichen Sitzung."
+  },
+  {
+    "id": "flashcard-og-098",
+    "front": "Was ist die wichtigste praktische Aufgabe der Bundesversammlung?",
+    "back": "Die Angelobung des Bundespräsidenten."
+  },
+  {
+    "id": "flashcard-og-099",
+    "front": "Was bedeutet freies Mandat?",
+    "back": "Abgeordnete sind rechtlich an keinen Auftrag gebunden, auch wenn faktisch Parteidisziplin bestehen kann."
+  },
+  {
+    "id": "flashcard-og-100",
+    "front": "Was ist berufliche Immunität von Abgeordneten?",
+    "back": "Schutz vor Verantwortung wegen Abstimmungen und beruflicher Äußerungen, mit engen Ausnahmen."
+  },
+  {
+    "id": "flashcard-og-101",
+    "front": "Was ist außerberufliche Immunität?",
+    "back": "Schutz vor behördlicher oder gerichtlicher Verfolgung politisch zusammenhängender Handlungen ohne Zustimmung des Vertretungskörpers."
+  },
+  {
+    "id": "flashcard-og-102",
+    "front": "Was bedeutet Inkompatibilität?",
+    "back": "Unvereinbarkeit bestimmter Ämter oder Tätigkeiten, um Interessenkollisionen zu vermeiden."
+  },
+  {
+    "id": "flashcard-og-103",
+    "front": "Wie definiert das B-VG Verwaltung?",
+    "back": "Als Tätigkeit von Organen, die weder Gesetzgebungs- noch Gerichtsbarkeitsorgane sind."
+  },
+  {
+    "id": "flashcard-og-104",
+    "front": "Was ist Privatwirtschaftsverwaltung?",
+    "back": "Nicht-hoheitliches Handeln der Verwaltung, bei dem der Staat wie ein Privatrechtssubjekt auftritt."
+  },
+  {
+    "id": "flashcard-og-105",
+    "front": "Was ist ein Organ und was ist ein Organwalter?",
+    "back": "Das Organ ist die rechtlich geschaffene Einrichtung mit Zuständigkeit; der Organwalter ist die natürliche Person, die das Organ ausübt."
+  },
+  {
+    "id": "flashcard-og-106",
+    "front": "Was ist das Weisungsprinzip?",
+    "back": "Verwaltungsorgane sind grundsätzlich an Weisungen der obersten Organe gebunden."
+  },
+  {
+    "id": "flashcard-og-107",
+    "front": "Wann darf eine Weisung nicht befolgt werden?",
+    "back": "Wenn sie von einem unzuständigen Organ stammt oder ihre Befolgung strafgesetzwidrig wäre."
+  },
+  {
+    "id": "flashcard-og-108",
+    "front": "Was ist Remonstration?",
+    "back": "Hinweis des angewiesenen Organs auf eine sonst rechtswidrige Weisung; bei schriftlicher Wiederholung ist sie grundsätzlich zu befolgen."
+  },
+  {
+    "id": "flashcard-og-109",
+    "front": "Was ist Amtshaftung?",
+    "back": "Haftung eines Rechtsträgers für schuldhaft rechtswidriges Verhalten seiner Organe in Vollziehung der Gesetze."
+  },
+  {
+    "id": "flashcard-og-110",
+    "front": "Was ist Organhaftung?",
+    "back": "Haftung eines Organwalters gegenüber einem öffentlichen Rechtsträger für Schäden, die er diesem in Vollziehung der Gesetze unmittelbar zufügt."
+  },
+  {
+    "id": "flashcard-og-111",
+    "front": "Was regelt Art 22a B-VG seit 2025 grundsätzlich?",
+    "back": "Veröffentlichung von Informationen von allgemeinem Interesse und Recht auf Zugang zu Informationen, soweit keine Geheimhaltungsgründe vorliegen."
+  },
+  {
+    "id": "flashcard-og-112",
+    "front": "Was ist Amtshilfe?",
+    "back": "Wechselseitige Hilfeleistung von Organen des Bundes, der Länder, Gemeinden und Selbstverwaltungskörper im gesetzlichen Wirkungsbereich."
+  },
+  {
+    "id": "flashcard-og-113",
+    "front": "Was ist ein Bescheid?",
+    "back": "Ein individueller, hoheitlicher und normativer Verwaltungsakt, der in einem Verfahren erlassen wird."
+  },
+  {
+    "id": "flashcard-og-114",
+    "front": "Was ist eine Verordnung?",
+    "back": "Eine generelle Norm der Verwaltung, die aufgrund der Gesetze erlassen wird."
+  },
+  {
+    "id": "flashcard-og-115",
+    "front": "Was ist ein AuvBZ?",
+    "back": "Ein Akt unmittelbarer verwaltungsbehördlicher Befehls- und Zwangsgewalt, typischerweise zur unmittelbaren Gefahrenabwehr."
+  },
+  {
+    "id": "flashcard-og-116",
+    "front": "Was ist unmittelbare Bundesverwaltung?",
+    "back": "Bundesverwaltung durch eigene Bundesbehörden."
+  },
+  {
+    "id": "flashcard-og-117",
+    "front": "Was ist mittelbare Bundesverwaltung?",
+    "back": "Bundesverwaltung durch Landeshauptmann und Landesbehörden im Auftrag und unter Weisung des Bundes."
+  },
+  {
+    "id": "flashcard-og-118",
+    "front": "Was ist der eigene Wirkungsbereich der Gemeinde?",
+    "back": "Weisungsfreie, aber gesetzesgebundene Besorgung örtlicher Angelegenheiten im überwiegenden Interesse der Gemeinde."
+  },
+  {
+    "id": "flashcard-og-119",
+    "front": "Was ist der übertragene Wirkungsbereich der Gemeinde?",
+    "back": "Gemeindeaufgaben im Auftrag und nach Weisungen des Bundes oder Landes."
+  },
+  {
+    "id": "flashcard-og-120",
+    "front": "Was sind Organe der Gemeinde?",
+    "back": "Gemeinderat, Gemeindevorstand und Bürgermeister."
+  },
+  {
+    "id": "flashcard-og-121",
+    "front": "Was ist nichtterritoriale Selbstverwaltung?",
+    "back": "Gesetzlich geschaffene Selbstverwaltungskörper für Personen mit gemeinsamen öffentlichen Aufgaben, etwa Kammern oder ÖH."
+  },
+  {
+    "id": "flashcard-og-122",
+    "front": "Was kennzeichnet ordentliche Gerichtsbarkeit?",
+    "back": "Sie ist Bundeskompetenz, Richter sind unabhängig, und niemand darf seinem gesetzlichen Richter entzogen werden."
+  },
+  {
+    "id": "flashcard-og-123",
+    "front": "Was ist die zentrale Funktion des VfGH?",
+    "back": "Kontrolle genereller Normen und Entscheidung verfassungsrechtlicher Streitigkeiten."
+  },
+  {
+    "id": "flashcard-og-124",
+    "front": "Was prüft der VfGH bei Art-144-B-VG-Beschwerden?",
+    "back": "Ob ein Erkenntnis eines Verwaltungsgerichts verfassungsgesetzlich gewährleistete Rechte verletzt oder rechtswidrige Normen angewendet wurden."
+  },
+  {
+    "id": "flashcard-og-125",
+    "front": "Was ist Verwaltungsgerichtsbarkeit?",
+    "back": "Individualrechtsschutz gegen hoheitliche Verwaltung, insbesondere durch Bescheid-, Maßnahmen- und Säumnisbeschwerden."
+  },
+  {
+    "id": "flashcard-og-126",
+    "front": "Was ist die Aufgabe des VwGH?",
+    "back": "Er erkennt unter anderem über Revisionen gegen Erkenntnisse von Verwaltungsgerichten wegen Rechtswidrigkeit."
+  },
+  {
+    "id": "flashcard-og-127",
+    "front": "Was prüft der Rechnungshof?",
+    "back": "Gebarung auf Sparsamkeit, Wirtschaftlichkeit, Zweckmäßigkeit, rechnerische Richtigkeit und Rechtmäßigkeit."
+  },
+  {
+    "id": "flashcard-og-128",
+    "front": "Was macht die Volksanwaltschaft?",
+    "back": "Sie prüft Missstände in der Verwaltung, wenn andere rechtliche Mittel unzureichend sind."
+  },
+  {
+    "id": "flashcard-og-129",
+    "front": "Was sind Grundrechte?",
+    "back": "Durch formelles Verfassungsrecht gewährleistete subjektive Rechte des Individuums gegenüber dem Staat."
+  },
+  {
+    "id": "flashcard-og-130",
+    "front": "Welche Rechtsquellen der Grundrechte gibt es in Österreich?",
+    "back": "StGG, EMRK samt Zusatzprotokollen, B-VG, besondere BVG, Einzelverfassungsbestimmungen und EU-Grundrechtecharta."
+  },
+  {
+    "id": "flashcard-og-131",
+    "front": "Was sind Bürgerrechte?",
+    "back": "Grundrechte, die primär Staatsbürgern zukommen, teils auch Unionsbürgern."
+  },
+  {
+    "id": "flashcard-og-132",
+    "front": "Was sind Menschenrechte?",
+    "back": "Grundrechte, die jedem Menschen zukommen, auch Fremden und Staatenlosen."
+  },
+  {
+    "id": "flashcard-og-133",
+    "front": "Können juristische Personen Grundrechtsträger sein?",
+    "back": "Ja, soweit das jeweilige Grundrecht seinem Inhalt nach auf juristische Personen anwendbar ist."
+  },
+  {
+    "id": "flashcard-og-134",
+    "front": "Was sind Freiheitsrechte?",
+    "back": "Liberale Grundrechte, die Lebensbereiche vor staatlichem Zugriff schützen."
+  },
+  {
+    "id": "flashcard-og-135",
+    "front": "Was sind Teilhaberechte?",
+    "back": "Demokratische oder politische Rechte zur Mitwirkung an der Staatswillensbildung."
+  },
+  {
+    "id": "flashcard-og-136",
+    "front": "Was sind soziale Grundrechte?",
+    "back": "Leistungsansprüche gegenüber dem Staat, die in Österreich verfassungsrechtlich nur begrenzt ausgeprägt sind."
+  },
+  {
+    "id": "flashcard-og-137",
+    "front": "Was bedeutet mittelbare Drittwirkung von Grundrechten?",
+    "back": "Grundrechte wirken über Generalklauseln in Privatrechtsverhältnisse hinein, ohne unmittelbar Private zu binden."
+  },
+  {
+    "id": "flashcard-og-138",
+    "front": "Sind Grundrechte absolut?",
+    "back": "Nein. Sie können durch Schutzbereichsgrenzen und Gesetzesvorbehalte eingeschränkt werden."
+  },
+  {
+    "id": "flashcard-og-139",
+    "front": "Was prüft die Verhältnismäßigkeitsprüfung?",
+    "back": "Öffentliches Interesse, Geeignetheit, Erforderlichkeit und Verhältnismäßigkeit im engeren Sinn."
+  },
+  {
+    "id": "flashcard-og-140",
+    "front": "Was schützt Art 10 EMRK?",
+    "back": "Meinungsfreiheit einschließlich Meinungsbildung, Meinungsäußerung sowie Empfang und Mitteilung von Nachrichten und Ideen."
+  },
+  {
+    "id": "flashcard-og-141",
+    "front": "Was ist Vorzensur?",
+    "back": "Eine behördliche Genehmigungspflicht vor Veröffentlichung; sie ist im Bereich der Presse verboten."
+  },
+  {
+    "id": "flashcard-og-142",
+    "front": "Was ist Nachzensur?",
+    "back": "Repressive Maßnahmen nach einer Äußerung, die unter den Voraussetzungen von Art 10 Abs 2 EMRK zulässig sein können."
+  },
+  {
+    "id": "flashcard-og-143",
+    "front": "Welche Rolle hat Medienfreiheit im demokratischen Rechtsstaat?",
+    "back": "Sie schützt Presse und journalistische Tätigkeit, einschließlich Quellenschutz, und unterstützt öffentliche Kontrolle und Meinungsbildung."
+  },
+  {
+    "id": "flashcard-og-144",
+    "front": "Was ist Eingriffsverwaltung?",
+    "back": "Hoheitliche Verwaltung, die Gefahren abwehrt und Ordnung sichert, gegebenenfalls unter Einsatz von Zwang."
+  },
+  {
+    "id": "flashcard-og-145",
+    "front": "Was ist Leistungsverwaltung?",
+    "back": "Verwaltung, die Dienstleistungen und Leistungen im öffentlichen Interesse erbringt."
+  },
+  {
+    "id": "flashcard-og-146",
+    "front": "Was ist Bedarfsdeckungsverwaltung?",
+    "back": "Nichthoheitliche Verwaltung zur Deckung des personellen und sachlichen Bedarfs der Verwaltung."
+  },
+  {
+    "id": "flashcard-og-147",
+    "front": "Was ist Fiskalverwaltung?",
+    "back": "Staatliches Handeln als Unternehmer zur Gewinnerzielung, häufig über ausgegliederte Rechtsträger."
+  },
+  {
+    "id": "flashcard-og-148",
+    "front": "Was ist Sicherheitspolizei?",
+    "back": "Gefahrenabwehr für öffentliche Ruhe, Ordnung und Sicherheit, vor allem bei allgemeinen strafrechtsrelevanten Gefahren."
+  },
+  {
+    "id": "flashcard-og-149",
+    "front": "Was ist Verwaltungspolizei?",
+    "back": "Abwehr spezifischer Gefahren in einer bestimmten Materie, etwa Bau- oder Gewerbepolizei."
+  },
+  {
+    "id": "flashcard-og-150",
+    "front": "Was ist Förderungsverwaltung?",
+    "back": "Zweckgebundene öffentliche Zuwendungen für Verhalten im öffentlichen Interesse."
+  },
+  {
+    "id": "flashcard-og-151",
+    "front": "Was unterscheidet Versicherungs-, Versorgungs- und Fürsorgesystem?",
+    "back": "Versicherung beruht auf Beiträgen und Risikogemeinschaft, Versorgung auf gesetzlichem Tatbestand, Fürsorge auf Bedürftigkeit und Subsidiarität."
+  },
+  {
+    "id": "flashcard-og-152",
+    "front": "Was ist Daseinsvorsorge?",
+    "back": "Bereitstellung grundlegender Leistungen für das tägliche Leben, etwa Wasser, Müllabfuhr, Verkehr oder Bildung."
+  },
+  {
+    "id": "flashcard-og-153",
+    "front": "Was ist Delegation in der Verwaltungsorganisation?",
+    "back": "Übertragung von Zuständigkeiten durch Rechtsakt aufgrund gesetzlicher Ermächtigung."
+  },
+  {
+    "id": "flashcard-og-154",
+    "front": "Was ist Devolution?",
+    "back": "Gesetzlich vorgesehene Zuständigkeitsübertragung ohne Rechtsakt des delegierenden Organs."
+  },
+  {
+    "id": "flashcard-og-155",
+    "front": "Was ist Beleihung?",
+    "back": "Private werden mit hoheitlicher Organfunktion betraut und können Hoheitsakte kraft eigener Zuständigkeit setzen."
+  },
+  {
+    "id": "flashcard-og-156",
+    "front": "Was ist Indienstnahme?",
+    "back": "Private unterstützen Verwaltung ohne eigene Entscheidungskompetenz."
+  },
+  {
+    "id": "flashcard-og-157",
+    "front": "Was ist Ausgliederung?",
+    "back": "Übertragung bisher staatlicher Aufgaben auf andere Rechtsträger, oft zur wirtschaftlicheren Aufgabenerfüllung."
+  },
+  {
+    "id": "flashcard-og-158",
+    "front": "Was ist Privatisierung?",
+    "back": "Übertragung staatlicher Aufgaben, Vermögen oder Finanzierung auf Private oder privatrechtliche Formen."
+  },
+  {
+    "id": "flashcard-og-159",
+    "front": "Welche Grundsätze des AVG sind zentral?",
+    "back": "Amtswegigkeit, materielle Wahrheit, rechtliches Gehör, freier Beweismittelkatalog und freie Beweiswürdigung."
+  },
+  {
+    "id": "flashcard-og-160",
+    "front": "Was ist Parteistellung im Verwaltungsverfahren?",
+    "back": "Parteistellung hat, wer ein subjektives Recht geltend macht oder gesetzlich als Partei vorgesehen ist."
+  },
+  {
+    "id": "flashcard-og-161",
+    "front": "Welche Rechte hat eine Partei im Verwaltungsverfahren?",
+    "back": "Unter anderem Akteneinsicht, Parteiengehör, Anträge und bestimmte Rechtsmittel."
+  },
+  {
+    "id": "flashcard-og-162",
+    "front": "Was muss ein Bescheid grundsätzlich enthalten?",
+    "back": "Bezeichnung als Bescheid, Behörde, Spruch, Begründung soweit nötig, Rechtsmittelbelehrung, Unterschrift und Datum."
+  },
+  {
+    "id": "flashcard-og-163",
+    "front": "Was ist formelle Rechtskraft?",
+    "back": "Unanfechtbarkeit eines Bescheids, etwa durch Fristablauf oder Rechtsmittelverzicht."
+  },
+  {
+    "id": "flashcard-og-164",
+    "front": "Was ist materielle Rechtskraft?",
+    "back": "Unabänderbarkeit in derselben Sache, solange der Bescheid aufrecht ist."
+  },
+  {
+    "id": "flashcard-og-165",
+    "front": "Wann ist Bescheidbeschwerde an das VwG möglich?",
+    "back": "Gegen Bescheide wegen Rechtswidrigkeit, grundsätzlich binnen vier Wochen."
+  },
+  {
+    "id": "flashcard-og-166",
+    "front": "Was ist eine Säumnisbeschwerde?",
+    "back": "Ein Rechtsmittel gegen pflichtwidrige Untätigkeit einer Behörde."
+  },
+  {
+    "id": "flashcard-og-167",
+    "front": "Was ist eine Strafverfügung nach VStG?",
+    "back": "Ein abgekürztes Verwaltungsstrafverfahren, in dem bei bestimmten Wahrnehmungen ohne weiteres Verfahren eine Geldstrafe verhängt werden kann."
+  },
+  {
+    "id": "flashcard-og-168",
+    "front": "Was ist eine Anonymverfügung?",
+    "back": "Ein abgekürztes Verfahren gegen unbekannte Täter, häufig bei Verkehrsübertretungen; bei Zahlung wird nicht weiter ausgeforscht."
+  },
+  {
+    "id": "flashcard-og-169",
+    "front": "Was ist eine Organstrafverfügung?",
+    "back": "Ein von ermächtigten Organen vor Ort eingehobener Fixbetrag für bestimmte Verwaltungsübertretungen."
+  },
+  {
+    "id": "flashcard-og-170",
+    "front": "Was ist primäres Unionsrecht?",
+    "back": "Die Gründungsverträge, Vertragsänderungen, EUV, AEUV, Grundrechtecharta und allgemeine Rechtsgrundsätze."
+  },
+  {
+    "id": "flashcard-og-171",
+    "front": "Was ist sekundäres Unionsrecht?",
+    "back": "Von EU-Organen erlassene Rechtsakte wie Verordnungen, Richtlinien und Beschlüsse."
+  },
+  {
+    "id": "flashcard-og-172",
+    "front": "Was bedeutet unmittelbare Geltung des Unionsrechts?",
+    "back": "Unionsrecht kann selbst Quelle von Rechten und Pflichten sein und von Gerichten angewendet werden."
+  },
+  {
+    "id": "flashcard-og-173",
+    "front": "Was bedeutet Vorrang des Unionsrechts?",
+    "back": "Kollidierendes nationales Recht bleibt zwar bestehen, ist im Konfliktfall aber unangewendet zu lassen."
+  },
+  {
+    "id": "flashcard-og-174",
+    "front": "Welche Organe der EU nennt Art 13 EUV?",
+    "back": "Europäisches Parlament, Europäischer Rat, Rat, Kommission, Gerichtshof der EU, Europäische Zentralbank und Rechnungshof."
+  },
+  {
+    "id": "flashcard-og-175",
+    "front": "Was ist das Initiativmonopol der Kommission?",
+    "back": "Die Kommission bringt in vielen Bereichen den Vorschlag für EU-Rechtsakte ein."
+  },
+  {
+    "id": "flashcard-og-176",
+    "front": "Was bedeutet „Hüterin der Verträge“?",
+    "back": "Die Kommission überwacht die Einhaltung des Unionsrechts und kann Vertragsverletzungsverfahren einleiten."
+  },
+  {
+    "id": "flashcard-og-177",
+    "front": "Was ist das Vorabentscheidungsverfahren?",
+    "back": "Nationale Gerichte können oder müssen dem EuGH Fragen zur Auslegung oder Gültigkeit von Unionsrecht vorlegen."
+  },
+  {
+    "id": "flashcard-og-178",
+    "front": "Was ist begrenzte Einzelermächtigung?",
+    "back": "Die EU darf nur innerhalb der Zuständigkeiten tätig werden, die ihr die Verträge übertragen."
+  },
+  {
+    "id": "flashcard-og-179",
+    "front": "Was bedeutet Subsidiarität im EU-Recht?",
+    "back": "Die EU wird in nicht ausschließlichen Bereichen nur tätig, wenn Ziele auf Mitgliedstaatsebene nicht ausreichend erreichbar sind."
+  },
+  {
+    "id": "flashcard-og-180",
+    "front": "Was ist eine EU-Verordnung?",
+    "back": "Ein Rechtsakt mit allgemeiner Geltung, in allen Teilen verbindlich und unmittelbar in jedem Mitgliedstaat gültig."
+  },
+  {
+    "id": "flashcard-og-181",
+    "front": "Was ist eine EU-Richtlinie?",
+    "back": "Ein Rechtsakt, der hinsichtlich des Ziels verbindlich ist, aber Form und Mittel der Umsetzung den Mitgliedstaaten überlässt."
+  },
+  {
+    "id": "flashcard-og-182",
+    "front": "Wann kann eine Richtlinie unmittelbare Wirkung entfalten?",
+    "back": "Wenn sie Rechte einräumt, hinreichend bestimmt ist und nicht fristgerecht umgesetzt wurde, grundsätzlich zugunsten des Bürgers gegenüber dem Staat."
+  },
+  {
+    "id": "flashcard-og-183",
+    "front": "Was ist ein Beschluss nach Art 288 AEUV?",
+    "back": "Ein verbindlicher EU-Rechtsakt, der bei bestimmten Adressaten individuell oder bei unbestimmten Adressaten allgemein wirken kann."
+  },
+  {
+    "id": "flashcard-og-184",
+    "front": "Was ist eine Aufsichtsklage nach Art 258 AEUV?",
+    "back": "Vertragsverletzungsverfahren der Kommission gegen einen Mitgliedstaat."
+  },
+  {
+    "id": "flashcard-og-185",
+    "front": "Was ist der Binnenmarkt?",
+    "back": "Ein Raum ohne Binnengrenzen mit freiem Verkehr von Waren, Personen, Dienstleistungen und Kapital."
+  },
+  {
+    "id": "flashcard-og-186",
+    "front": "Was ist Völkerrecht?",
+    "back": "Public international law: die rechtliche Basis internationaler Beziehungen."
+  },
+  {
+    "id": "flashcard-og-187",
+    "front": "Was kennzeichnet modernes Völkerrecht seit 1919?",
+    "back": "Ausweitung über Kriegsrecht hinaus, Völkerbund, später UNO, Gewaltverbot, Universalisierung und Dekolonisierung."
+  },
+  {
+    "id": "flashcard-og-188",
+    "front": "Was ist ein Völkerrechtssubjekt?",
+    "back": "Ein Träger völkerrechtlicher Rechte und Pflichten."
+  },
+  {
+    "id": "flashcard-og-189",
+    "front": "Welche Völkerrechtssubjekte sind geborene Subjekte?",
+    "back": "Staaten mit voller Völkerrechtssubjektivität."
+  },
+  {
+    "id": "flashcard-og-190",
+    "front": "Welche Völkerrechtssubjekte sind gekorene Subjekte?",
+    "back": "Vor allem internationale Organisationen und historisch besondere Akteure mit abgeleiteter oder begrenzter Völkerrechtssubjektivität."
+  },
+  {
+    "id": "flashcard-og-191",
+    "front": "Ist Anerkennung für Staatlichkeit konstitutiv?",
+    "back": "Nein, sie ist grundsätzlich deklaratorisch und sagt nur, dass der Anerkennende den Anerkannten als Völkerrechtssubjekt behandelt."
+  },
+  {
+    "id": "flashcard-og-192",
+    "front": "Was umfasst Staatsgebiet im Völkerrecht?",
+    "back": "Land, Luftraum und unter bestimmten Regeln Küstengewässer, aber nicht das gesamte Meer."
+  },
+  {
+    "id": "flashcard-og-193",
+    "front": "Was ist Zession?",
+    "back": "Abtretung von Staatsgebiet, meist durch Vertrag."
+  },
+  {
+    "id": "flashcard-og-194",
+    "front": "Was ist Okkupation?",
+    "back": "Inbesitznahme von Gebiet, das bisher keinem Staat gehörte, durch faktische Herrschaft."
+  },
+  {
+    "id": "flashcard-og-195",
+    "front": "Was ist Annexion?",
+    "back": "Einseitige Inbesitznahme von Gebiet, das bisher Staatsgebiet eines anderen Staates war."
+  },
+  {
+    "id": "flashcard-og-196",
+    "front": "Was ist Staatenimmunität?",
+    "back": "Ein Staat ist wegen Hoheitsakten grundsätzlich nicht der Gerichtsbarkeit eines anderen Staates unterworfen."
+  },
+  {
+    "id": "flashcard-og-197",
+    "front": "Was sind acta iure imperii?",
+    "back": "Staatliche Hoheitsakte, für die Immunität grundsätzlich gilt."
+  },
+  {
+    "id": "flashcard-og-198",
+    "front": "Was sind acta iure gestionis?",
+    "back": "Privatwirtschaftliche Handlungen eines Staates, für die Immunität typischerweise nicht gilt."
+  },
+  {
+    "id": "flashcard-og-199",
+    "front": "Was ist Staatensukzession?",
+    "back": "Rechtsnachfolge bei Veränderungen von Staatlichkeit, etwa Inkorporation, Dismembration oder Sezession."
+  },
+  {
+    "id": "flashcard-og-200",
+    "front": "Was sind internationale Organisationen?",
+    "back": "Auf Dauer angelegte Vereinigungen von zwei oder mehr Staaten, die Aufgaben selbstständig wahrnehmen."
+  },
+  {
+    "id": "flashcard-og-201",
+    "front": "Welche Primärquellen des Völkerrechts werden genannt?",
+    "back": "Verträge, Gewohnheitsrecht und allgemeine Rechtsprinzipien."
+  },
+  {
+    "id": "flashcard-og-202",
+    "front": "Was ist ius cogens?",
+    "back": "Zwingendes Völkerrecht; Verträge, die dagegen verstoßen, sind nichtig."
+  },
+  {
+    "id": "flashcard-og-203",
+    "front": "Was sind Verträge im Völkerrecht?",
+    "back": "Willensübereinkünfte zwischen Völkerrechtssubjekten, bi- oder multilateral."
+  },
+  {
+    "id": "flashcard-og-204",
+    "front": "Was regelt die Wiener Vertragsrechtskonvention?",
+    "back": "Zustandekommen, Interpretation und Beendigung völkerrechtlicher Verträge."
+  },
+  {
+    "id": "flashcard-og-205",
+    "front": "Was sind Vorbehalte bei völkerrechtlichen Verträgen?",
+    "back": "Erklärungen, mit denen ein Staat bestimmte Vertragswirkungen ausschließen oder ändern will, soweit Ziel und Vertrag dies zulassen."
+  },
+  {
+    "id": "flashcard-og-206",
+    "front": "Was ist völkerrechtliches Gewohnheitsrecht?",
+    "back": "Es entsteht aus Staatspraxis und Rechtsüberzeugung, also consuetudo und opinio iuris."
+  },
+  {
+    "id": "flashcard-og-207",
+    "front": "Was ist ein persistent objector?",
+    "back": "Ein Staat, der sich beharrlich gegen entstehendes Gewohnheitsrecht wehrt und deshalb nicht gebunden sein soll."
+  },
+  {
+    "id": "flashcard-og-208",
+    "front": "Sind Resolutionen der UN-Generalversammlung bindend?",
+    "back": "Grundsätzlich nicht, sie können aber Indizien für Rechtsüberzeugung sein und Gewohnheitsrecht fördern."
+  },
+  {
+    "id": "flashcard-og-209",
+    "front": "Können Resolutionen des UN-Sicherheitsrats verbindlich sein?",
+    "back": "Ja, insbesondere nach Art 25 UN-Charta."
+  },
+  {
+    "id": "flashcard-og-210",
+    "front": "Was ist Soft Law?",
+    "back": "Nicht verbindliche Empfehlungen, Resolutionen, Deklarationen oder Übereinkommen ohne Rechtsbindung, die dennoch Rechtsentwicklung beeinflussen können."
+  },
+  {
+    "id": "flashcard-og-211",
+    "front": "Was bedeutet Dualismus im Verhältnis von Völkerrecht und innerstaatlichem Recht?",
+    "back": "Völkerrecht und innerstaatliches Recht sind zwei getrennte Rechtsordnungen, die parallel bestehen."
+  },
+  {
+    "id": "flashcard-og-212",
+    "front": "Was ist Retorsion?",
+    "back": "Ein unfreundlicher, aber völkerrechtmäßiger Akt als Reaktion auf Verhalten eines anderen Staates."
+  },
+  {
+    "id": "flashcard-og-213",
+    "front": "Was ist eine Repressalie?",
+    "back": "Ein an sich völkerrechtswidriger Akt, der als verhältnismäßige und angekündigte Reaktion auf Völkerrechtsbruch gerechtfertigt sein kann."
+  },
+  {
+    "id": "flashcard-og-214",
+    "front": "Was ist ein internationally wrongful act?",
+    "back": "Ein Völkerrechtsbruch, der einem Staat zurechenbar ist und eine internationale Verpflichtung verletzt."
+  },
+  {
+    "id": "flashcard-og-215",
+    "front": "Ist Verschulden Voraussetzung der völkerrechtlichen Staatenverantwortlichkeit?",
+    "back": "Nein. Schuld, Schaden, Vorsatz oder Fahrlässigkeit sind für die Verantwortlichkeit grundsätzlich nicht maßgeblich."
+  },
+  {
+    "id": "flashcard-og-216",
+    "front": "Was sind Kernverbrechen des Völkerstrafrechts?",
+    "back": "Kriegsverbrechen, Verbrechen gegen die Menschlichkeit, Völkermord und Aggressionsverbrechen."
+  },
+  {
+    "id": "flashcard-og-217",
+    "front": "Was bedeutet Komplementarität des ICC?",
+    "back": "Der ICC wird nur tätig, wenn eigentlich zuständige Staaten unfähig oder unwillig zur Strafverfolgung sind."
+  },
+  {
+    "id": "flashcard-og-218",
+    "front": "Was ist der Internationale Gerichtshof?",
+    "back": "Das Hauptrechtsprechungsorgan der UNO für völkerrechtliche Streitigkeiten zwischen Staaten und Gutachten."
+  },
+  {
+    "id": "flashcard-og-219",
+    "front": "Was ist das Gewaltverbot nach Art 2 Abs 4 UN-Charta?",
+    "back": "Verbot der Androhung oder Anwendung militärischer Gewalt gegen andere Staaten."
+  },
+  {
+    "id": "flashcard-og-220",
+    "front": "Wann ist Selbstverteidigung nach Art 51 UN-Charta zulässig?",
+    "back": "Bei bewaffnetem Angriff, wenn die Reaktion unmittelbar, erforderlich und verhältnismäßig ist."
+  },
+  {
+    "id": "flashcard-og-221",
+    "front": "Was ist präventive Selbstverteidigung nach Caroline-Kriterien?",
+    "back": "Sie ist nur bei unmittelbarer, überwältigender Notwendigkeit ohne Wahl der Mittel und ohne Zeit zur Überlegung denkbar."
+  },
+  {
+    "id": "flashcard-og-222",
+    "front": "Was ist das Interventionsverbot?",
+    "back": "Verbot, sich mit Zwang in innere Angelegenheiten eines anderen Staates einzumischen."
+  },
+  {
+    "id": "flashcard-og-223",
+    "front": "Was regelt das Diplomatenrecht?",
+    "back": "Aufgaben, Aufnahme, Abbruch und Rechtsstellung diplomatischer Missionen und Diplomaten, vor allem nach dem Wiener Übereinkommen von 1961."
+  },
+  {
+    "id": "flashcard-og-224",
+    "front": "Welche Immunität genießen Diplomaten grundsätzlich?",
+    "back": "Sie sind der Straf-, Verwaltungs- und weitgehend Zivilgerichtsbarkeit des Empfangsstaats entzogen."
+  },
+  {
+    "id": "flashcard-og-225",
+    "front": "Sind Botschaften exterritoriales Gebiet?",
+    "back": "Nein. Die Räumlichkeiten sind unverletzlich, aber die Gebietshoheit des Empfangsstaates bleibt bestehen."
+  },
+  {
+    "id": "flashcard-og-226",
+    "front": "Was bedeutet Neutralität?",
+    "back": "Nichtteilnahme an einem Krieg und keine militärische Unterstützung kriegführender Parteien, bei Schutz der eigenen Gebietsunverletzlichkeit."
+  },
+  {
+    "id": "flashcard-og-227",
+    "front": "Was sind Pflichten eines dauernd neutralen Staates?",
+    "back": "Keine Kriegsteilnahme, keine direkte militärische Unterstützung und kein Zurverfügungstellen des Hoheitsgebiets für Konfliktparteien."
+  },
+  {
+    "id": "flashcard-og-228",
+    "front": "Was sind Rechte eines neutralen Staates?",
+    "back": "Nichtbeeinträchtigung durch den Krieg und Unverletzlichkeit des Hoheitsgebiets."
   }
 ]
