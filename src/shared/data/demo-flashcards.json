@@ -1138,5 +1138,2745 @@
     "id": "flashcard-og-228",
     "front": "Was sind Rechte eines neutralen Staates?",
     "back": "Nichtbeeinträchtigung durch den Krieg und Unverletzlichkeit des Hoheitsgebiets."
+  },
+  {
+    "id": "ai-act-flashcard-001",
+    "front": "Was ist der AI Act / die KI-Verordnung?",
+    "back": "Die KI-Verordnung ist eine EU-Verordnung, die harmonisierte Regeln für künstliche Intelligenz festlegt, insbesondere zu verbotenen Praktiken, Hochrisiko-KI, Transparenz, General-Purpose-AI und Marktaufsicht."
+  },
+  {
+    "id": "ai-act-flashcard-002",
+    "front": "Warum braucht die EU laut Vorlesung den AI Act?",
+    "back": "Er soll Risiken wie Social Scoring und unkontrollierte biometrische Echtzeitüberwachung verhindern, Verantwortlichkeiten klären und Risiken für Betroffene reduzieren."
+  },
+  {
+    "id": "ai-act-flashcard-003",
+    "front": "Was ermöglicht der AI Act in Hochrisikobereichen?",
+    "back": "Nachvollziehbarkeit, klare Verantwortungen und die Reduktion von Risiken für betroffene Personen."
+  },
+  {
+    "id": "ai-act-flashcard-004",
+    "front": "Nenne vier Zielsetzungen des AI Acts.",
+    "back": "Binnenmarkt stärken, menschenzentrierte und vertrauenswürdige KI fördern, Gesundheit/Sicherheit/Grundrechte schützen und Innovation unterstützen."
+  },
+  {
+    "id": "ai-act-flashcard-005",
+    "front": "Was bedeutet Binnenmarkt-Ziel beim AI Act?",
+    "back": "Einheitliche Regeln in allen EU-Mitgliedstaaten sollen Entwicklung, Verkauf und Nutzung von KI-Systemen erleichtern."
+  },
+  {
+    "id": "ai-act-flashcard-006",
+    "front": "Warum sind einheitliche KI-Regeln für den Binnenmarkt wichtig?",
+    "back": "Ohne gemeinsame Regeln könnten Mitgliedstaaten unterschiedliche Vorschriften erlassen, was Entwicklung und Handel behindern würde."
+  },
+  {
+    "id": "ai-act-flashcard-007",
+    "front": "Was meint menschenzentrierte KI?",
+    "back": "KI soll dem Menschen dienen, Rechte respektieren und nachvollziehbar, sicher und fair funktionieren."
+  },
+  {
+    "id": "ai-act-flashcard-008",
+    "front": "Welche Werte soll vertrauenswürdige KI nach dem AI Act achten?",
+    "back": "Insbesondere Menschenwohl, Grundrechte, Demokratie und Rechtsstaatlichkeit."
+  },
+  {
+    "id": "ai-act-flashcard-009",
+    "front": "Was schützt der AI Act im Bereich Gesundheit, Sicherheit und Grundrechte?",
+    "back": "Er soll verhindern, dass KI Menschen gefährdet, diskriminiert oder die Umwelt schädigt."
+  },
+  {
+    "id": "ai-act-flashcard-010",
+    "front": "Wie unterstützt der AI Act Innovation?",
+    "back": "Durch Fördermaßnahmen und erleichternde Regelungen, besonders für kleine Unternehmen und Start-ups."
+  },
+  {
+    "id": "ai-act-flashcard-011",
+    "front": "Welche Regelungsbereiche umfasst der AI Act?",
+    "back": "Inverkehrbringen, Inbetriebnahme und Nutzung von KI-Systemen, Verbote, Hochrisiko-Anforderungen, Transparenzpflichten, General-Purpose-AI, Marktaufsicht und Innovationsförderung."
+  },
+  {
+    "id": "ai-act-flashcard-012",
+    "front": "Was ist der Grundgedanke der KI-VO als Balanceakt?",
+    "back": "Sie soll Schutz von Menschen und Rechten mit wirtschaftlicher Entwicklung und Innovation ausgleichen."
+  },
+  {
+    "id": "ai-act-flashcard-013",
+    "front": "Wer ist von der KI-VO betroffen?",
+    "back": "Anbieter, Betreiber, Einführer, Händler, Produkthersteller, Bevollmächtigte und betroffene Personen in der EU."
+  },
+  {
+    "id": "ai-act-flashcard-014",
+    "front": "Wer ist Anbieter eines KI-Systems?",
+    "back": "Wer ein KI-System oder ein KI-Modell mit allgemeinem Verwendungszweck entwickelt oder entwickeln lässt und es unter eigenem Namen oder eigener Marke in Verkehr bringt oder in Betrieb nimmt."
+  },
+  {
+    "id": "ai-act-flashcard-015",
+    "front": "Wer ist Betreiber eines KI-Systems?",
+    "back": "Wer ein KI-System in eigener Verantwortung verwendet, außer bei rein persönlicher und nicht beruflicher Nutzung."
+  },
+  {
+    "id": "ai-act-flashcard-016",
+    "front": "Gilt die KI-VO auch für Anbieter außerhalb der EU?",
+    "back": "Ja, wenn die Ausgabe des KI-Systems in der EU verwendet wird."
+  },
+  {
+    "id": "ai-act-flashcard-017",
+    "front": "Nenne wichtige Ausnahmen vom Anwendungsbereich der KI-VO.",
+    "back": "Militär, Verteidigung, nationale Sicherheit, rein private Nutzung, bestimmte Forschung und Entwicklung sowie teilweise Open-Source-KI."
+  },
+  {
+    "id": "ai-act-flashcard-018",
+    "front": "Wann ist Open-Source-KI nicht einfach ausgenommen?",
+    "back": "Wenn sie Hochrisiko-KI ist oder besonderen Verboten beziehungsweise Auflagen unterfällt."
+  },
+  {
+    "id": "ai-act-flashcard-019",
+    "front": "Was ist ein KI-System nach Art 3 Z 1 KI-VO?",
+    "back": "Ein maschinengestütztes System, das mehr oder weniger selbstständig arbeitet, anpassungsfähig sein kann und aus Eingaben Ausgaben wie Vorhersagen, Inhalte, Empfehlungen oder Entscheidungen erzeugt."
+  },
+  {
+    "id": "ai-act-flashcard-020",
+    "front": "Welche Outputs können KI-Systeme erzeugen?",
+    "back": "Vorhersagen, Inhalte, Empfehlungen oder Entscheidungen."
+  },
+  {
+    "id": "ai-act-flashcard-021",
+    "front": "Was unterscheidet KI von einfacher Software?",
+    "back": "KI leitet aus Eingaben selbstständig Lösungen, Empfehlungen oder Muster ab; einfache Software arbeitet nur feste menschlich vorgegebene Regeln ab."
+  },
+  {
+    "id": "ai-act-flashcard-022",
+    "front": "Ist ein Taschenrechner ein KI-System?",
+    "back": "Nein, ein Taschenrechner arbeitet nur feste Rechenregeln ab und leitet keine eigenständigen Muster oder Empfehlungen ab."
+  },
+  {
+    "id": "ai-act-flashcard-023",
+    "front": "Was bedeutet maschinengestützt bei KI-Systemen?",
+    "back": "Ein KI-System benötigt Hardware wie Computer oder Server und Software."
+  },
+  {
+    "id": "ai-act-flashcard-024",
+    "front": "Was bedeutet autonomer Betrieb bei KI-Systemen?",
+    "back": "Das System gibt Entscheidungen oder Vorschläge selbstständig aus, auch wenn es nicht völlig ohne Menschen arbeitet."
+  },
+  {
+    "id": "ai-act-flashcard-025",
+    "front": "Muss ein KI-System lernfähig sein?",
+    "back": "Nicht zwingend; Anpassungsfähigkeit kann vorliegen, muss aber nicht in jedem Fall gegeben sein."
+  },
+  {
+    "id": "ai-act-flashcard-026",
+    "front": "Was bedeutet Zielorientierung bei KI-Systemen?",
+    "back": "Das System arbeitet auf bestimmte, teilweise verborgene Ziele hin."
+  },
+  {
+    "id": "ai-act-flashcard-027",
+    "front": "Was ist Risiko nach Art 3 Z 2 KI-VO?",
+    "back": "Risiko ist die Kombination aus der Wahrscheinlichkeit eines Schadenseintritts und der Schwere dieses Schadens."
+  },
+  {
+    "id": "ai-act-flashcard-028",
+    "front": "Was verlangt Art 4 KI-VO zur KI-Kompetenz?",
+    "back": "Anbieter und Betreiber müssen Maßnahmen ergreifen, damit Personal und beauftragte Personen nach besten Kräften über ausreichende KI-Kompetenz verfügen."
+  },
+  {
+    "id": "ai-act-flashcard-029",
+    "front": "Was umfasst KI-Kompetenz praktisch?",
+    "back": "Verständnis der technischen Funktionsweise, Risiken, Bias, Grenzen und Nachvollziehbarkeit von KI-Entscheidungen."
+  },
+  {
+    "id": "ai-act-flashcard-030",
+    "front": "Warum ist KI-Kompetenz bei Hochrisiko-KI besonders wichtig?",
+    "back": "Die Personen für menschliche Aufsicht müssen technisch geschult, befugt und kompetent sein, um korrigierend eingreifen zu können."
+  },
+  {
+    "id": "ai-act-flashcard-031",
+    "front": "Welche Rechtsfolge hat fehlende KI-Kompetenz laut Folien direkt?",
+    "back": "Es gibt keine direkte Sanktion, aber sie kann für Haftung und Sorgfaltspflichten relevant sein."
+  },
+  {
+    "id": "ai-act-flashcard-032",
+    "front": "Welche Risikostufen kennt der AI Act?",
+    "back": "Inakzeptables Risiko, hohes Risiko, begrenztes Risiko und minimales beziehungsweise kein Risiko."
+  },
+  {
+    "id": "ai-act-flashcard-033",
+    "front": "Was bedeutet inakzeptables Risiko?",
+    "back": "Solche KI-Praktiken sind verboten, weil sie besonders schwer in Grundrechte oder Werte eingreifen."
+  },
+  {
+    "id": "ai-act-flashcard-034",
+    "front": "Was bedeutet hohes Risiko?",
+    "back": "Das System ist stark reguliert und unterliegt Anforderungen wie Risikomanagement, Datenqualität, Dokumentation, Transparenz, menschlicher Aufsicht und Konformitätsbewertung."
+  },
+  {
+    "id": "ai-act-flashcard-035",
+    "front": "Was bedeutet begrenztes Risiko?",
+    "back": "Es bestehen vor allem Transparenzpflichten, etwa Hinweise auf KI-generierte Inhalte oder Interaktion mit KI."
+  },
+  {
+    "id": "ai-act-flashcard-036",
+    "front": "Was bedeutet minimales oder kein Risiko?",
+    "back": "Es bestehen grundsätzlich keine spezifischen Pflichten nach der KI-VO."
+  },
+  {
+    "id": "ai-act-flashcard-037",
+    "front": "Wie läuft die Prüfung nach AI Act grob ab?",
+    "back": "KI-System prüfen, Risikokategorie bestimmen, Pflichten ermitteln, Pflichten umsetzen, bei Hochrisiko Konformität prüfen, anschließend Zulassung beziehungsweise Inverkehrbringen."
+  },
+  {
+    "id": "ai-act-flashcard-038",
+    "front": "Was verbietet Art 5 KI-VO allgemein?",
+    "back": "Bestimmte KI-Praktiken mit unannehmbarem Risiko, insbesondere schwere Grundrechtseingriffe oder sehr risikoreiche Überwachungs- und Kontrollanwendungen."
+  },
+  {
+    "id": "ai-act-flashcard-039",
+    "front": "Nenne Beispiele verbotener KI-Praktiken.",
+    "back": "Manipulation mit erheblichem Schaden, Ausnutzung vulnerabler Personen, Social Scoring, ungezieltes Scraping von Gesichtern, bestimmte Emotionserkennung und biometrische Echtzeit-Fernidentifizierung."
+  },
+  {
+    "id": "ai-act-flashcard-040",
+    "front": "Was ist Social Scoring im Kontext verbotener Systeme?",
+    "back": "Soziale Bewertung von Personen, die zu unverhältnismäßiger oder kontextfremder Benachteiligung führen kann."
+  },
+  {
+    "id": "ai-act-flashcard-041",
+    "front": "Ist jede Kriminalitäts-Risikoprognose verboten?",
+    "back": "Nein. Verboten ist insbesondere individuelle Kriminalitäts-Risikoprognose nur auf Basis von Profiling oder Persönlichkeitsmerkmalen; Unterstützung menschlicher Bewertung mit objektiven Tatbezügen kann zulässig sein."
+  },
+  {
+    "id": "ai-act-flashcard-042",
+    "front": "Was ist bei biometrischer Echtzeit-Fernidentifizierung im öffentlichen Raum problematisch?",
+    "back": "Sie kann massiv in Privatsphäre, Datenschutz, Versammlungsfreiheit und Nichtdiskriminierung eingreifen."
+  },
+  {
+    "id": "ai-act-flashcard-043",
+    "front": "Wann kann biometrische Echtzeit-Fernidentifizierung ausnahmsweise zulässig sein?",
+    "back": "Nur in engen Fällen wie Opfersuche, Gefahrabwehr oder schweren Straftaten und mit Genehmigung sowie grundrechtlicher Prüfung."
+  },
+  {
+    "id": "ai-act-flashcard-044",
+    "front": "Wie kann ein KI-System nach Produktrecht Hochrisiko-KI sein?",
+    "back": "Wenn es Sicherheitsbauteil eines Produkts nach Anhang I ist oder selbst ein solches Produkt ist und eine Dritt-Konformitätsbewertung erforderlich ist."
+  },
+  {
+    "id": "ai-act-flashcard-045",
+    "front": "Wie kann ein KI-System nach Verwendungszweck Hochrisiko-KI sein?",
+    "back": "Wenn es in Anhang-III-Bereichen wie Biometrie, kritische Infrastruktur, Bildung, Beschäftigung, soziale Leistungen, Strafverfolgung, Migration oder Rechtspflege eingesetzt wird."
+  },
+  {
+    "id": "ai-act-flashcard-046",
+    "front": "Nenne Hochrisiko-Bereiche nach Anhang III.",
+    "back": "Biometrie, kritische Infrastruktur, Bildung, Beschäftigung, öffentliche Dienste, Kreditwürdigkeit, Strafverfolgung, Migration/Asyl/Grenzkontrolle, Rechtspflege und demokratische Prozesse."
+  },
+  {
+    "id": "ai-act-flashcard-047",
+    "front": "Was ist der Grundsatz bei Pflichten für Hochrisiko-KI?",
+    "back": "Anbieter bauen und sichern das System technisch ab; Betreiber setzen es im Alltag verantwortungsvoll ein."
+  },
+  {
+    "id": "ai-act-flashcard-048",
+    "front": "Was regelt Art 16 KI-VO für Anbieter von Hochrisiko-KI?",
+    "back": "Der Anbieter muss sicherstellen, dass das Hochrisiko-KI-System alle Anforderungen erfüllt, bevor es in Verkehr gebracht oder in Betrieb genommen wird."
+  },
+  {
+    "id": "ai-act-flashcard-049",
+    "front": "Was verlangt Art 9 KI-VO?",
+    "back": "Ein kontinuierliches Risikomanagementsystem über den gesamten Lebenszyklus des Hochrisiko-KI-Systems."
+  },
+  {
+    "id": "ai-act-flashcard-050",
+    "front": "Was verlangt Art 10 KI-VO zu Daten?",
+    "back": "Trainings-, Validierungs- und Testdaten müssen geeignet, repräsentativ und möglichst frei von Verzerrungen sein."
+  },
+  {
+    "id": "ai-act-flashcard-051",
+    "front": "Was verlangt Art 11 KI-VO?",
+    "back": "Umfassende technische Dokumentation zur Funktionsweise, Zweckbestimmung und zu Risiken des Systems."
+  },
+  {
+    "id": "ai-act-flashcard-052",
+    "front": "Was verlangt Art 12 KI-VO?",
+    "back": "Protokollierungsfunktionen, damit relevante Abläufe und Entscheidungen nachvollziehbar aufgezeichnet werden."
+  },
+  {
+    "id": "ai-act-flashcard-053",
+    "front": "Was verlangt Art 13 KI-VO?",
+    "back": "Klare und verständliche Informationen über Funktionsweise, Einsatzbedingungen und Grenzen des Systems für Betreiber beziehungsweise Nutzer."
+  },
+  {
+    "id": "ai-act-flashcard-054",
+    "front": "Was verlangt Art 14 KI-VO?",
+    "back": "Wirksame menschliche Aufsicht über Hochrisiko-KI-Systeme."
+  },
+  {
+    "id": "ai-act-flashcard-055",
+    "front": "Was verlangt Art 15 KI-VO?",
+    "back": "Ein angemessenes Maß an Genauigkeit, Robustheit und Cybersicherheit."
+  },
+  {
+    "id": "ai-act-flashcard-056",
+    "front": "Was ist Automatisierungsbias?",
+    "back": "Die Neigung, den Ausgaben eines KI-Systems automatisch oder übermäßig zu vertrauen."
+  },
+  {
+    "id": "ai-act-flashcard-057",
+    "front": "Was muss menschliche Aufsicht können?",
+    "back": "Grenzen des Systems verstehen, Betrieb überwachen, Outputs interpretieren, Nutzung stoppen oder Output ignorieren/übersteuern/rückgängig machen."
+  },
+  {
+    "id": "ai-act-flashcard-058",
+    "front": "Was bedeutet Human-in-the-Loop?",
+    "back": "Ein Mensch ist interaktiv in den Entscheidungs- oder Arbeitsprozess eingebunden."
+  },
+  {
+    "id": "ai-act-flashcard-059",
+    "front": "Was bedeutet Human-on-the-Loop?",
+    "back": "Ein Mensch überprüft und kontrolliert den KI-Prozess von außen."
+  },
+  {
+    "id": "ai-act-flashcard-060",
+    "front": "Was bedeutet Human-in-Command?",
+    "back": "Ein Mensch behält die Gesamtsteuerung und Verantwortung über den KI-Einsatz."
+  },
+  {
+    "id": "ai-act-flashcard-061",
+    "front": "Welche Pflichten bestehen für Anbieter nach Inbetriebnahme?",
+    "back": "Laufende Überwachung, Meldung schwerwiegender Vorfälle, erneute Konformitätsbewertung bei Änderungen, Updates, Behördenkooperation, Versionstraceability und Stilllegung bei fehlender Konformität."
+  },
+  {
+    "id": "ai-act-flashcard-062",
+    "front": "Wie lange ist Dokumentation nach Art 18 aufzubewahren?",
+    "back": "Nach den Folien grundsätzlich zehn Jahre ab Inverkehrbringen beziehungsweise Inbetriebnahme."
+  },
+  {
+    "id": "ai-act-flashcard-063",
+    "front": "Was regelt Art 20 KI-VO?",
+    "back": "Korrekturmaßnahmen und Informationspflichten, wenn ein System nicht konform ist oder Risiken bestehen."
+  },
+  {
+    "id": "ai-act-flashcard-064",
+    "front": "Was regelt Art 21 KI-VO?",
+    "back": "Zusammenarbeit mit zuständigen Behörden, insbesondere Auskunft, Unterlagen, Protokolle und Vertraulichkeit."
+  },
+  {
+    "id": "ai-act-flashcard-065",
+    "front": "Was regelt Art 26 KI-VO für Betreiber?",
+    "back": "Betreiber von Hochrisiko-KI müssen geeignete technische und organisatorische Maßnahmen für ordnungsgemäße Nutzung, menschliche Aufsicht und Protokollaufbewahrung treffen."
+  },
+  {
+    "id": "ai-act-flashcard-066",
+    "front": "Was sind Betriebsanleitungen nach Art 3 Z 15 KI-VO?",
+    "back": "Informationen des Anbieters, die den Betreiber insbesondere über Zweckbestimmung und ordnungsgemäße Verwendung eines KI-Systems informieren."
+  },
+  {
+    "id": "ai-act-flashcard-067",
+    "front": "Was ist Ziel der A3-Studie AI Act for Austria?",
+    "back": "Empfehlungen zu organisatorischen, technischen und rechtlichen Maßnahmen für den Lebenszyklus von KI-Systemen in kritischen Infrastrukturen."
+  },
+  {
+    "id": "ai-act-flashcard-068",
+    "front": "Welches Problem adressiert die A3-Studie?",
+    "back": "Viele Trustworthy-AI-Forschungsergebnisse richten sich kaum an Unternehmen und Betreiber kritischer Infrastrukturen und berücksichtigen den AI Act zu wenig."
+  },
+  {
+    "id": "ai-act-flashcard-069",
+    "front": "Welchen Mehrwert bietet Risikomanagement laut A3-Studie?",
+    "back": "Rechtliche Sicherheit, Schutz vor Schäden, Vertrauen bei Nutzern und Stakeholdern sowie sichere Innovationsfähigkeit."
+  },
+  {
+    "id": "ai-act-flashcard-070",
+    "front": "Was ist das Data Science Trajectories Framework?",
+    "back": "Ein Framework zur Strukturierung von Data-Science-Projekten durch zielgerichtete, explorative und Datenmanagement-Aktivitäten."
+  },
+  {
+    "id": "ai-act-flashcard-071",
+    "front": "Nenne explorative Aktivitäten im DST-Framework.",
+    "back": "Zielerkundung, Datenquellen-Erkundung, Datenwert-Erforschung, Ergebnis-Erforschung, narrative Erkundung und Produktuntersuchung."
+  },
+  {
+    "id": "ai-act-flashcard-072",
+    "front": "Nenne zielgerichtete Aktivitäten im DST-Framework.",
+    "back": "Geschäftsverständnis, Datenverständnis, Datenaufbereitung, Modellierung, Evaluierung und Einsatz."
+  },
+  {
+    "id": "ai-act-flashcard-073",
+    "front": "Nenne Datenmanagement-Aktivitäten im DST-Framework.",
+    "back": "Datenerfassung, Daten-Simulation, Datenarchitektur und Datenfreigabe."
+  },
+  {
+    "id": "ai-act-flashcard-074",
+    "front": "Welche drei Gruppen enthält das Risikoregister der A3-Studie?",
+    "back": "Risiken für KI-Modell und Daten, regulatorische und wirtschaftliche Herausforderungen sowie ethische und gesellschaftliche Herausforderungen."
+  },
+  {
+    "id": "ai-act-flashcard-075",
+    "front": "Was ist Model Inversion?",
+    "back": "Ein Angriff, bei dem Informationen aus einem bestehenden Modell extrahiert werden, um Parameter oder Architektur zu rekonstruieren."
+  },
+  {
+    "id": "ai-act-flashcard-076",
+    "front": "Was sind Poisoning-Angriffe?",
+    "back": "Angriffe auf Trainingsdaten oder Training, um falsche oder schädliche Vorhersagen zu erzeugen."
+  },
+  {
+    "id": "ai-act-flashcard-077",
+    "front": "Was ist Model Theft / Extraction?",
+    "back": "Der Versuch, ein bestehendes Modell zu replizieren und seine Funktionsweise oder Parameter zu extrahieren."
+  },
+  {
+    "id": "ai-act-flashcard-078",
+    "front": "Was ist Model Skewing?",
+    "back": "Manipulation von Modelloutputs durch bestimmte Datensätze, sodass die Ergebnisverteilung verzerrt wird."
+  },
+  {
+    "id": "ai-act-flashcard-079",
+    "front": "Was ist Input Manipulation?",
+    "back": "Manipulation von Eingabedaten, um falsche Modellvorhersagen zu erzeugen."
+  },
+  {
+    "id": "ai-act-flashcard-080",
+    "front": "Was ist Prompt Injection?",
+    "back": "Speziell präparierte Eingabe an ein LLM, um ursprüngliche Anweisungen der Anwendung zu umgehen."
+  },
+  {
+    "id": "ai-act-flashcard-081",
+    "front": "Was ist Datendrift?",
+    "back": "Reale Daten ändern sich über die Zeit und weichen von den ursprünglichen Trainingsdaten ab."
+  },
+  {
+    "id": "ai-act-flashcard-082",
+    "front": "Was ist Concept Drift?",
+    "back": "Die Beziehung zwischen Eingaben und Zielvariable ändert sich über die Zeit."
+  },
+  {
+    "id": "ai-act-flashcard-083",
+    "front": "Was ist Overfitting?",
+    "back": "Ein Modell ist zu stark an Trainingsdaten angepasst und generalisiert schlecht auf neue Fälle."
+  },
+  {
+    "id": "ai-act-flashcard-084",
+    "front": "Was ist Verzerrung bei der Merkmalsauswahl?",
+    "back": "Bias entsteht bereits bei der Auswahl der Features, wodurch Vorhersagen verzerrt werden können."
+  },
+  {
+    "id": "ai-act-flashcard-085",
+    "front": "Was ist Datenschutz als KI-Risiko?",
+    "back": "Personenbezogene Daten in KI-Systemen unterliegen strengen Datenschutzvorgaben und können DSFA sowie Grundrechte-Folgenabschätzung erfordern."
+  },
+  {
+    "id": "ai-act-flashcard-086",
+    "front": "Was ist Technologieabhängigkeit als Risiko?",
+    "back": "Zu starke Abhängigkeit von KI-Technologie oder Anbietern kann Fähigkeitenverlust und Lock-in-Effekte verursachen."
+  },
+  {
+    "id": "ai-act-flashcard-087",
+    "front": "Was ist Diskriminierung und Bias als KI-Risiko?",
+    "back": "KI-Systeme können diskriminierende Entscheidungen treffen, wenn Daten oder Merkmale verzerrt sind."
+  },
+  {
+    "id": "ai-act-flashcard-088",
+    "front": "Warum sind Transparenz und Erklärbarkeit wichtig?",
+    "back": "Betroffene und Betreiber müssen Entscheidungen nachvollziehen können, besonders bei Hochrisiko-KI."
+  },
+  {
+    "id": "ai-act-flashcard-089",
+    "front": "Was ist das Risiko Manipulation, Desinformation und Social Engineering?",
+    "back": "KI kann zur Beeinflussung, Täuschung oder Verbreitung falscher Inhalte eingesetzt werden."
+  },
+  {
+    "id": "ai-act-flashcard-090",
+    "front": "Was sind falsche Erwartungen an KI?",
+    "back": "Überhöhte Erwartungen können zu Enttäuschungen, Fehlentscheidungen und blindem Vertrauen führen."
+  },
+  {
+    "id": "ai-act-flashcard-091",
+    "front": "Was ist Ziel explorativer Szenarioanalyse?",
+    "back": "Plausible Zukunftsszenarien für strategische Entscheidungen entwickeln und Einflussfaktoren sowie Handlungsoptionen identifizieren."
+  },
+  {
+    "id": "ai-act-flashcard-092",
+    "front": "Welche Punkte enthält der Beschaffungsleitfaden?",
+    "back": "Rechtliche Grundlagen, organisatorische und technische Voraussetzungen, Anforderungen, Marktanalyse, regulatorisch-wirtschaftliche sowie ethisch-gesellschaftliche Herausforderungen."
+  },
+  {
+    "id": "ai-act-flashcard-093",
+    "front": "Welche Kriterien sind für Anbieterbewertung wichtig?",
+    "back": "Technologische Kompetenz, Erfahrungen, Compliance, Sicherheitsstandards, Integrationsfähigkeit sowie Kosten und Wirtschaftlichkeit."
+  },
+  {
+    "id": "ai-act-flashcard-094",
+    "front": "Was prüft der Make-Buy-or-Transfer Guide?",
+    "back": "Eigene technische Kapazitäten, regulatorische Anforderungen, Anpassungsbedarf, Marktverfügbarkeit und Kosten-Nutzen-Verhältnis."
+  },
+  {
+    "id": "ai-act-flashcard-095",
+    "front": "Welche Grundrechte sind bei biometrischer Überwachung besonders betroffen?",
+    "back": "Privatsphäre, Datenschutz, Versammlungsfreiheit und Nichtdiskriminierung."
+  },
+  {
+    "id": "ai-act-flashcard-096",
+    "front": "Warum sind Gesichtsdaten datenschutzrechtlich sensibel?",
+    "back": "Sie sind eindeutig identifizierend und grundsätzlich nicht änderbar."
+  },
+  {
+    "id": "ai-act-flashcard-097",
+    "front": "Welche österreichischen Rechtsgrundlagen werden zur Strafverfolgung genannt?",
+    "back": "Strafprozessordnung für bereits begangene Taten und Sicherheitspolizeigesetz für Gefahrenabwehr beziehungsweise Verhütung."
+  },
+  {
+    "id": "ai-act-flashcard-098",
+    "front": "Wer ist Strafverfolgungsbehörde nach Art 3 Z 45 KI-VO?",
+    "back": "Eine Behörde für Verhütung, Ermittlung, Aufdeckung oder Verfolgung von Straftaten oder Strafvollstreckung einschließlich Schutz vor Gefahren für die öffentliche Sicherheit."
+  },
+  {
+    "id": "ai-act-flashcard-099",
+    "front": "Welche Behörden können im Sinne der KI-VO Strafverfolgungsbehörden sein?",
+    "back": "Nicht nur Gerichte, Staatsanwaltschaften und Kriminalpolizei, sondern auch Sicherheitsbehörden."
+  },
+  {
+    "id": "ai-act-flashcard-100",
+    "front": "Was ist der zentrale Unterschied zwischen Anbieter und Betreiber?",
+    "back": "Anbieter entwickelt oder bringt KI unter eigenem Namen in Verkehr; Betreiber verwendet KI eigenverantwortlich im Betrieb."
+  },
+  {
+    "id": "datenschutz-flashcard-001",
+    "front": "Warum ist Datenschutz historisch nicht nur ein modernes IT-Thema?",
+    "back": "Schon früh gab es Geheimhaltungs- und Vertraulichkeitspflichten, etwa den hippokratischen Eid, das Beichtgeheimnis, Amtsgeheimnis und Briefgeheimnis."
+  },
+  {
+    "id": "datenschutz-flashcard-002",
+    "front": "Welche Datenschutzidee steckt im hippokratischen Eid?",
+    "back": "Ärztinnen und Ärzte sollen anvertraute oder im Behandlungskontext erfahrene Geheimnisse verschweigen."
+  },
+  {
+    "id": "datenschutz-flashcard-003",
+    "front": "Was betont das Genfer Gelöbnis von 1948 datenschutzrechtlich?",
+    "back": "Ärztlich anvertraute Geheimnisse sind auch über den Tod der Patientin oder des Patienten hinaus zu wahren."
+  },
+  {
+    "id": "datenschutz-flashcard-004",
+    "front": "Was ist das Beichtgeheimnis?",
+    "back": "Geistliche müssen über alles schweigen, was ihnen in der Beichte anvertraut wurde; selbst Beichtende können sie nicht davon entbinden."
+  },
+  {
+    "id": "datenschutz-flashcard-005",
+    "front": "Welche Bedeutung hatte Art. 20 B-VG im Zusammenhang mit Amtsgeheimnis?",
+    "back": "Art. 20 B-VG regelte traditionell Amtsverschwiegenheit und Auskunftspflichten der Verwaltung."
+  },
+  {
+    "id": "datenschutz-flashcard-006",
+    "front": "Was änderte das Informationsfreiheitsgesetz ab 01.09.2025?",
+    "back": "Es brachte proaktive Veröffentlichungspflichten und ein Grundrecht auf Zugang zu Informationen auf Antrag."
+  },
+  {
+    "id": "datenschutz-flashcard-007",
+    "front": "Was müssen öffentliche Stellen nach dem Informationsfreiheitsgesetz proaktiv veröffentlichen?",
+    "back": "Informationen von allgemeinem Interesse, etwa Gutachten, Studien, Umfragen, Verträge oder vergleichbare Dokumente."
+  },
+  {
+    "id": "datenschutz-flashcard-008",
+    "front": "Welche Ausnahmen gibt es beim Informationszugang?",
+    "back": "Geheimhaltungsgründe wie nationale Sicherheit, Datenschutz oder überwiegende berechtigte Interessen können den Zugang ausschließen."
+  },
+  {
+    "id": "datenschutz-flashcard-009",
+    "front": "Welche Frist nennt die Vorlesung für Informationszugang nach IFG?",
+    "back": "Grundsätzlich vier Wochen, bei bestimmten Fällen acht Wochen."
+  },
+  {
+    "id": "datenschutz-flashcard-010",
+    "front": "Welche österreichischen Rechtsquellen schützen das Briefgeheimnis?",
+    "back": "Art. 10 StGG, Art. 8 EMRK und strafrechtlich § 118 StGB."
+  },
+  {
+    "id": "datenschutz-flashcard-011",
+    "front": "Welche Rolle spielten Warren und Brandeis 1890 für Datenschutz?",
+    "back": "Sie entwickelten im Harvard Law Review die moderne Idee des Schutzes der Privatsphäre."
+  },
+  {
+    "id": "datenschutz-flashcard-012",
+    "front": "Welche frühen Datenschutzgesetze nennt die Vorlesung?",
+    "back": "1970 Hessen, 1973 Schweden, 1977 deutsches BDSG, 1978 österreichisches DSG, 1995 Datenschutzrichtlinie und später DSGVO."
+  },
+  {
+    "id": "datenschutz-flashcard-013",
+    "front": "Was schützt Datenschutz im Kern?",
+    "back": "Das Recht auf Schutz personenbezogener Daten."
+  },
+  {
+    "id": "datenschutz-flashcard-014",
+    "front": "Wann ist die DSGVO sachlich anwendbar?",
+    "back": "Bei ganz oder teilweise automatisierter Verarbeitung personenbezogener Daten sowie bei nichtautomatisierter Verarbeitung in Dateisystemen."
+  },
+  {
+    "id": "datenschutz-flashcard-015",
+    "front": "Was sind personenbezogene Daten?",
+    "back": "Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen."
+  },
+  {
+    "id": "datenschutz-flashcard-016",
+    "front": "Welche Beispiele für Kennungen können Personen identifizierbar machen?",
+    "back": "Name, Kennnummer, Standortdaten, Online-Kennung oder Merkmale der physischen, genetischen, wirtschaftlichen, kulturellen oder sozialen Identität."
+  },
+  {
+    "id": "datenschutz-flashcard-017",
+    "front": "Was bedeutet Verarbeitung personenbezogener Daten?",
+    "back": "Nahezu jeder Vorgang mit personenbezogenen Daten, etwa Erheben, Speichern, Ordnen, Verwenden, Offenlegen, Abgleichen, Löschen oder Vernichten."
+  },
+  {
+    "id": "datenschutz-flashcard-018",
+    "front": "Was sind sensible Daten bzw. besondere Kategorien personenbezogener Daten?",
+    "back": "Daten über rassische oder ethnische Herkunft, politische Meinung, Religion, Gewerkschaft, genetische, biometrische, Gesundheits-, Sexuallebens- oder Orientierungsdaten."
+  },
+  {
+    "id": "datenschutz-flashcard-019",
+    "front": "Was ist Pseudonymisierung?",
+    "back": "Daten werden so ersetzt, dass die Person über Zusatzinformationen, z. B. eine Zuordnungstabelle, wieder identifiziert werden kann."
+  },
+  {
+    "id": "datenschutz-flashcard-020",
+    "front": "Unterliegen pseudonymisierte Daten der DSGVO?",
+    "back": "Ja, weil eine Wiederherstellung des Personenbezugs möglich bleibt."
+  },
+  {
+    "id": "datenschutz-flashcard-021",
+    "front": "Warum ist Pseudonymisierung nicht geeignet, um einen Löschantrag endgültig umzusetzen?",
+    "back": "Weil der Personenbezug mit Zusatzwissen wiederhergestellt werden kann."
+  },
+  {
+    "id": "datenschutz-flashcard-022",
+    "front": "Was ist Anonymisierung?",
+    "back": "Daten werden so verändert, dass ein Personenbezug nur mit erheblichem Aufwand oder praktisch nicht mehr hergestellt werden kann."
+  },
+  {
+    "id": "datenschutz-flashcard-023",
+    "front": "Unterliegen anonymisierte Daten der DSGVO?",
+    "back": "Nein, sofern der Personenbezug tatsächlich nicht mehr herstellbar ist."
+  },
+  {
+    "id": "datenschutz-flashcard-024",
+    "front": "Was ist der Unterschied zwischen Pseudonymisierung und Anonymisierung?",
+    "back": "Pseudonymisierung erhält einen wiederherstellbaren Personenbezug; Anonymisierung beseitigt ihn praktisch."
+  },
+  {
+    "id": "datenschutz-flashcard-025",
+    "front": "Was bedeutet Marktortprinzip der DSGVO?",
+    "back": "Die DSGVO kann auch für Akteure außerhalb der EU gelten, wenn Waren oder Dienstleistungen an Personen in der EU angeboten oder ihr Verhalten beobachtet wird."
+  },
+  {
+    "id": "datenschutz-flashcard-026",
+    "front": "Welche Rollen sind im Datenschutz besonders wichtig?",
+    "back": "Betroffene Person, Verantwortlicher, Auftragsverarbeiter und Datenschutzbehörde."
+  },
+  {
+    "id": "datenschutz-flashcard-027",
+    "front": "Was ist der Verantwortliche?",
+    "back": "Die natürliche oder juristische Person, Behörde oder Stelle, die über Zwecke und Mittel der Verarbeitung entscheidet."
+  },
+  {
+    "id": "datenschutz-flashcard-028",
+    "front": "Was ist ein Auftragsverarbeiter?",
+    "back": "Eine Stelle, die personenbezogene Daten im Auftrag und nach Weisung des Verantwortlichen verarbeitet."
+  },
+  {
+    "id": "datenschutz-flashcard-029",
+    "front": "Was ist eine betroffene Person?",
+    "back": "Die natürliche Person, auf die sich personenbezogene Daten beziehen."
+  },
+  {
+    "id": "datenschutz-flashcard-030",
+    "front": "Was ist eine Datenschutzbehörde?",
+    "back": "Die unabhängige Aufsichtsbehörde, die Beschwerden, Prüfungen, Verwaltungsstrafverfahren und Zusammenarbeit mit anderen Behörden wahrnimmt."
+  },
+  {
+    "id": "datenschutz-flashcard-031",
+    "front": "Was bedeutet Rechtmäßigkeit nach Art. 5 DSGVO?",
+    "back": "Verarbeitung braucht eine Einwilligung oder eine andere Rechtsgrundlage."
+  },
+  {
+    "id": "datenschutz-flashcard-032",
+    "front": "Was bedeutet Verarbeitung nach Treu und Glauben?",
+    "back": "Die Verarbeitung muss fair erfolgen und darf Betroffene nicht überraschend oder unredlich benachteiligen."
+  },
+  {
+    "id": "datenschutz-flashcard-033",
+    "front": "Was bedeutet Transparenz im Datenschutz?",
+    "back": "Betroffene müssen leicht verständlich erfahren können, dass und wie ihre Daten verarbeitet werden."
+  },
+  {
+    "id": "datenschutz-flashcard-034",
+    "front": "Was bedeutet Zweckbindung?",
+    "back": "Der Zweck der Verarbeitung muss festgelegt, eindeutig und legitim sein."
+  },
+  {
+    "id": "datenschutz-flashcard-035",
+    "front": "Wann sind spätere Zwecke nach der Vorlesung besonders privilegiert?",
+    "back": "Archivzwecke im öffentlichen Interesse, wissenschaftliche oder historische Forschung und statistische Zwecke."
+  },
+  {
+    "id": "datenschutz-flashcard-036",
+    "front": "Was bedeutet Datenminimierung?",
+    "back": "Es dürfen nur Daten verarbeitet werden, die für den Zweck angemessen und notwendig sind."
+  },
+  {
+    "id": "datenschutz-flashcard-037",
+    "front": "Was ist ein Minimal Data Set?",
+    "back": "Die kleinste Datenmenge, die zur Erreichung des legitimen Zwecks wirklich benötigt wird."
+  },
+  {
+    "id": "datenschutz-flashcard-038",
+    "front": "Was verlangt der Grundsatz der Richtigkeit?",
+    "back": "Daten müssen sachlich richtig und aktuell sein; falsche Daten sind zu berichtigen oder zu löschen."
+  },
+  {
+    "id": "datenschutz-flashcard-039",
+    "front": "Was bedeutet Speicherbegrenzung?",
+    "back": "Daten dürfen nur so lange gespeichert werden, wie es für den Zweck erforderlich ist; Löschfristen und Überprüfungen sind nötig."
+  },
+  {
+    "id": "datenschutz-flashcard-040",
+    "front": "Was bedeutet Integrität und Vertraulichkeit?",
+    "back": "Daten müssen durch geeignete Sicherheit vor unbefugter oder unrechtmäßiger Verarbeitung, Verlust oder Schaden geschützt werden."
+  },
+  {
+    "id": "datenschutz-flashcard-041",
+    "front": "Wofür steht die CIA-Triad?",
+    "back": "Confidentiality, Integrity, Availability: Vertraulichkeit, Integrität und Verfügbarkeit."
+  },
+  {
+    "id": "datenschutz-flashcard-042",
+    "front": "Was ist das Informationsrecht der betroffenen Person?",
+    "back": "Betroffene müssen wissen können, dass ihre personenbezogenen Daten verarbeitet werden."
+  },
+  {
+    "id": "datenschutz-flashcard-043",
+    "front": "Welche Informationen umfasst das Auskunftsrecht typischerweise?",
+    "back": "Daten, Zwecke, Quellen, Empfänger, Speicherfrist, Logik automatisierter Entscheidungen und Garantien für internationale Transfers."
+  },
+  {
+    "id": "datenschutz-flashcard-044",
+    "front": "Wie ist eine Auskunft grundsätzlich zu beantworten?",
+    "back": "Grundsätzlich schriftlich in einem strukturierten, gängigen und maschinenlesbaren Format; mündlich auf Wunsch möglich."
+  },
+  {
+    "id": "datenschutz-flashcard-045",
+    "front": "Warum muss der Verantwortliche bei Auskunftsersuchen die Identität prüfen?",
+    "back": "Damit personenbezogene Daten nicht an eine falsche oder unberechtigte Person herausgegeben werden."
+  },
+  {
+    "id": "datenschutz-flashcard-046",
+    "front": "Was ist eine Negativauskunft oder Leermeldung?",
+    "back": "Die Mitteilung, dass keine personenbezogenen Daten zur anfragenden Person verarbeitet werden."
+  },
+  {
+    "id": "datenschutz-flashcard-047",
+    "front": "Was umfasst das Recht auf Berichtigung?",
+    "back": "Änderung oder Vervollständigung unrichtiger oder unvollständiger personenbezogener Daten."
+  },
+  {
+    "id": "datenschutz-flashcard-048",
+    "front": "Wann besteht ein Recht auf Löschung?",
+    "back": "Wenn Daten für den Zweck nicht mehr notwendig sind oder eine Einwilligung widerrufen wurde und keine andere Rechtsgrundlage greift."
+  },
+  {
+    "id": "datenschutz-flashcard-049",
+    "front": "Welche Gründe können gegen eine Löschung sprechen?",
+    "back": "Meinungs- und Informationsfreiheit, rechtliche Pflichten, öffentliche Gesundheit, Archiv/Forschung/Statistik oder Rechtsansprüche."
+  },
+  {
+    "id": "datenschutz-flashcard-050",
+    "front": "Was bedeutet Recht auf Einschränkung?",
+    "back": "Daten dürfen grundsätzlich nur mehr gespeichert und nicht weiter aktiv verarbeitet werden."
+  },
+  {
+    "id": "datenschutz-flashcard-051",
+    "front": "Wann ist Einschränkung eine Alternative zur Löschung?",
+    "back": "Wenn Richtigkeit oder Widerspruch noch geprüft wird oder Daten für Rechtsansprüche benötigt werden."
+  },
+  {
+    "id": "datenschutz-flashcard-052",
+    "front": "Was bedeutet Datenübertragbarkeit?",
+    "back": "Betroffene erhalten Daten in strukturiertem, gängigem und maschinenlesbarem Format und können sie an andere Verantwortliche übertragen."
+  },
+  {
+    "id": "datenschutz-flashcard-053",
+    "front": "Muss ein System für Datenübertragbarkeit extra angepasst werden?",
+    "back": "Nein, solange die Daten in einem geeigneten strukturierten, gängigen und maschinenlesbaren Format bereitgestellt werden."
+  },
+  {
+    "id": "datenschutz-flashcard-054",
+    "front": "Welche Grenzen hat Datenübertragbarkeit?",
+    "back": "Rechte Dritter, Geschäftsgeheimnisse und erzeugte Daten wie interne Profile müssen beachtet werden."
+  },
+  {
+    "id": "datenschutz-flashcard-055",
+    "front": "Was bedeutet Widerspruchsrecht?",
+    "back": "Betroffene können verlangen, dass bestimmte Datenverarbeitungen nicht weitergeführt werden."
+  },
+  {
+    "id": "datenschutz-flashcard-056",
+    "front": "Welche Gründe können einen Widerspruch zurückweisen?",
+    "back": "Eine tragfähige Rechtsgrundlage, öffentliche Forschungs-/Statistikzwecke oder die Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen."
+  },
+  {
+    "id": "datenschutz-flashcard-057",
+    "front": "Welche Frist gilt für Betroffenenrechte?",
+    "back": "Grundsätzlich ein Monat, bei hoher Komplexität oder vielen Anfragen bis zu drei Monate."
+  },
+  {
+    "id": "datenschutz-flashcard-058",
+    "front": "Sind Betroffenenrechte kostenlos?",
+    "back": "Grundsätzlich ja; Ausnahmen gibt es bei offenkundig unbegründeten oder exzessiven Anträgen."
+  },
+  {
+    "id": "datenschutz-flashcard-059",
+    "front": "Bis wann kann eine Beschwerde bei der Datenschutzbehörde eskaliert werden?",
+    "back": "Binnen eines Jahres."
+  },
+  {
+    "id": "datenschutz-flashcard-060",
+    "front": "Welche hohe Strafdrohung nennt die Vorlesung im Kontext Betroffenenrechte?",
+    "back": "Bis zu 20 Mio. EUR oder 4 % des weltweiten Jahresumsatzes."
+  },
+  {
+    "id": "datenschutz-flashcard-061",
+    "front": "Welche Pflichten hat der Verantwortliche allgemein?",
+    "back": "Informationspflichten, Risikoanalyse, Datensicherheitsmaßnahmen, Verarbeitungsverzeichnis, ggf. Datenschutzbeauftragter und Meldung von Datenschutzverletzungen."
+  },
+  {
+    "id": "datenschutz-flashcard-062",
+    "front": "Was muss eine Datenschutzerklärung mindestens identifizieren?",
+    "back": "Namen und Kontaktdaten des Verantwortlichen bzw. Vertreters und ggf. Kontaktdaten des Datenschutzbeauftragten."
+  },
+  {
+    "id": "datenschutz-flashcard-063",
+    "front": "Welche Inhalte gehören zu den Informationspflichten über Datenverarbeitung?",
+    "back": "Kategorien der Daten, Quellen, Empfänger, Zwecke, Rechtsgrundlagen, berechtigte Interessen und Widerrufsmöglichkeit."
+  },
+  {
+    "id": "datenschutz-flashcard-064",
+    "front": "Welche weiteren Inhalte gehören in eine Datenschutzerklärung?",
+    "back": "Dauer, Betroffenenrechte, Beschwerderecht, gesetzliche/vertragliche Pflichten und automatisierte Entscheidungsfindung."
+  },
+  {
+    "id": "datenschutz-flashcard-065",
+    "front": "Welche Beispiele für personenbezogene Daten nennt die Vorlesung?",
+    "back": "Name, Adresse, Geburtsdatum, E-Mail, IP-Adresse, Kontonummer, Kfz-Kennzeichen, Standort-, Nutzungs-, Kommunikations- und Vertragsdaten."
+  },
+  {
+    "id": "datenschutz-flashcard-066",
+    "front": "Wann müssen Informationen bei direkt erhobenen Daten erteilt werden?",
+    "back": "Zum Zeitpunkt der Erhebung der Daten."
+  },
+  {
+    "id": "datenschutz-flashcard-067",
+    "front": "Wann müssen Informationen bei Daten aus anderen Quellen erteilt werden?",
+    "back": "Innerhalb eines Monats, spätestens bei erster Mitteilung oder erster Offenlegung."
+  },
+  {
+    "id": "datenschutz-flashcard-068",
+    "front": "Welche Ausnahmen gibt es von Informationspflichten?",
+    "back": "Wenn Information obsolet ist, unverhältnismäßigen Aufwand verursacht, gesetzlich geregelt ist oder Berufs-/Satzungsgeheimnis entgegensteht."
+  },
+  {
+    "id": "datenschutz-flashcard-069",
+    "front": "Welche Datensicherheitsmaßnahmen nennt die Vorlesung?",
+    "back": "Pseudonymisierung, CIA-Triad, Auftragsprinzip, Selbstevaluierung, Zertifizierung, Privacy by Design und Privacy by Default."
+  },
+  {
+    "id": "datenschutz-flashcard-070",
+    "front": "Was ist Privacy by Design?",
+    "back": "Datenschutz wird bereits bei Konzeption und Entwicklung eines Systems technisch und organisatorisch eingebaut."
+  },
+  {
+    "id": "datenschutz-flashcard-071",
+    "front": "Was ist Privacy by Default?",
+    "back": "Voreinstellungen müssen datenschutzfreundlich sein und nur notwendige Datenverarbeitung aktivieren."
+  },
+  {
+    "id": "datenschutz-flashcard-072",
+    "front": "Was ist ein Verzeichnis von Verarbeitungstätigkeiten?",
+    "back": "Eine Dokumentation über Zwecke, Rechtsgrundlagen, Datenkategorien, Empfänger, Drittlandübermittlungen, Löschfristen und Sicherheitsmaßnahmen."
+  },
+  {
+    "id": "datenschutz-flashcard-073",
+    "front": "Wann kann ein Unternehmen vom Verarbeitungsverzeichnis ausgenommen sein?",
+    "back": "Nur wenn alle Voraussetzungen zusammen vorliegen: unter 250 Mitarbeitende, kein Risiko, nur gelegentliche Verarbeitung und keine sensiblen Daten."
+  },
+  {
+    "id": "datenschutz-flashcard-074",
+    "front": "Wozu dient die Risikoanalyse?",
+    "back": "Sie prüft, ob eine Datenschutz-Folgenabschätzung erforderlich ist."
+  },
+  {
+    "id": "datenschutz-flashcard-075",
+    "front": "Wann ist eine DSFA erforderlich?",
+    "back": "Wenn eine Verarbeitung voraussichtlich ein hohes Risiko für Rechte und Freiheiten natürlicher Personen zur Folge hat."
+  },
+  {
+    "id": "datenschutz-flashcard-076",
+    "front": "Welche typischen DSFA-Fälle nennt die Vorlesung?",
+    "back": "Profiling, umfangreiche Verarbeitung sensibler Daten und Videoüberwachung."
+  },
+  {
+    "id": "datenschutz-flashcard-077",
+    "front": "Welche DSFA-Beispiele nennt die Vorlesung?",
+    "back": "Kreditauskunftsdatenbank einer Bank, Gesundheitsdatenbank eines Krankenhauses und Kameras zur Verhaltensüberwachung im Busunternehmen."
+  },
+  {
+    "id": "datenschutz-flashcard-078",
+    "front": "Welche Kriterien empfiehlt die Art-29-Gruppe für DSFA-Risikobewertung?",
+    "back": "Profiling, automatisierte Entscheidungen, systematische Überwachung, sensible Daten, große Verarbeitung, Datenverknüpfung, schutzbedürftige Betroffene, neue Technologien und Auswirkungen auf Vertragsabschluss."
+  },
+  {
+    "id": "datenschutz-flashcard-079",
+    "front": "Welche Faustregel nennt die Vorlesung zur DSFA?",
+    "back": "DSFA empfohlen, wenn mindestens zwei Risikokriterien zutreffen oder die rote Risikokategorie erreicht wird."
+  },
+  {
+    "id": "datenschutz-flashcard-080",
+    "front": "Was steht typischerweise auf der DSFA-Blacklist?",
+    "back": "Profiling/Bewertung natürlicher Personen, automatisierte Entscheidungen, systematische Überwachung öffentlicher Räume, innovative Technologien, unerwartete Datenverknüpfung und höchstpersönliche Verarbeitung."
+  },
+  {
+    "id": "datenschutz-flashcard-081",
+    "front": "Was steht beispielhaft auf der DSFA-Whitelist?",
+    "back": "Kundenverwaltung, Rechnungswesen, Logistik, Personalverwaltung, Mitgliederverwaltung, Inventarverwaltung, Register und EDV-Zugriffsverwaltung."
+  },
+  {
+    "id": "datenschutz-flashcard-082",
+    "front": "Was beschreibt die DSFA zu Verarbeitungsvorgängen?",
+    "back": "Art, Umfang, Umstände, Datenarten, Empfänger, Speicherfrist, funktionale Beschreibung, Hardware, Software, Netzwerke und Benutzerkreise."
+  },
+  {
+    "id": "datenschutz-flashcard-083",
+    "front": "Was prüft die DSFA bei Notwendigkeit und Verhältnismäßigkeit?",
+    "back": "Ob der Zweck legitim ist, Verarbeitung erheblich und angemessen ist, nur notwendige Daten genutzt werden und Betroffenenrechte sowie Garantien gesichert sind."
+  },
+  {
+    "id": "datenschutz-flashcard-084",
+    "front": "Was umfasst die DSFA-Risikobewertung?",
+    "back": "Ursache, Art und Schwere der Risiken, Risikoquellen, Auswirkungen, Eintrittswahrscheinlichkeit und Maßnahmen."
+  },
+  {
+    "id": "datenschutz-flashcard-085",
+    "front": "Welche Abhilfemaßnahmen kann eine DSFA nennen?",
+    "back": "Pseudonymisierung, Anonymisierung, Zugriffsbeschränkungen, Protokollierung, Verschlüsselung, Löschfristen, Backups, Notfallprozesse, Schulungen und bauliche Schutzmaßnahmen."
+  },
+  {
+    "id": "datenschutz-flashcard-086",
+    "front": "Wie wird der Standpunkt der Betroffenen in der DSFA berücksichtigt?",
+    "back": "Er soll eingeholt oder durch Vertreter ersetzt werden; wenn nicht, braucht es eine Begründung."
+  },
+  {
+    "id": "datenschutz-flashcard-087",
+    "front": "Wann ist die Datenschutzbehörde vorab zu konsultieren?",
+    "back": "Wenn die DSFA ein hohes Risiko ergibt und der Verantwortliche keine ausreichenden Maßnahmen zur Eindämmung treffen kann."
+  },
+  {
+    "id": "datenschutz-flashcard-088",
+    "front": "Wann ist eine Datenschutzverletzung der Datenschutzbehörde zu melden?",
+    "back": "Bei einem Risiko für Rechte und Freiheiten der Betroffenen."
+  },
+  {
+    "id": "datenschutz-flashcard-089",
+    "front": "Wann sind betroffene Personen über einen Data Breach zu informieren?",
+    "back": "Wenn ein hohes Risiko für ihre Rechte und Freiheiten besteht."
+  },
+  {
+    "id": "datenschutz-flashcard-090",
+    "front": "Welche Frist gilt für Data-Breach-Meldungen?",
+    "back": "Unverzüglich, spätestens 72 Stunden ab Bekanntwerden."
+  },
+  {
+    "id": "datenschutz-flashcard-091",
+    "front": "Was gehört in eine Data-Breach-Meldung?",
+    "back": "Art der Verletzung, wahrscheinliche Folgen, getroffene Maßnahmen und Kontaktdaten."
+  },
+  {
+    "id": "datenschutz-flashcard-092",
+    "front": "Was sind Aufgaben eines Datenschutzbeauftragten?",
+    "back": "Beratung, Überwachung, Sensibilisierung und Schulung, Beratung zu DSFA/Verzeichnis/Applikationsbeschreibung und Bearbeitung von Betroffenenbegehren."
+  },
+  {
+    "id": "datenschutz-flashcard-093",
+    "front": "Welche Qualifikation braucht ein Datenschutzbeauftragter?",
+    "back": "Fachliches Wissen insbesondere im Datenschutzrecht und Fähigkeit, die Aufgaben zu erfüllen."
+  },
+  {
+    "id": "datenschutz-flashcard-094",
+    "front": "Wann ist ein Datenschutzbeauftragter verpflichtend zu bestellen?",
+    "back": "Bei Kerntätigkeiten mit umfangreicher regelmäßiger und systematischer Überwachung oder bei Verarbeitung sensibler Daten."
+  },
+  {
+    "id": "datenschutz-flashcard-095",
+    "front": "Was sind gemeinsame Verantwortliche?",
+    "back": "Zwei oder mehrere Verantwortliche, die gemeinsam Zwecke und Mittel der Verarbeitung festlegen und ihre Pflichten vertraglich aufteilen."
+  },
+  {
+    "id": "datenschutz-flashcard-096",
+    "front": "Können Betroffene Rechte nur gegen einen gemeinsamen Verantwortlichen geltend machen?",
+    "back": "Nein, sie können ihre Rechte gegenüber jedem gemeinsamen Verantwortlichen geltend machen."
+  },
+  {
+    "id": "datenschutz-flashcard-097",
+    "front": "Wann muss ein Vertreter in der EU bestellt werden?",
+    "back": "Wenn keine EU-Niederlassung besteht, aber Waren/Dienstleistungen in der EU angeboten oder Verhalten von Personen in der EU beobachtet wird."
+  },
+  {
+    "id": "datenschutz-flashcard-098",
+    "front": "Welche Funktion hat ein Vertreter?",
+    "back": "Er vertritt hinsichtlich DSGVO-Pflichten und dient als Anlaufstelle für Behörden und Betroffene."
+  },
+  {
+    "id": "datenschutz-flashcard-099",
+    "front": "Was ist ein Beispiel für einen Auftragsverarbeiter?",
+    "back": "Ein IT-Dienstleister, der Daten im Auftrag des Verantwortlichen verarbeitet."
+  },
+  {
+    "id": "datenschutz-flashcard-100",
+    "front": "Warum ist ein Steuerberater meist kein Auftragsverarbeiter?",
+    "back": "Er entscheidet typischerweise eigenständig im Rahmen beruflicher Pflichten und ist daher eher kein bloßer weisungsgebundener Verarbeiter."
+  },
+  {
+    "id": "datenschutz-flashcard-101",
+    "front": "Welche Pflichten hat ein Auftragsverarbeiter?",
+    "back": "Sicherheitsmaßnahmen, Verarbeitungsverzeichnis, ggf. Datenschutzbeauftragter, Risikoanalyse, Unterstützung des Verantwortlichen, Zusammenarbeit mit Behörden und Warnpflicht."
+  },
+  {
+    "id": "datenschutz-flashcard-102",
+    "front": "Was regelt der Vertrag zwischen Verantwortlichem und Auftragsverarbeiter?",
+    "back": "Weisungsbindung, Dauer, Art, Zweck, Datenkategorien, Pflichten, Rechte, Unterauftragsverarbeiter, Vertraulichkeit, Sicherheit, Unterstützung und Löschung."
+  },
+  {
+    "id": "datenschutz-flashcard-103",
+    "front": "Was waren Safe Harbour und Privacy Shield?",
+    "back": "Frühere EU-US-Datentransfer-Mechanismen: Safe Harbour 2000–2016 und Privacy Shield 2016–2020."
+  },
+  {
+    "id": "datenschutz-flashcard-104",
+    "front": "Was ist das EU-US Data Privacy Framework?",
+    "back": "Ein seit 2023 bestehender Mechanismus für bestimmte zertifizierte US-Unternehmen beim internationalen Datentransfer."
+  },
+  {
+    "id": "datenschutz-flashcard-105",
+    "front": "Wann ist internationaler Datenverkehr nicht genehmigungspflichtig?",
+    "back": "Bei EU/EWR-Ländern und Drittländern mit aufrechtem Angemessenheitsbeschluss."
+  },
+  {
+    "id": "datenschutz-flashcard-106",
+    "front": "Was sind Standardvertragsklauseln?",
+    "back": "Von EU-Kommission oder Aufsichtsbehörden angenommene Klauseln mit durchsetzbaren Garantien für Datentransfers in Drittländer."
+  },
+  {
+    "id": "datenschutz-flashcard-107",
+    "front": "Was müssen Datenexporteur und Datenimporteur bei SCC prüfen?",
+    "back": "Ob das Recht des Drittlands die Wirksamkeit der Garantien beeinträchtigt."
+  },
+  {
+    "id": "datenschutz-flashcard-108",
+    "front": "Welche Sanktionen gibt es bei gravierenden DSGVO-Verstößen?",
+    "back": "Bis zu 20 Mio. EUR oder 4 % des weltweiten Jahresumsatzes."
+  },
+  {
+    "id": "datenschutz-flashcard-109",
+    "front": "Welche Sanktionen gibt es bei weniger gewichtigen DSGVO-Verstößen?",
+    "back": "Bis zu 10 Mio. EUR oder 2 % des weltweiten Jahresumsatzes."
+  },
+  {
+    "id": "datenschutz-flashcard-110",
+    "front": "Welche Aufgaben hat die Datenschutzbehörde?",
+    "back": "Beschwerdeverfahren, amtswegige Prüfungen, Verwaltungsstrafverfahren und Zusammenarbeit mit anderen Datenschutzbehörden."
+  },
+  {
+    "id": "datenschutz-flashcard-111",
+    "front": "Was ist der Europäische Datenschutzausschuss?",
+    "back": "Der EDSA ist Nachfolger der Artikel-29-Datenschutzgruppe und koordiniert Leitlinien, Empfehlungen, grenzüberschreitende Fälle und Zertifizierungsfragen."
+  },
+  {
+    "id": "datenschutz-flashcard-112",
+    "front": "Welche Kategorien von Sicherheitsmaßnahmen nennt die Vorlesung?",
+    "back": "Präventiv, detektiv, reaktiv, abschreckend sowie technisch, organisatorisch und physisch."
+  },
+  {
+    "id": "datenschutz-flashcard-113",
+    "front": "Was sind technische Beispiele für Sicherheitsmaßnahmen?",
+    "back": "Firewall, Endpoint Protection, Restoreplan und Protokollierung."
+  },
+  {
+    "id": "datenschutz-flashcard-114",
+    "front": "Was sind organisatorische Beispiele für Sicherheitsmaßnahmen?",
+    "back": "Awareness-Schulung, IT-Analysten, Maßnahmenplan und Stichproben."
+  },
+  {
+    "id": "datenschutz-flashcard-115",
+    "front": "Was sind physische Beispiele für Sicherheitsmaßnahmen?",
+    "back": "Tresor, Lichtschranken, Alarm und Kameras."
+  },
+  {
+    "id": "datenschutz-flashcard-116",
+    "front": "Wann ist Opt-In bei Werbung erforderlich?",
+    "back": "Bei Telefonwerbung, E-Mail-Werbung an Nichtkunden, Verwendung sensibler Daten und Profiling."
+  },
+  {
+    "id": "datenschutz-flashcard-117",
+    "front": "Wann kann Opt-Out bei Werbung genügen?",
+    "back": "Bei postalischer Werbung und Werbung an bestehende Kunden unter den genannten Voraussetzungen."
+  },
+  {
+    "id": "datenschutz-flashcard-118",
+    "front": "Was gilt für Cookies?",
+    "back": "Grundsätzlich ist Einwilligung erforderlich; funktionale Cookies sind ausgenommen."
+  },
+  {
+    "id": "datenschutz-flashcard-119",
+    "front": "Was muss zu Cookies in der Datenschutzerklärung stehen?",
+    "back": "Informationen über eingesetzte Cookies und ihre Zwecke."
+  },
+  {
+    "id": "datenschutz-flashcard-120",
+    "front": "Wie bewertet die Vorlesung Device Fingerprinting?",
+    "back": "Es ist umstritten; die Artikel-29-Datenschutzgruppe empfiehlt Einwilligung."
+  },
+  {
+    "id": "datenschutz-flashcard-121",
+    "front": "Wie hängen Datenschutz und KI zusammen?",
+    "back": "KI verarbeitet häufig personenbezogene Daten, nutzt Profiling oder innovative Technologien und kann daher DSFA-, Transparenz- und Sicherheitsanforderungen auslösen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-001",
+    "front": "Was bedeutet digitale Barrierefreiheit?",
+    "back": "Digitale Barrierefreiheit bedeutet, dass Websites und Apps von allen Menschen genutzt werden können – unabhängig davon, ob eine Behinderung, Einschränkung oder situative Barriere vorliegt."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-002",
+    "front": "Warum ist Barrierefreiheit keine Sonderlösung?",
+    "back": "Barrierefreiheit soll als inklusive Standardlösung von Anfang an eingebaut werden. Separate Sonderangebote führen eher zu Separation als zu echter Inklusion."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-003",
+    "front": "Was bedeutet Nutzung ohne besondere Erschwernis?",
+    "back": "Menschen sollen digitale Angebote ohne unverhältnismäßige Hürden und möglichst ohne fremde Hilfe verwenden können."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-004",
+    "front": "Welche Dimensionen digitaler Barrierefreiheit gibt es?",
+    "back": "Wichtige Dimensionen sind visuell, auditiv, motorisch und kognitiv. Beispiele sind Sehbeeinträchtigungen, Hörbeeinträchtigungen, eingeschränkte Beweglichkeit und Lernschwierigkeiten."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-005",
+    "front": "Was sind visuelle Barrieren?",
+    "back": "Visuelle Barrieren betreffen etwa fehlende Alternativtexte, schlechte Kontraste, kleine Schrift, Farbfehlsichtigkeit oder Inhalte, die nur visuell verständlich sind."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-006",
+    "front": "Was sind auditive Barrieren?",
+    "back": "Auditive Barrieren entstehen, wenn Informationen nur über Ton vermittelt werden, etwa ohne Untertitel, Transkript oder visuelle Alternative."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-007",
+    "front": "Was sind motorische Barrieren?",
+    "back": "Motorische Barrieren entstehen, wenn ein Angebot nur mit Maus, präzisen Bewegungen oder schnellen Reaktionen bedienbar ist."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-008",
+    "front": "Was sind kognitive Barrieren?",
+    "back": "Kognitive Barrieren entstehen durch unnötig komplizierte Sprache, unklare Navigation, inkonsistente Bedienung oder überfordernde Abläufe."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-009",
+    "front": "Warum ist digitale Barrierefreiheit wichtig?",
+    "back": "Sie verbessert Design und Nutzbarkeit für alle, nicht nur für Menschen mit dauerhaften Beeinträchtigungen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-010",
+    "front": "Was sind situative Einschränkungen?",
+    "back": "Situative Einschränkungen sind vorübergehende Nutzungshürden, etwa Sonnenbrille, laute Umgebung, keine Kopfhörer, gebrochener Arm oder Deutsch als Fremdsprache."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-011",
+    "front": "Was ist das zentrale Ziel beim Design barrierefreier Systeme?",
+    "back": "Barrierefreiheit soll von Anfang an mitgedacht werden, ähnlich wie Responsiveness oder Dark Mode."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-012",
+    "front": "Warum betrifft Barrierefreiheit nicht nur wenige Menschen?",
+    "back": "In Österreich leben etwa 1,9 Millionen Menschen mit Beeinträchtigungen; mit steigendem Alter steigt die Wahrscheinlichkeit einer Betroffenheit."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-013",
+    "front": "Was sagt der Mythos 'Barrierefreiheit schränkt Design ein'?",
+    "back": "Der Mythos ist falsch: Kreatives und modernes Design ist mit Barrierefreiheit vereinbar. Gutes Design ist inklusives Design."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-014",
+    "front": "Warum ist spätere Nachbesserung oft teurer?",
+    "back": "Wenn Barrierefreiheit erst nachträglich korrigiert wird, müssen Konzepte, Komponenten, Design und Inhalte oft aufwendig umgebaut werden."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-015",
+    "front": "Warum können KI-Tools Barrierefreiheit nicht vollständig automatisch herstellen?",
+    "back": "Tools können unterstützen, ersetzen aber kein Verständnis für Nutzerbedürfnisse, Semantik, Interaktion, Kontext und rechtliche Anforderungen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-016",
+    "front": "Was bedeutet 'Inklusion statt Separation'?",
+    "back": "Ein barrierefreies Angebot soll für alle gemeinsam funktionieren; getrennte Sonderlösungen sind nur Notbehelfe und oft schlechter wartbar."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-017",
+    "front": "Was sind häufige Barrieren auf Websites?",
+    "back": "Häufig sind fehlende Alt-Texte, schlechte Kontraste, Fokusprobleme, unklare Formulare und nicht-tastaturbedienbare Komponenten."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-018",
+    "front": "Was ist das Web-Zugänglichkeits-Gesetz (WZG)?",
+    "back": "Das WZG verpflichtet öffentliche Stellen in Österreich seit 2019, Websites und mobile Anwendungen barrierefrei zu gestalten."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-019",
+    "front": "Welche vier Grundanforderungen nennt das WZG?",
+    "back": "Websites und Apps öffentlicher Stellen sollen wahrnehmbar, bedienbar, verständlich und robust gestaltet sein."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-020",
+    "front": "Was bedeutet 'wahrnehmbar' in der Barrierefreiheit?",
+    "back": "Informationen müssen so angeboten werden, dass Nutzer sie über mindestens einen Sinneskanal wahrnehmen können, etwa Textalternativen für Bilder."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-021",
+    "front": "Was bedeutet 'bedienbar' in der Barrierefreiheit?",
+    "back": "Bedienung muss unabhängig von bestimmten Eingabegeräten möglich sein, insbesondere auch per Tastatur."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-022",
+    "front": "Was bedeutet 'verständlich' in der Barrierefreiheit?",
+    "back": "Inhalte, Navigation, Formulare und Fehlermeldungen sollen klar, konsistent und nachvollziehbar sein."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-023",
+    "front": "Was bedeutet 'robust' in der Barrierefreiheit?",
+    "back": "Inhalte sollen technisch so umgesetzt sein, dass sie mit verschiedenen Browsern, Geräten und assistiven Technologien zuverlässig funktionieren."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-024",
+    "front": "Welche Richtlinie ist Grundlage des WZG?",
+    "back": "Die EU-Web-Accessibility-Richtlinie 2016/2102 bildet die Grundlage für das österreichische Web-Zugänglichkeitsgesetz."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-025",
+    "front": "Welche Stellen fallen typischerweise unter das WZG?",
+    "back": "Bundesbehörden, Bundesministerien, Universitäten und bestimmte Bundesunternehmen fallen unter den öffentlichen Anwendungsbereich."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-026",
+    "front": "Was ist die FFG-Richtschnur für WZG-Konformität?",
+    "back": "Als praktische Richtschnur wird die Einhaltung der WCAG 2.1 auf Konformitätsstufe AA genannt."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-027",
+    "front": "Welche Inhalte sind nach dem WZG teilweise ausgenommen?",
+    "back": "Ausnahmen betreffen z.B. ältere Dateien, ältere Audio-/Videomedien, Live-Medien, bestimmte Karten, fremde Inhalte außerhalb des Wirkungsbereichs und archivierte Inhalte."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-028",
+    "front": "Was ist eine Barrierefreiheitserklärung?",
+    "back": "Eine öffentliche Erklärung, in der Betreiber angeben, inwieweit Website oder App die Barrierefreiheitsanforderungen erfüllen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-029",
+    "front": "Wo muss die Barrierefreiheitserklärung auffindbar sein?",
+    "back": "Sie muss über die Startseite erreichbar sein, z.B. über einen Link in Kopf- oder Fußzeile."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-030",
+    "front": "Welche Pflichtinhalte hat eine Barrierefreiheitserklärung?",
+    "back": "Sie enthält u.a. Stand der Vereinbarkeit, nicht barrierefreie Inhalte, Erstellungshinweise, Feedback-Mechanismus und Durchsetzungsverfahren."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-031",
+    "front": "Was ist der Feedback-Mechanismus im WZG?",
+    "back": "Nutzer können der öffentlichen Stelle Barriere-Mängel melden. Auf Hinweise ist innerhalb einer vorgesehenen Frist zu reagieren."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-032",
+    "front": "Wie schnell soll auf Hinweise nach dem WZG reagiert werden?",
+    "back": "Auf einen Hinweis zu Barriere-Mängeln soll innerhalb von zwei Monaten reagiert werden."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-033",
+    "front": "Welche Rolle hat die FFG im WZG?",
+    "back": "Die FFG führt Monitoring durch, prüft stichprobenartig und wiederkehrend, erstellt Berichte, betreibt Beschwerdemanagement und unterstützt Sensibilisierung."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-034",
+    "front": "Was ist der European Accessibility Act (EAA)?",
+    "back": "Der EAA ist eine EU-Richtlinie, die Barrierefreiheitsanforderungen für bestimmte Produkte und Dienstleistungen des privaten Sektors vorgibt."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-035",
+    "front": "Was ist das Barrierefreiheitsgesetz (BaFG)?",
+    "back": "Das BaFG setzt den European Accessibility Act in Österreich um und verpflichtet ab 2025 viele private Anbieter zu Barrierefreiheitsanforderungen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-036",
+    "front": "Ab wann gilt das BaFG?",
+    "back": "Das Barrierefreiheitsgesetz gilt grundsätzlich ab 28.06.2025."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-037",
+    "front": "Welche Produkte können unter das BaFG fallen?",
+    "back": "Beispiele sind Hardware mit Betriebssystemen, Selbstbedienungsterminals, Smartphones, Smart-TVs und E-Book-Lesegeräte."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-038",
+    "front": "Welche Dienstleistungen können unter das BaFG fallen?",
+    "back": "Beispiele sind elektronische Kommunikationsdienste, Zugangsdienste zu audiovisuellen Mediendiensten, Personenverkehrsdienste, Bankdienstleistungen, E-Book-Software und B2C-E-Commerce."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-039",
+    "front": "Was bedeutet B2C-E-Commerce im BaFG-Kontext?",
+    "back": "Dienstleistungen im elektronischen Geschäftsverkehr gegenüber Verbraucherinnen und Verbrauchern können barrierefreiheitspflichtig sein."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-040",
+    "front": "Welche BaFG-Ausnahmen gibt es bei Dienstleistungen?",
+    "back": "Kleinstunternehmen, die Dienstleistungen erbringen, können ausgenommen sein, wenn sie weniger als 10 Personen beschäftigen und unter 2 Mio. EUR Umsatz oder Bilanzsumme liegen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-041",
+    "front": "Was ist eine unverhältnismäßige Belastung im BaFG?",
+    "back": "Eine Barrierefreiheitsanforderung kann entfallen, wenn sie für den Wirtschaftsakteur unverhältnismäßig belastend wäre; diese Beurteilung ist regelmäßig zu überprüfen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-042",
+    "front": "Wie oft ist eine unverhältnismäßige Belastung nach BaFG zu beurteilen?",
+    "back": "Die Beurteilung ist grundsätzlich alle fünf Jahre zu erneuern."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-043",
+    "front": "Welche Pflichten haben Dienstleistungserbringer nach BaFG?",
+    "back": "Sie müssen erklären, wie die Dienstleistung Anforderungen erfüllt, die Dienstleistung barrierefrei beschreiben, Nichtkonformität korrigieren und mit Behörden kooperieren."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-044",
+    "front": "Welche Behörde ist Marktüberwachungsbehörde nach dem BaFG?",
+    "back": "In Österreich ist das Sozialministerium bzw. Sozialministeriumservice als Marktüberwachungsbehörde zuständig."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-045",
+    "front": "Welche Aufbewahrungspflicht nennt das BaFG?",
+    "back": "Wirtschaftsakteure müssen bestimmte Informationen zu Importeuren und Exporteuren auf Verlangen nennen; im Material wird eine Aufbewahrungspflicht von fünf Jahren genannt."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-046",
+    "front": "Welche Höchststrafe nennt das BaFG?",
+    "back": "Für Verstöße wird eine Höchststrafe von 80.000 EUR genannt; für KMU und Kleinstunternehmen sind reduzierte Strafen vorgesehen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-047",
+    "front": "Welche Übergangsfrist gilt für bestehende Dienstleistungen oder Produkte?",
+    "back": "Für bestehende Dienstleistungen oder Produkte wird eine Übergangsfrist bis 28.06.2030 genannt."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-048",
+    "front": "Welche Übergangsfrist gilt für Selbstbedienungsterminals?",
+    "back": "Für bestimmte bestehende Selbstbedienungsterminals gilt eine Frist bis 28.06.2040, maximal 20 Jahre ab Ingebrauchnahme."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-049",
+    "front": "Was ist ein Alternativtext?",
+    "back": "Ein Alternativtext beschreibt den relevanten Inhalt oder Zweck eines Bildes so, dass Screenreader-Nutzer die Information erhalten."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-050",
+    "front": "Wann braucht ein Bild einen Alt-Text?",
+    "back": "Wenn ein Bild Information, Funktion oder Kontext vermittelt, braucht es eine sinnvolle Textalternative."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-051",
+    "front": "Wann sollte ein Bild keinen inhaltlichen Alt-Text haben?",
+    "back": "Rein dekorative Bilder sollten so ausgezeichnet werden, dass assistive Technologien sie überspringen können."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-052",
+    "front": "Was ist Tastaturzugänglichkeit?",
+    "back": "Alle wesentlichen Funktionen müssen ohne Maus erreichbar und bedienbar sein, insbesondere mit Tab, Shift+Tab, Enter, Space und Pfeiltasten."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-053",
+    "front": "Warum sind sichtbare Fokus-Stile wichtig?",
+    "back": "Nutzer, die per Tastatur navigieren, müssen erkennen können, welches Element gerade fokussiert ist."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-054",
+    "front": "Was bedeutet logische Fokusreihenfolge?",
+    "back": "Die Reihenfolge der Tastaturnavigation soll der visuellen und inhaltlichen Struktur der Seite folgen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-055",
+    "front": "Warum ist Struktur für Barrierefreiheit wichtig?",
+    "back": "Überschriften, Listen, Landmarken und semantische Elemente helfen Nutzerinnen und assistiven Technologien, Inhalte schnell zu verstehen und zu navigieren."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-056",
+    "front": "Wie sollten Überschriften verwendet werden?",
+    "back": "Überschriften sollen hierarchisch und logisch eingesetzt werden, z.B. H1 für die Hauptüberschrift und darunter passende H2/H3-Strukturen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-057",
+    "front": "Was braucht jedes Eingabefeld in einem barrierefreien Formular?",
+    "back": "Jedes Eingabefeld braucht ein zugeordnetes Label, das den Zweck des Feldes eindeutig beschreibt."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-058",
+    "front": "Warum ist 'E-Mail-Adresse' als Label besser als 'Email'?",
+    "back": "Präzise Labels vermeiden Missverständnisse und helfen Nutzerinnen, insbesondere bei Screenreadern oder kognitiven Einschränkungen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-059",
+    "front": "Wie sollen Fehlermeldungen in Formularen funktionieren?",
+    "back": "Fehlermeldungen sollen verständlich sein, dem betroffenen Feld zugeordnet werden und bei Bedarf automatisch fokussiert oder gut auffindbar sein."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-060",
+    "front": "Was sind automatisierte Accessibility-Testing-Tools?",
+    "back": "Tools wie Lighthouse, WAVE, axe, Browser Developer Tools, Accessibility Inspector und Linters erkennen viele technische Barrieren automatisch."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-061",
+    "front": "Warum reichen automatische Tests nicht aus?",
+    "back": "Automatische Tests erkennen nur einen Teil der Barrieren. Tastaturbedienung, Screenreader-Verhalten, Verständlichkeit und sinnvolle Alt-Texte müssen auch manuell geprüft werden."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-062",
+    "front": "Was sind semi-automatische oder manuelle Tests?",
+    "back": "Dazu gehören Keyboard-Testing, Screenreader-Tests mit NVDA oder VoiceOver, Kontrastprüfungen, Zoom-Tests und Responsivitätstests."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-063",
+    "front": "Was verlangt WCAG zum Zoom?",
+    "back": "In den Folien wird genannt, dass bis 200% Zoom ohne Verlust von Inhalt oder Funktion möglich sein soll."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-064",
+    "front": "Warum ist Kontrast wichtig?",
+    "back": "Ausreichender Kontrast hilft Menschen mit Sehbeeinträchtigung, Farbfehlsichtigkeit, schlechten Lichtbedingungen oder mobilen Nutzungssituationen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-065",
+    "front": "Was ist APCA?",
+    "back": "APCA ist ein moderner Ansatz zur Kontrastbewertung, der neben WCAG-Kontrastrechnern zur Prüfung barrierefreier Farben verwendet werden kann."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-066",
+    "front": "Was bedeutet Screenreader-Kompatibilität?",
+    "back": "Inhalte und Bedienelemente müssen semantisch korrekt und verständlich ausgezeichnet sein, damit Screenreader sie sinnvoll ausgeben können."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-067",
+    "front": "Warum ist einfache Sprache ein UX-Praxistipp?",
+    "back": "Klare und verständliche Inhalte reduzieren kognitive Barrieren und helfen auch Menschen mit Deutsch als Fremdsprache."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-068",
+    "front": "Was bedeutet Konsistenz und Orientierung im UX-Design?",
+    "back": "Navigation, Layout und Interaktionsmuster sollen einheitlich sein, damit Nutzer sich auf allen Seiten zurechtfinden."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-069",
+    "front": "Was bedeutet sichtbares Feedback?",
+    "back": "Nutzer sollen bei Interaktionen klare Rückmeldungen erhalten, z.B. Fokus-Stile, Bestätigungen oder deutliche Fehlermeldungen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-070",
+    "front": "Warum ist responsive Design Teil barrierefreier Praxis?",
+    "back": "Flexible Layouts und Schriftgrößen unterstützen verschiedene Geräte, Zoomstufen und Nutzungssituationen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-071",
+    "front": "Was sind barrierefreie Komponenten?",
+    "back": "Komponenten, die semantisch korrekt, tastaturbedienbar, screenreader-kompatibel und nach WAI-ARIA-Practices geprüft sind."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-072",
+    "front": "Was bedeutet 'Mobile Barrierefrei First' in den Folien kritisch?",
+    "back": "Die Folien stellen klar, dass Barrierefreiheit keine separate mobile Sonderlösung sein soll; inklusiver Standard ist besser als getrennte Angebote."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-073",
+    "front": "Warum sind Karten oft problematisch?",
+    "back": "Karten können visuell schwer zugänglich sein; wesentliche Informationen müssen deshalb in barrierefreier Form zusätzlich verfügbar sein."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-074",
+    "front": "Warum sind Live-Medien im WZG besonders?",
+    "back": "Live-Audio- oder Videomedien sind im WZG-Ausnahmenkatalog genannt, weil sofortige Barrierefreiheit technisch und organisatorisch schwerer sein kann."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-075",
+    "front": "Warum sind Inhalte Dritter oft ausgenommen?",
+    "back": "Wenn Inhalte von Dritten stammen und außerhalb des Wirkungsbereichs des Rechtsträgers liegen, kann die Stelle sie nicht vollständig kontrollieren."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-076",
+    "front": "Was ist eine grundlegende Veränderung im BaFG?",
+    "back": "Eine Barrierefreiheitsanforderung kann ausgenommen sein, wenn sie das Produkt oder die Dienstleistung grundlegend verändern würde."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-077",
+    "front": "Warum muss Barrierefreiheit rechtlich und technisch gedacht werden?",
+    "back": "Sie ist sowohl eine rechtliche Pflicht als auch eine Design-, UX-, Entwicklungs- und Qualitätssicherungsaufgabe."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-078",
+    "front": "Was ist die wichtigste praktische Regel aus der Vorlesung?",
+    "back": "Barrierefreiheit früh planen, semantisch sauber bauen, mit echten Nutzungsszenarien testen und nicht auf spätere automatische Reparatur vertrauen."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-079",
+    "front": "Welche Rolle spielt WCAG 2.1 AA?",
+    "back": "WCAG 2.1 AA dient in den Folien als zentrale praktische Messlatte für WZG und BaFG-Konformität."
+  },
+  {
+    "id": "barrierefreiheit-flashcard-080",
+    "front": "Was ist der Zusammenhang zwischen Barrierefreiheit und Datenschutz/AI Act?",
+    "back": "Alle drei Themen verlangen verantwortungsvolle Technikgestaltung: Rechte Betroffener, Nachvollziehbarkeit, Risikobewertung und Schutz vulnerabler Gruppen."
+  },
+  {
+    "id": "flashcard-lic-001",
+    "front": "Arten des Schutzes geistiger Leistungen",
+    "back": "Ein Werk oder eine Leistung kann unter anderem durch Urheberschutz, Markenschutz, Patentschutz, Gebrauchsmusterschutz oder Geschmacksmusterschutz geschützt werden."
+  },
+  {
+    "id": "flashcard-lic-002",
+    "front": "Urheberrecht: historische Eckpunkte",
+    "back": "Wichtige historische Punkte sind Buchdruck um 1440, frühe Druckrechte, das Statute of Anne 1710, das französische droit d’auteur, das US-Copyright und die Universal Copyright Convention."
+  },
+  {
+    "id": "flashcard-lic-003",
+    "front": "Anglo-amerikanisches Copyright-Konzept",
+    "back": "Das anglo-amerikanische Konzept betont stärker das öffentliche Interesse an Wissensproduktion und Verbreitung."
+  },
+  {
+    "id": "flashcard-lic-004",
+    "front": "Französisches Urheberrechtskonzept",
+    "back": "Das französische Konzept betont stärker die persönlichkeitsrechtliche Verbindung zwischen Urheber und Werk."
+  },
+  {
+    "id": "flashcard-lic-005",
+    "front": "Werkarten nach § 1 UrhG",
+    "back": "Das UrhG schützt Werke der Literatur, Tonkunst, bildenden Künste und Filmkunst."
+  },
+  {
+    "id": "flashcard-lic-006",
+    "front": "Voraussetzungen für urheberrechtlichen Werkschutz",
+    "back": "Erforderlich sind eine eigentümliche geistige schöpferische Leistung, Wahrnehmbarkeit und Originalität."
+  },
+  {
+    "id": "flashcard-lic-007",
+    "front": "Literaturwerke nach § 2 UrhG",
+    "back": "Literatur umfasst Sprachwerke aller Art, Bühnenwerke, Werke wissenschaftlicher oder belehrender Art und auch Computerprogramme."
+  },
+  {
+    "id": "flashcard-lic-008",
+    "front": "Beispiele für Literaturwerke",
+    "back": "Beispiele sind Rezepte, Liedtexte, Drehbücher, Zeitungsartikel, Gedichte, Landkarten und wissenschaftliche Texte."
+  },
+  {
+    "id": "flashcard-lic-009",
+    "front": "Computerprogramme im UrhG",
+    "back": "Computerprogramme umfassen alle Ausdrucksformen einschließlich Maschinencode sowie Material zur Entwicklung des Programms."
+  },
+  {
+    "id": "flashcard-lic-010",
+    "front": "Dienstgeberrechte bei Computerprogrammen",
+    "back": "Bei Computerprogrammen können Werknutzungsrechte für den Dienstgeber relevant sein; das gilt auch für Datenbanken."
+  },
+  {
+    "id": "flashcard-lic-011",
+    "front": "Übertragbarkeit von Werknutzungsrechten bei Software",
+    "back": "Werknutzungsrechte an Computerprogrammen sind grundsätzlich übertragbar."
+  },
+  {
+    "id": "flashcard-lic-012",
+    "front": "Berechtigte Nutzer von Computerprogrammen",
+    "back": "Berechtigte Nutzer dürfen Sicherungskopien herstellen und das Programm beobachten, untersuchen oder testen, um Ideen und Grundsätze zu ermitteln."
+  },
+  {
+    "id": "flashcard-lic-013",
+    "front": "OGH zu komplexen Programmen",
+    "back": "Schutzwürdig sind insbesondere komplexe neue Programme mit individueller Prägung, wenn mehrere Lösungen möglich waren und besondere Fachkenntnis einfloss."
+  },
+  {
+    "id": "flashcard-lic-014",
+    "front": "HTML-Beispiel im Urheberrecht",
+    "back": "Ein sehr einfaches HTML-Beispiel dient als Gegenbeispiel: Nicht jeder Code erreicht automatisch die notwendige schöpferische Originalität."
+  },
+  {
+    "id": "flashcard-lic-015",
+    "front": "Bildende Kunst nach § 3 UrhG",
+    "back": "Dazu gehören Werke der Baukunst, angewandten Kunst, Lichtbildkunst, Fotografien, Malerei, Zeichnungen und 3D-Druck."
+  },
+  {
+    "id": "flashcard-lic-016",
+    "front": "Filmkunst nach § 4 UrhG",
+    "back": "Dazu zählen Filmwerke und Laufbildwerke, etwa Stummfilme, Tonfilme und Fernsehproduktionen."
+  },
+  {
+    "id": "flashcard-lic-017",
+    "front": "Tonkunst im Urheberrecht",
+    "back": "Musikalische Werke sind unabhängig von ihrer Erzeugungsart geschützt, also etwa Stimme, Instrument oder Computer."
+  },
+  {
+    "id": "flashcard-lic-018",
+    "front": "Gestaltungselemente der Musik",
+    "back": "Bei Musik können Melodie, Harmonik und Rhythmus urheberrechtlich relevante Gestaltungselemente sein."
+  },
+  {
+    "id": "flashcard-lic-019",
+    "front": "Sammelwerke nach § 6 UrhG",
+    "back": "Eine Zusammenstellung kann ein neues Werk bilden, etwa eine Datenbank, ein Kochbuch, ein Lexikon oder ein Magazin."
+  },
+  {
+    "id": "flashcard-lic-020",
+    "front": "Urheberrecht entsteht automatisch",
+    "back": "Der Schutz entsteht mit der Schöpfung des Werkes; eine Registrierung ist nicht erforderlich."
+  },
+  {
+    "id": "flashcard-lic-021",
+    "front": "Schöpferprinzip",
+    "back": "Das Urheberrecht ist an die natürliche Person gebunden, die das Werk geschaffen hat."
+  },
+  {
+    "id": "flashcard-lic-022",
+    "front": "Regelschutzdauer im Urheberrecht",
+    "back": "Die Regelschutzdauer beträgt 70 Jahre nach dem Tod des Schöpfers."
+  },
+  {
+    "id": "flashcard-lic-023",
+    "front": "Urheberrecht unter Lebenden",
+    "back": "Das Urheberrecht selbst ist vererbbar, aber unter Lebenden nicht übertragbar; Nutzungsrechte können jedoch eingeräumt werden."
+  },
+  {
+    "id": "flashcard-lic-024",
+    "front": "Schutzlandprinzip",
+    "back": "Welches Recht gilt, richtet sich grundsätzlich nach dem Schutzland; Schutz wird territorial betrachtet."
+  },
+  {
+    "id": "flashcard-lic-025",
+    "front": "Miturheber",
+    "back": "Miturheber schaffen gemeinsam ein Werk und haben gemeinsame Urheberrechte."
+  },
+  {
+    "id": "flashcard-lic-026",
+    "front": "Teilurheber",
+    "back": "Teilurheber verbinden eigenständig verwertbare Werke zu einem einheitlichen Ganzen."
+  },
+  {
+    "id": "flashcard-lic-027",
+    "front": "Schutz geistiger Interessen",
+    "back": "Zum Schutz geistiger Interessen gehören etwa Urheberbezeichnung, Titelschutz und gegebenenfalls Zugänglichmachen zur Vervielfältigung."
+  },
+  {
+    "id": "flashcard-lic-028",
+    "front": "Verwertungsrechte",
+    "back": "Zu den Verwertungsrechten zählen Übersetzungs- und Bearbeitungsrecht, Vervielfältigungsrecht, Verbreitungsrecht, Vermietrecht, Senderecht, Aufführungsrecht und Zurverfügungstellungsrecht."
+  },
+  {
+    "id": "flashcard-lic-029",
+    "front": "Leistungsschutzrechte: Grundidee",
+    "back": "Leistungsschutzrechte schützen verwandte Leistungen, etwa ausübende Künstler, Veranstalter, Lichtbilder, Schallträger, Rundfunksendungen und Datenbankhersteller."
+  },
+  {
+    "id": "flashcard-lic-030",
+    "front": "Leistungsschutz für Datenbankhersteller",
+    "back": "Der Schutz des Datenbankherstellers beträgt typischerweise 15 Jahre."
+  },
+  {
+    "id": "flashcard-lic-031",
+    "front": "Freie Werke",
+    "back": "Gesetze, Verordnungen und amtliche Erlässe sind freie Werke und daher nicht urheberrechtlich geschützt."
+  },
+  {
+    "id": "flashcard-lic-032",
+    "front": "Freihaltebedürfnis",
+    "back": "Gedanken, Ideen, Methoden, Systeme, technische Lösungen, mathematische Formeln, Theorien, Erkenntnisse, Fakten und historische Abläufe bleiben frei."
+  },
+  {
+    "id": "flashcard-lic-033",
+    "front": "Öffentliche Wiedergabe",
+    "back": "Öffentliche Wiedergabe liegt bei Vorführung digitaler Werke vor einem unbestimmten Personenkreis nahe, insbesondere bei großem Personenkreis ohne Beziehung zum Veranstalter und kommerziellem Kontext."
+  },
+  {
+    "id": "flashcard-lic-034",
+    "front": "Flüchtige Vervielfältigung",
+    "back": "Flüchtige und begleitende Kopien wie RAM- oder Swap-Kopien können freie Werknutzung sein."
+  },
+  {
+    "id": "flashcard-lic-035",
+    "front": "Privatkopie",
+    "back": "Vervielfältigung zum privaten und eigenen Gebrauch kann zulässig sein; in der Praxis wird oft ein kleiner privater Kreis angenommen."
+  },
+  {
+    "id": "flashcard-lic-036",
+    "front": "Weitere freie Werknutzungen",
+    "back": "Zu den freien Werknutzungen zählen unter anderem Tagesberichterstattung, Einrichtungen des Kulturerbes, unwesentliches Beiwerk, amtlicher Gebrauch und bestimmte Bildungs- und Forschungsnutzungen."
+  },
+  {
+    "id": "flashcard-lic-037",
+    "front": "Barrierefreie Übersetzung im Urheberrecht",
+    "back": "Barrierefreie Übersetzungen können als freie Werknutzung zulässig sein."
+  },
+  {
+    "id": "flashcard-lic-038",
+    "front": "Zitate, Parodie und Pastiche",
+    "back": "Zitate sowie Karikaturen, Parodien und Pastiches sind wichtige Schranken des Urheberrechts."
+  },
+  {
+    "id": "flashcard-lic-039",
+    "front": "Text- und Data-Mining",
+    "back": "Text- und Data-Mining kann für frei zugängliche Werke zulässig sein, wenn digitale Texte und Daten automatisiert ausgewertet werden."
+  },
+  {
+    "id": "flashcard-lic-040",
+    "front": "TDM-Nutzungsvorbehalt",
+    "back": "Text- und Data-Mining kann durch einen maschinenlesbar kenntlich gemachten Nutzungsvorbehalt untersagt werden."
+  },
+  {
+    "id": "flashcard-lic-041",
+    "front": "Forschungseinrichtungen und TDM",
+    "back": "Forschungseinrichtungen können unter bestimmten Bedingungen nicht-kommerzielles Text- und Data-Mining durchführen."
+  },
+  {
+    "id": "flashcard-lic-042",
+    "front": "Dekompilierung nach § 40e UrhG",
+    "back": "Dekompilierung kann erlaubt sein, wenn Genehmigung vorliegt, Interoperabilität hergestellt werden soll oder Fehler behoben werden müssen."
+  },
+  {
+    "id": "flashcard-lic-043",
+    "front": "Robots.txt",
+    "back": "Robots.txt nach RFC 9309 kann Crawlern signalisieren, welche Bereiche sie abrufen oder nicht abrufen sollen."
+  },
+  {
+    "id": "flashcard-lic-044",
+    "front": "Grenzen von Robots.txt",
+    "back": "Robots.txt ist konfigurierbar, aber Erweiterungen werden nicht immer unterstützt; eine empfohlene Größe liegt bei maximal 500 KiB."
+  },
+  {
+    "id": "flashcard-lic-045",
+    "front": "Recht am eigenen Bild",
+    "back": "Bildnisse von Personen dürfen nicht öffentlich verbreitet werden, wenn dadurch berechtigte Interessen der abgebildeten Person oder naher Angehöriger verletzt würden."
+  },
+  {
+    "id": "flashcard-lic-046",
+    "front": "Thumbnails",
+    "back": "Vorschauanzeigen sind im Allgemeinen keine Urheberrechtsverletzung, solange keine technischen Sperren umgangen und keine illegalen Inhalte verlinkt werden."
+  },
+  {
+    "id": "flashcard-lic-047",
+    "front": "Technische Schutzmaßnahmen",
+    "back": "Die Umgehung wirksamer technischer Maßnahmen sowie Herstellung oder Vertrieb von Umgehungsmitteln ist verboten."
+  },
+  {
+    "id": "flashcard-lic-048",
+    "front": "Arten technischer Schutzmaßnahmen",
+    "back": "Dazu zählen Zugangskontrollen wie Passwörter, Verwendungskontrollen wie Kopierschutz oder Geolocation und Integritätskontrollen."
+  },
+  {
+    "id": "flashcard-lic-049",
+    "front": "Verwaiste Werke",
+    "back": "Verwaiste Werke sind Werke, deren Rechteinhaber trotz sorgfältiger Suche nicht festgestellt werden können."
+  },
+  {
+    "id": "flashcard-lic-050",
+    "front": "Nutzung verwaister Werke",
+    "back": "Verwaiste Werke dürfen unter engen Voraussetzungen unentgeltlich für Bewahrung, Restaurierung und Bereitstellung von Gemeingütern genutzt werden."
+  },
+  {
+    "id": "flashcard-lic-051",
+    "front": "EUIPO-Meldung bei verwaisten Werken",
+    "back": "Die Nutzung verwaister Werke ist an eine Meldung an das Amt der Europäischen Union für geistiges Eigentum gebunden."
+  },
+  {
+    "id": "flashcard-lic-052",
+    "front": "Ansprüche bei Urheberrechtsverletzung",
+    "back": "Mögliche Ansprüche sind Unterlassung, Beseitigung, Schadenersatz und Urteilsveröffentlichung."
+  },
+  {
+    "id": "flashcard-lic-053",
+    "front": "Gewerbsmäßige Urheberrechtsverletzung",
+    "back": "Bei Gewerbsmäßigkeit kann eine Freiheitsstrafe bis zu zwei Jahren drohen."
+  },
+  {
+    "id": "flashcard-lic-054",
+    "front": "Verwertungsgesellschaften",
+    "back": "Verwertungsgesellschaften nehmen Rechte gebündelt für mehrere Rechteinhaber wahr und erheben Gebühren."
+  },
+  {
+    "id": "flashcard-lic-055",
+    "front": "Beispiele österreichischer Verwertungsgesellschaften",
+    "back": "Beispiele sind AKM/AUME, Bildrecht, Literar-Mechana, LSG, RAW, VAM, VdFS und VGR."
+  },
+  {
+    "id": "flashcard-lic-056",
+    "front": "AKM/AUME",
+    "back": "AKM/AUME ist insbesondere im Bereich Musik zuständig, etwa für öffentliche Aufführung, Radio, Fernsehen, Downloads, Streaming und Speichermedienvergütung."
+  },
+  {
+    "id": "flashcard-lic-057",
+    "front": "Bildrecht",
+    "back": "Bildrecht betrifft bildende Kunst, Architektur, Fotografie, Grafik, Illustration, Design und bestimmte filmische oder choreographische Werke."
+  },
+  {
+    "id": "flashcard-lic-058",
+    "front": "Literar-Mechana",
+    "back": "Literar-Mechana ist unter anderem für Sprachwerke, Musiknoten, Bibliothekstantieme, Kabelweitersendung und Reprografievergütung zuständig."
+  },
+  {
+    "id": "flashcard-lic-059",
+    "front": "Markenrecht: Funktion",
+    "back": "Marken kennzeichnen Waren oder Dienstleistungen eines Unternehmens und dienen auch als Marketingtool."
+  },
+  {
+    "id": "flashcard-lic-060",
+    "front": "Schutzlandprinzip im Markenrecht",
+    "back": "Auch Markenrechte sind territorial geprägt; Schutz besteht grundsätzlich im jeweiligen Schutzgebiet."
+  },
+  {
+    "id": "flashcard-lic-061",
+    "front": "Nizza-Klassifikation",
+    "back": "Die Nizza-Klassifikation unterscheidet Waren- und Dienstleistungsklassen, unter anderem 34 Warenklassen und 11 Dienstleistungsklassen."
+  },
+  {
+    "id": "flashcard-lic-062",
+    "front": "Benutzungszwang bei Marken",
+    "back": "Wird eine Marke nicht benutzt, kann nach einer gewissen Zeit ein Löschungsantrag möglich sein, typischerweise nach fünf Jahren."
+  },
+  {
+    "id": "flashcard-lic-063",
+    "front": "Keine nachträgliche Erweiterung der Marke",
+    "back": "Nach der Anmeldung ist eine nachträgliche Erweiterung des Waren- und Dienstleistungsverzeichnisses nicht möglich."
+  },
+  {
+    "id": "flashcard-lic-064",
+    "front": "Wortmarke",
+    "back": "Eine Wortmarke besteht aus Zeichen wie Buchstaben, Zahlen und bestimmten Sonderzeichen ohne Schutz für Farbe, Schriftgröße oder Formatierung."
+  },
+  {
+    "id": "flashcard-lic-065",
+    "front": "Bildmarke",
+    "back": "Eine Bildmarke schützt grafische Darstellungen, etwa ein Logo als Vektorgrafik oder PNG."
+  },
+  {
+    "id": "flashcard-lic-066",
+    "front": "Wortbildmarke",
+    "back": "Eine Wortbildmarke verbindet Wort- und Bildbestandteile, zum Beispiel ein Schriftzug mit Logo."
+  },
+  {
+    "id": "flashcard-lic-067",
+    "front": "Positionsmarke",
+    "back": "Eine Positionsmarke schützt eine gleichbleibende Positionierung auf bestimmten Waren."
+  },
+  {
+    "id": "flashcard-lic-068",
+    "front": "Formmarke",
+    "back": "Eine Formmarke schützt eine dreidimensionale Form als Herkunftshinweis."
+  },
+  {
+    "id": "flashcard-lic-069",
+    "front": "Farbmarke",
+    "back": "Eine Farbmarke schützt eine Farbe nur in Verbindung mit einem relevanten Verkehrskreis und entsprechender Kennzeichnungskraft."
+  },
+  {
+    "id": "flashcard-lic-070",
+    "front": "Klangmarke",
+    "back": "Eine Klangmarke schützt einen Jingle oder eine kurze Tonfolge."
+  },
+  {
+    "id": "flashcard-lic-071",
+    "front": "Hologrammmarke",
+    "back": "Eine Hologrammmarke schützt holografische Merkmale als Marke."
+  },
+  {
+    "id": "flashcard-lic-072",
+    "front": "Mustermarke",
+    "back": "Eine Mustermarke besteht aus regelmäßig wiederholten Elementen."
+  },
+  {
+    "id": "flashcard-lic-073",
+    "front": "Bewegungsmarke",
+    "back": "Eine Bewegungsmarke schützt Bewegung oder Positionsänderung von Markenelementen ohne Ton."
+  },
+  {
+    "id": "flashcard-lic-074",
+    "front": "Multimediamarke",
+    "back": "Eine Multimediamarke verbindet Bewegung oder Positionsänderung mit Ton."
+  },
+  {
+    "id": "flashcard-lic-075",
+    "front": "Sonstige Markenformen",
+    "back": "Geruchs-, Geschmacks-, Tast-, Signal- oder Fluid-Marken sind denkbar, aber oft schwer darstellbar und beschreibbar."
+  },
+  {
+    "id": "flashcard-lic-076",
+    "front": "Registrierungshindernisse",
+    "back": "Hindernisse sind unter anderem Konflikt mit älteren Marken, fehlende Unterscheidungskraft, allgemeiner Sprachgebrauch, Hoheitszeichen, Sittenwidrigkeit, Täuschung und Freihaltebedürfnis."
+  },
+  {
+    "id": "flashcard-lic-077",
+    "front": "Deonym als Markenproblem",
+    "back": "Ein Deonym ist ein ursprünglich geschützter Markenname, der zum allgemeinen Begriff geworden ist und dadurch markenrechtlich problematisch werden kann."
+  },
+  {
+    "id": "flashcard-lic-078",
+    "front": "Markenregistrierung",
+    "back": "Marken können etwa beim Patentamt, beim EUIPO oder international angemeldet werden."
+  },
+  {
+    "id": "flashcard-lic-079",
+    "front": "Schutzdauer einer Marke",
+    "back": "Eine Marke hat typischerweise 10 Jahre Schutzdauer und kann verlängert werden."
+  },
+  {
+    "id": "flashcard-lic-080",
+    "front": "®-Symbol",
+    "back": "Das ®-Symbol sollte erst ab Registrierung verwendet werden."
+  },
+  {
+    "id": "flashcard-lic-081",
+    "front": "Markenrechtsverletzung",
+    "back": "Bei Markenverletzungen kommen Unterlassung, Beseitigung, Schadenersatz, Urteilsveröffentlichung und bei Gewerbsmäßigkeit strafrechtliche Folgen in Betracht."
+  },
+  {
+    "id": "flashcard-lic-082",
+    "front": "Patentvoraussetzungen",
+    "back": "Ein Patent setzt Neuheit, gewerbliche Anwendbarkeit, Nicht-Trivialität und die Lösung eines technischen Problems voraus."
+  },
+  {
+    "id": "flashcard-lic-083",
+    "front": "Patentveröffentlichung",
+    "back": "Ein Patent wird veröffentlicht; Schutz bedeutet also regelmäßig Offenlegung der technischen Lehre."
+  },
+  {
+    "id": "flashcard-lic-084",
+    "front": "Maximale Patentschutzdauer",
+    "back": "Die maximale Schutzdauer eines Patents beträgt 20 Jahre."
+  },
+  {
+    "id": "flashcard-lic-085",
+    "front": "Sachpatent",
+    "back": "Ein Sachpatent schützt einen räumlich fassbaren Gegenstand, etwa eine Maschine, ein Medikament oder einen Gebrauchsgegenstand."
+  },
+  {
+    "id": "flashcard-lic-086",
+    "front": "Verfahrenspatent",
+    "back": "Ein Verfahrenspatent schützt einen zeitlichen Ablauf von Vorgängen, durch die auf eine Sache eingewirkt wird."
+  },
+  {
+    "id": "flashcard-lic-087",
+    "front": "Verwendungspatent",
+    "back": "Ein Verwendungspatent kann eine neue, nicht naheliegende Verwendung bekannter Sachen oder Verfahren schützen."
+  },
+  {
+    "id": "flashcard-lic-088",
+    "front": "Nicht patentierbar",
+    "back": "Nicht patentierbar sind unter anderem wissenschaftliche Theorien, mathematische Methoden, Diagnose- und Therapieverfahren, Wiedergabe von Informationen, Perpetuum mobile, Pflanzensorten, Tierarten, Quellcode und Sittenwidriges."
+  },
+  {
+    "id": "flashcard-lic-089",
+    "front": "Softwarepatente",
+    "back": "Computerprogramme als solche sind nicht technisch; eine Patentierbarkeit kommt erst bei weiterer technischer Wirkung über die normale Hardware-Software-Interaktion hinaus in Betracht."
+  },
+  {
+    "id": "flashcard-lic-090",
+    "front": "Geheime Patente",
+    "back": "Für bestimmte Erfindungen im Bundes- oder Sicherheitsinteresse kann eine Patenterteilung ohne Bekanntmachung vorgesehen sein."
+  },
+  {
+    "id": "flashcard-lic-091",
+    "front": "Patentregistrierung",
+    "back": "Patente können national, europäisch oder über internationale Verfahren wie den Patent Cooperation Treaty angemeldet werden."
+  },
+  {
+    "id": "flashcard-lic-092",
+    "front": "Patent vs Gebrauchsmuster: Neuheitsschonfrist",
+    "back": "Beim Patent gilt absolute Neuheit ohne Schonfrist, beim Gebrauchsmuster kann eine Neuheitsschonfrist von sechs Monaten bestehen."
+  },
+  {
+    "id": "flashcard-lic-093",
+    "front": "Patent vs Gebrauchsmuster: Schutzdauer",
+    "back": "Ein Patent kann bis zu 20 Jahre schützen, ein Gebrauchsmuster bis zu 10 Jahre."
+  },
+  {
+    "id": "flashcard-lic-094",
+    "front": "Patent vs Gebrauchsmuster: Prüfung",
+    "back": "Das Patent wird stärker vorab geprüft, das Gebrauchsmuster eher nachträglich."
+  },
+  {
+    "id": "flashcard-lic-095",
+    "front": "Gleichzeitige Anmeldung",
+    "back": "Patent und Gebrauchsmuster können zeitgleich angemeldet werden."
+  },
+  {
+    "id": "flashcard-lic-096",
+    "front": "Geschmacksmusterschutz",
+    "back": "Der Geschmacksmusterschutz schützt das Aussehen eines Produkts, etwa Farben, Formen, Oberflächenstruktur oder Werkstoff."
+  },
+  {
+    "id": "flashcard-lic-097",
+    "front": "Designschutz: 2D und 3D",
+    "back": "2D- und 3D-Designs können schützbar sein; Computerprogramme selbst nicht, aber etwa ein Website-Layout."
+  },
+  {
+    "id": "flashcard-lic-098",
+    "front": "Designschutzdauer",
+    "back": "Die Schutzdauer kann bis zu 25 Jahre betragen, typischerweise in fünfjährigen Abschnitten."
+  },
+  {
+    "id": "flashcard-lic-099",
+    "front": "Geheimmuster",
+    "back": "Ein Geheimmuster kann für eine begrenzte Zeit versiegelt bleiben, etwa 18 Monate."
+  },
+  {
+    "id": "flashcard-lic-100",
+    "front": "Neuheitsschonfrist im Designschutz",
+    "back": "Beim Geschmacksmuster kann eine Neuheitsschonfrist von 12 Monaten relevant sein."
+  },
+  {
+    "id": "flashcard-lic-101",
+    "front": "Nicht schützbar im Designrecht",
+    "back": "Nicht schützbar sind etwa sittenwidrige Muster, reine Funktionen, Computerprogramme und bereits existierende Muster."
+  },
+  {
+    "id": "flashcard-lic-102",
+    "front": "Sortenschutz",
+    "back": "Sortenschutz schützt Pflanzensorten, wenn Neuheit, Homogenität, Beständigkeit und Unterscheidbarkeit vorliegen."
+  },
+  {
+    "id": "flashcard-lic-103",
+    "front": "Sortenschutzdauer",
+    "back": "Für Bäume, Reben, Hopfen und Kartoffeln kann Sortenschutz 30 Jahre betragen, für andere Pflanzensorten 25 Jahre."
+  },
+  {
+    "id": "flashcard-lic-104",
+    "front": "Lizenzbegriff",
+    "back": "Eine Lizenz ist die rechtliche Grundlage, geistiges Eigentum nutzen, herstellen oder verkaufen zu dürfen."
+  },
+  {
+    "id": "flashcard-lic-105",
+    "front": "Exklusive Lizenz",
+    "back": "Bei einer exklusiven Lizenz darf der Lizenznehmer die lizenzierten Rechte alleinig ausüben; der Lizenzgeber darf diese Rechte nicht parallel ausüben oder weiter lizenzieren, soweit so vereinbart."
+  },
+  {
+    "id": "flashcard-lic-106",
+    "front": "Alleinlizenz",
+    "back": "Bei einer Alleinlizenz darf der Lizenznehmer exklusiv gegenüber Dritten nutzen, der Lizenzgeber kann die Rechte aber selbst weiter ausüben."
+  },
+  {
+    "id": "flashcard-lic-107",
+    "front": "Nicht-exklusive Lizenz",
+    "back": "Bei einer nicht-exklusiven Lizenz darf der Lizenzgeber weitere Lizenzen vergeben und die Rechte auch selbst ausüben."
+  },
+  {
+    "id": "flashcard-lic-108",
+    "front": "Sublizenz",
+    "back": "Ohne ausdrückliche vertragliche Vereinbarung darf ein Lizenznehmer Rechte grundsätzlich nicht an Dritte unterlizenzieren."
+  },
+  {
+    "id": "flashcard-lic-109",
+    "front": "Lizenzbeschränkungen",
+    "back": "Lizenzen können personell, örtlich, zeitlich oder technisch beschränkt sein, etwa nach Nutzerzahl, Region, Laufzeit, CPU oder RAM."
+  },
+  {
+    "id": "flashcard-lic-110",
+    "front": "Gebührenmodelle",
+    "back": "Lizenzgebühren können Initialkosten, wiederkehrende Fixkosten oder nutzungsabhängige variable Kosten umfassen."
+  },
+  {
+    "id": "flashcard-lic-111",
+    "front": "EULA",
+    "back": "Eine End User License Agreement kann in Formen wie Browsewrap oder Clickwrap erscheinen; Lizenzgeber wollen typischerweise Eigentum behalten und Haftung begrenzen."
+  },
+  {
+    "id": "flashcard-lic-112",
+    "front": "Problem proprietärer Software",
+    "back": "Bei proprietärer Software behält der Anbieter Rechte, EULAs untersagen oft Kopien oder Codeänderungen und Dekompilierung ist erschwert."
+  },
+  {
+    "id": "flashcard-lic-113",
+    "front": "GNU-Projekt",
+    "back": "Richard Stallman gründete 1983 das GNU-Projekt mit dem Ziel eines freien Betriebssystems."
+  },
+  {
+    "id": "flashcard-lic-114",
+    "front": "Free Software Foundation",
+    "back": "Die Free Software Foundation wurde 1985 gegründet."
+  },
+  {
+    "id": "flashcard-lic-115",
+    "front": "GNU GPL",
+    "back": "Die GNU GPL erschien 1989 und führte Copyleft als zentrales Element freier Software prominent ein."
+  },
+  {
+    "id": "flashcard-lic-116",
+    "front": "Vier Freiheiten freier Software",
+    "back": "Freie Software umfasst Ausführen zu jedem Zweck, Untersuchen und Anpassen, Weiterverbreiten sowie Verbessern und Veröffentlichen der Verbesserungen."
+  },
+  {
+    "id": "flashcard-lic-117",
+    "front": "Quellcode als Voraussetzung",
+    "back": "Für Untersuchen, Anpassen und Verbessern freier Software ist Zugang zum Quellcode Voraussetzung."
+  },
+  {
+    "id": "flashcard-lic-118",
+    "front": "Open-Source-Definition: Kern",
+    "back": "Open Source verlangt freie Weiterverbreitung, Quellcodezugang, abgeleitete Werke und keine Diskriminierung von Personen oder Gruppen."
+  },
+  {
+    "id": "flashcard-lic-119",
+    "front": "Open-Source-Definition: weitere Kriterien",
+    "back": "Open-Source-Lizenzen dürfen Nutzung, Produkte, andere Software und Technologien nicht diskriminierend beschränken."
+  },
+  {
+    "id": "flashcard-lic-120",
+    "front": "Open Source Initiative",
+    "back": "Die Open Source Initiative erkennt zahlreiche Lizenzen als Open Source an."
+  },
+  {
+    "id": "flashcard-lic-121",
+    "front": "Public Domain und Software",
+    "back": "Public Domain bedeutet keine Einschränkung; als sauberere Option werden oft BSD-0-Clause oder MIT-0 genannt."
+  },
+  {
+    "id": "flashcard-lic-122",
+    "front": "MIT-0",
+    "back": "MIT-0 erlaubt Nutzung ohne Attribution und enthält einen Haftungsausschluss; sie ähnelt BSD-0-Clause."
+  },
+  {
+    "id": "flashcard-lic-123",
+    "front": "MIT-Lizenz",
+    "back": "Die MIT-Lizenz erlaubt umfassende Nutzung, verlangt aber Beibehaltung von Copyright- und Lizenzhinweis und enthält einen Haftungsausschluss."
+  },
+  {
+    "id": "flashcard-lic-124",
+    "front": "BSD-2-Clause",
+    "back": "BSD-2-Clause verlangt Erhalt von Copyright- und Lizenzhinweisen im Sourcecode und in binärer Weitergabe."
+  },
+  {
+    "id": "flashcard-lic-125",
+    "front": "BSD-3-Clause",
+    "back": "BSD-3-Clause ergänzt BSD-2-Clause um ein Verbot, Namen von Rechteinhabern oder Beitragenden zur Werbung ohne Erlaubnis zu verwenden."
+  },
+  {
+    "id": "flashcard-lic-126",
+    "front": "BSD-4-Clause",
+    "back": "BSD-4-Clause enthält zusätzlich eine Werbematerial-Acknowledgement-Klausel und gilt als problematisch, unter anderem wegen GPL-Inkompatibilität."
+  },
+  {
+    "id": "flashcard-lic-127",
+    "front": "Apache 1.0",
+    "back": "Apache 1.0 war BSD-4-ähnlich, verlangte Anerkennung in Werbematerial und schützte den Namen Apache."
+  },
+  {
+    "id": "flashcard-lic-128",
+    "front": "Apache 1.1",
+    "back": "Apache 1.1 verlegte Anerkennung stärker in Dokumentation statt Werbematerial und verbot weiterhin bestimmte Apache-Namensnutzungen."
+  },
+  {
+    "id": "flashcard-lic-129",
+    "front": "Apache 2.0",
+    "back": "Apache 2.0 enthält präzise Begriffsdefinitionen, Patentlizenz, Offenlegungspflichten für Änderungen, Haftungsausschluss und kein Copyleft."
+  },
+  {
+    "id": "flashcard-lic-130",
+    "front": "Copyleft",
+    "back": "Copyleft bedeutet, dass abgeleitete Werke bei Weitergabe unter denselben Lizenzbedingungen freigegeben werden müssen."
+  },
+  {
+    "id": "flashcard-lic-131",
+    "front": "Copyleft-Effekt",
+    "back": "Der Copyleft-Effekt tritt typischerweise mit Distribution beziehungsweise Weitergabe in Kraft."
+  },
+  {
+    "id": "flashcard-lic-132",
+    "front": "GPLv1",
+    "back": "GPLv1 führte Copyleft und eine Offenlegungspflicht für Sourcecode ein."
+  },
+  {
+    "id": "flashcard-lic-133",
+    "front": "GPLv2",
+    "back": "GPLv2 enthält unter anderem die Liberty-or-Death-Klausel und die Möglichkeit geographischer Eingrenzung."
+  },
+  {
+    "id": "flashcard-lic-134",
+    "front": "LGPLv2",
+    "back": "LGPLv2 richtet sich an Libraries: bloße Nutzung der Library löst kein Copyleft für die Anwendung aus, Änderungen an der Library aber schon."
+  },
+  {
+    "id": "flashcard-lic-135",
+    "front": "GPLv3",
+    "back": "GPLv3 verbietet Tivoisierung, schränkt geographische Beschränkungen aus, verbessert Apache-Kompatibilität und enthält Patentregelungen."
+  },
+  {
+    "id": "flashcard-lic-136",
+    "front": "LGPLv3",
+    "back": "LGPLv3 überträgt die Library-Logik auf Basis der GPLv3: Nutzung der Library ohne Copyleft für die Anwendung, Copyleft für Library-Ableitungen."
+  },
+  {
+    "id": "flashcard-lic-137",
+    "front": "AGPLv3",
+    "back": "AGPLv3 erweitert Offenlegungspflichten auf SaaS beziehungsweise Netzwerkbereitstellung."
+  },
+  {
+    "id": "flashcard-lic-138",
+    "front": "Dual Licensing",
+    "back": "Dual Licensing bedeutet, dass derselbe Code unter mehreren Lizenzmodellen angeboten wird, etwa Open Source und kommerziell."
+  },
+  {
+    "id": "flashcard-lic-139",
+    "front": "Beispiele für OSS-Lizenzen",
+    "back": "MIT wird etwa mit Ruby, Node.js, Angular oder React assoziiert; Apache mit Kafka, Tomcat oder Spark; GPL mit Git, WordPress oder Linux."
+  },
+  {
+    "id": "flashcard-lic-140",
+    "front": "Open Content Licence",
+    "back": "Open-Content-Lizenzen regeln nicht Software, sondern Inhalte wie Texte, Bilder, Musik oder Lernmaterialien."
+  },
+  {
+    "id": "flashcard-lic-141",
+    "front": "CC0",
+    "back": "CC0 bedeutet, dass der Urheber das Werk aktiv in die öffentliche Domäne stellen will."
+  },
+  {
+    "id": "flashcard-lic-142",
+    "front": "Public Domain Mark",
+    "back": "Die Public Domain Mark kennzeichnet Werke, deren Urheberrecht abgelaufen ist und die Teil der öffentlichen Domäne sind."
+  },
+  {
+    "id": "flashcard-lic-143",
+    "front": "CC BY",
+    "back": "CC BY verlangt angemessene Urheber- und Rechteangaben sowie Angaben zu Änderungen."
+  },
+  {
+    "id": "flashcard-lic-144",
+    "front": "CC SA",
+    "back": "Share Alike verlangt, dass Bearbeitungen unter derselben Lizenz weitergegeben werden."
+  },
+  {
+    "id": "flashcard-lic-145",
+    "front": "CC ND",
+    "back": "No Derivatives erlaubt keine Remix-, Veränderungs- oder Bearbeitungsveröffentlichungen."
+  },
+  {
+    "id": "flashcard-lic-146",
+    "front": "CC NC",
+    "back": "Non Commercial verbietet kommerzielle Nutzung des Materials."
+  },
+  {
+    "id": "flashcard-lic-147",
+    "front": "Creative-Commons-4.0-Kombinationen",
+    "back": "Gängige CC-4.0-Varianten sind CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-ND, CC BY-NC-SA und CC BY-NC-ND."
+  },
+  {
+    "id": "flashcard-lic-148",
+    "front": "Creative-Commons-Legacy",
+    "back": "Ältere Legacy-Varianten umfassen etwa CC Developing Nations, CC Sampling und CC Sampling Plus."
+  },
+  {
+    "id": "flashcard-dsgvo-art-001",
+    "front": "Art. 1 DSGVO – Gegenstand und Ziele",
+    "back": "Art. 1 DSGVO legt fest: Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, freier Datenverkehr und Grundrechtsschutz."
+  },
+  {
+    "id": "flashcard-dsgvo-art-002",
+    "front": "Art. 2 DSGVO – Sachlicher Anwendungsbereich",
+    "back": "Art. 2 DSGVO bestimmt, wann die DSGVO sachlich gilt: automatisierte Verarbeitung und nichtautomatisierte Verarbeitung in einem Dateisystem."
+  },
+  {
+    "id": "flashcard-dsgvo-art-003",
+    "front": "Art. 3 DSGVO – Räumlicher Anwendungsbereich",
+    "back": "Art. 3 DSGVO regelt den räumlichen Anwendungsbereich, einschließlich Niederlassungsprinzip und Marktortprinzip."
+  },
+  {
+    "id": "flashcard-dsgvo-art-004",
+    "front": "Art. 4 DSGVO – Begriffsbestimmungen",
+    "back": "Art. 4 DSGVO definiert zentrale Begriffe wie personenbezogene Daten, Verarbeitung, Verantwortlicher, Auftragsverarbeiter, Einwilligung, Profiling und Pseudonymisierung."
+  },
+  {
+    "id": "flashcard-dsgvo-art-005",
+    "front": "Art. 5 DSGVO – Grundsätze für die Verarbeitung personenbezogener Daten",
+    "back": "Art. 5 DSGVO enthält die Grundprinzipien: Rechtmäßigkeit, Transparenz, Zweckbindung, Datenminimierung, Richtigkeit, Speicherbegrenzung, Integrität/Vertraulichkeit und Rechenschaftspflicht."
+  },
+  {
+    "id": "flashcard-dsgvo-art-006",
+    "front": "Art. 6 DSGVO – Rechtmäßigkeit der Verarbeitung",
+    "back": "Art. 6 DSGVO nennt die Rechtsgrundlagen der Verarbeitung: Einwilligung, Vertrag, rechtliche Pflicht, lebenswichtige Interessen, öffentliche Aufgabe und berechtigtes Interesse."
+  },
+  {
+    "id": "flashcard-dsgvo-art-007",
+    "front": "Art. 7 DSGVO – Bedingungen für die Einwilligung",
+    "back": "Art. 7 DSGVO regelt Nachweisbarkeit, klare Trennung, Widerrufbarkeit und Freiwilligkeit der Einwilligung."
+  },
+  {
+    "id": "flashcard-dsgvo-art-008",
+    "front": "Art. 8 DSGVO – Einwilligung eines Kindes bei Diensten der Informationsgesellschaft",
+    "back": "Art. 8 DSGVO regelt die Einwilligung von Kindern bei direkt angebotenen Online-Diensten; grundsätzlich ab 16, Mitgliedstaaten können bis 13 absenken."
+  },
+  {
+    "id": "flashcard-dsgvo-art-009",
+    "front": "Art. 9 DSGVO – Besondere Kategorien personenbezogener Daten",
+    "back": "Art. 9 DSGVO verbietet grundsätzlich die Verarbeitung sensibler Daten und nennt Ausnahmen, etwa ausdrückliche Einwilligung, Arbeitsrecht, Gesundheit, öffentliches Interesse oder Rechtsansprüche."
+  },
+  {
+    "id": "flashcard-dsgvo-art-010",
+    "front": "Art. 10 DSGVO – Daten über strafrechtliche Verurteilungen und Straftaten",
+    "back": "Art. 10 DSGVO erlaubt die Verarbeitung von Strafdaten nur unter behördlicher Aufsicht oder aufgrund geeigneter gesetzlicher Garantien."
+  },
+  {
+    "id": "flashcard-dsgvo-art-011",
+    "front": "Art. 11 DSGVO – Verarbeitung ohne erforderliche Identifizierung",
+    "back": "Art. 11 DSGVO sagt: Ist Identifizierung für den Zweck nicht nötig, muss der Verantwortliche nicht nur wegen der DSGVO zusätzliche Identifikationsdaten sammeln."
+  },
+  {
+    "id": "flashcard-dsgvo-art-012",
+    "front": "Art. 12 DSGVO – Transparente Information und Modalitäten",
+    "back": "Art. 12 DSGVO verlangt präzise, transparente, verständliche und leicht zugängliche Kommunikation und regelt Fristen für Betroffenenrechte."
+  },
+  {
+    "id": "flashcard-dsgvo-art-013",
+    "front": "Art. 13 DSGVO – Informationspflicht bei Direkterhebung",
+    "back": "Art. 13 DSGVO regelt, welche Informationen zu geben sind, wenn personenbezogene Daten direkt bei der betroffenen Person erhoben werden."
+  },
+  {
+    "id": "flashcard-dsgvo-art-014",
+    "front": "Art. 14 DSGVO – Informationspflicht bei Dritterhebung",
+    "back": "Art. 14 DSGVO regelt Informationspflichten, wenn personenbezogene Daten nicht bei der betroffenen Person selbst erhoben wurden."
+  },
+  {
+    "id": "flashcard-dsgvo-art-015",
+    "front": "Art. 15 DSGVO – Auskunftsrecht",
+    "back": "Art. 15 DSGVO gibt betroffenen Personen das Recht auf Auskunft über Verarbeitung, Zwecke, Kategorien, Empfänger, Speicherdauer und Kopie der Daten."
+  },
+  {
+    "id": "flashcard-dsgvo-art-016",
+    "front": "Art. 16 DSGVO – Recht auf Berichtigung",
+    "back": "Art. 16 DSGVO gibt betroffenen Personen das Recht, unrichtige personenbezogene Daten berichtigen und unvollständige Daten ergänzen zu lassen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-017",
+    "front": "Art. 17 DSGVO – Recht auf Löschung / Recht auf Vergessenwerden",
+    "back": "Art. 17 DSGVO regelt Löschung, etwa wenn Daten nicht mehr nötig sind, Einwilligung widerrufen wurde oder Verarbeitung unrechtmäßig ist; zugleich gibt es Ausnahmen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-018",
+    "front": "Art. 18 DSGVO – Recht auf Einschränkung der Verarbeitung",
+    "back": "Art. 18 DSGVO erlaubt Betroffenen, die Verarbeitung vorübergehend einschränken zu lassen, etwa bei bestrittenener Richtigkeit oder Widerspruchsprüfung."
+  },
+  {
+    "id": "flashcard-dsgvo-art-019",
+    "front": "Art. 19 DSGVO – Mitteilungspflicht bei Berichtigung, Löschung oder Einschränkung",
+    "back": "Art. 19 DSGVO verpflichtet Verantwortliche, Empfänger über Berichtigung, Löschung oder Einschränkung zu informieren, soweit dies möglich und nicht unverhältnismäßig ist."
+  },
+  {
+    "id": "flashcard-dsgvo-art-020",
+    "front": "Art. 20 DSGVO – Recht auf Datenübertragbarkeit",
+    "back": "Art. 20 DSGVO gibt ein Recht auf Erhalt und Übermittlung bereitgestellter Daten in strukturiertem, gängigem und maschinenlesbarem Format."
+  },
+  {
+    "id": "flashcard-dsgvo-art-021",
+    "front": "Art. 21 DSGVO – Widerspruchsrecht",
+    "back": "Art. 21 DSGVO gibt Betroffenen ein Widerspruchsrecht, insbesondere bei Verarbeitung auf Grundlage öffentlicher Aufgabe, berechtigtem Interesse und Direktwerbung."
+  },
+  {
+    "id": "flashcard-dsgvo-art-022",
+    "front": "Art. 22 DSGVO – Automatisierte Entscheidungen einschließlich Profiling",
+    "back": "Art. 22 DSGVO schützt vor ausschließlich automatisierten Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung und regelt Ausnahmen und Garantien."
+  },
+  {
+    "id": "flashcard-dsgvo-art-023",
+    "front": "Art. 23 DSGVO – Beschränkungen",
+    "back": "Art. 23 DSGVO erlaubt gesetzliche Beschränkungen bestimmter Pflichten und Rechte, wenn dies notwendig und verhältnismäßig zum Schutz wichtiger Ziele ist."
+  },
+  {
+    "id": "flashcard-dsgvo-art-024",
+    "front": "Art. 24 DSGVO – Verantwortung des Verantwortlichen",
+    "back": "Art. 24 DSGVO verpflichtet Verantwortliche, geeignete Maßnahmen zur DSGVO-Compliance umzusetzen und deren Einhaltung nachweisen zu können."
+  },
+  {
+    "id": "flashcard-dsgvo-art-025",
+    "front": "Art. 25 DSGVO – Datenschutz durch Technikgestaltung und Voreinstellungen",
+    "back": "Art. 25 DSGVO enthält Privacy by Design und Privacy by Default: Datenschutz muss technisch und organisatorisch von Anfang an eingebaut sein."
+  },
+  {
+    "id": "flashcard-dsgvo-art-026",
+    "front": "Art. 26 DSGVO – Gemeinsam Verantwortliche",
+    "back": "Art. 26 DSGVO regelt Joint Controller: mehrere Verantwortliche müssen ihre Pflichten transparent vereinbaren; Betroffene können Rechte gegen jeden geltend machen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-027",
+    "front": "Art. 27 DSGVO – Vertreter nicht in der Union niedergelassener Verantwortlicher oder Auftragsverarbeiter",
+    "back": "Art. 27 DSGVO verlangt unter bestimmten Voraussetzungen einen EU-Vertreter für Verantwortliche oder Auftragsverarbeiter ohne Niederlassung in der Union."
+  },
+  {
+    "id": "flashcard-dsgvo-art-028",
+    "front": "Art. 28 DSGVO – Auftragsverarbeiter",
+    "back": "Art. 28 DSGVO regelt die Auftragsverarbeitung: Auswahl geeigneter Processor, Vertrag, Weisungsbindung, Unterauftragsverarbeiter und Unterstützungspflichten."
+  },
+  {
+    "id": "flashcard-dsgvo-art-029",
+    "front": "Art. 29 DSGVO – Verarbeitung unter Aufsicht des Verantwortlichen oder Auftragsverarbeiters",
+    "back": "Art. 29 DSGVO stellt klar: Personen mit Datenzugang dürfen nur auf Weisung des Verantwortlichen handeln, sofern keine gesetzliche Pflicht besteht."
+  },
+  {
+    "id": "flashcard-dsgvo-art-030",
+    "front": "Art. 30 DSGVO – Verzeichnis von Verarbeitungstätigkeiten",
+    "back": "Art. 30 DSGVO regelt das Verarbeitungsverzeichnis für Verantwortliche und Auftragsverarbeiter samt Inhalten und KMU-Ausnahme."
+  },
+  {
+    "id": "flashcard-dsgvo-art-031",
+    "front": "Art. 31 DSGVO – Zusammenarbeit mit der Aufsichtsbehörde",
+    "back": "Art. 31 DSGVO verpflichtet Verantwortliche, Auftragsverarbeiter und Vertreter, mit der Aufsichtsbehörde zusammenzuarbeiten."
+  },
+  {
+    "id": "flashcard-dsgvo-art-032",
+    "front": "Art. 32 DSGVO – Sicherheit der Verarbeitung",
+    "back": "Art. 32 DSGVO verlangt angemessene technische und organisatorische Maßnahmen, etwa Pseudonymisierung, Verschlüsselung, Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit."
+  },
+  {
+    "id": "flashcard-dsgvo-art-033",
+    "front": "Art. 33 DSGVO – Meldung von Datenschutzverletzungen an die Aufsichtsbehörde",
+    "back": "Art. 33 DSGVO regelt Data-Breach-Meldungen an die Aufsichtsbehörde: grundsätzlich unverzüglich und möglichst binnen 72 Stunden bei Risiko."
+  },
+  {
+    "id": "flashcard-dsgvo-art-034",
+    "front": "Art. 34 DSGVO – Benachrichtigung betroffener Personen bei Datenschutzverletzungen",
+    "back": "Art. 34 DSGVO verlangt die Benachrichtigung betroffener Personen, wenn die Datenschutzverletzung voraussichtlich ein hohes Risiko verursacht."
+  },
+  {
+    "id": "flashcard-dsgvo-art-035",
+    "front": "Art. 35 DSGVO – Datenschutz-Folgenabschätzung",
+    "back": "Art. 35 DSGVO verlangt eine DSFA, wenn eine Verarbeitung voraussichtlich ein hohes Risiko für Rechte und Freiheiten natürlicher Personen hat."
+  },
+  {
+    "id": "flashcard-dsgvo-art-036",
+    "front": "Art. 36 DSGVO – Vorherige Konsultation",
+    "back": "Art. 36 DSGVO verlangt die Konsultation der Aufsichtsbehörde vor Verarbeitung, wenn trotz DSFA ein hohes nicht ausreichend eingedämmtes Risiko bleibt."
+  },
+  {
+    "id": "flashcard-dsgvo-art-037",
+    "front": "Art. 37 DSGVO – Benennung eines Datenschutzbeauftragten",
+    "back": "Art. 37 DSGVO regelt, wann ein Datenschutzbeauftragter zu benennen ist, etwa bei Behörden, systematischer Überwachung oder umfangreicher Verarbeitung sensibler Daten."
+  },
+  {
+    "id": "flashcard-dsgvo-art-038",
+    "front": "Art. 38 DSGVO – Stellung des Datenschutzbeauftragten",
+    "back": "Art. 38 DSGVO schützt die unabhängige Stellung des Datenschutzbeauftragten, seine Einbindung, Ressourcen, Weisungsfreiheit und Vertraulichkeit."
+  },
+  {
+    "id": "flashcard-dsgvo-art-039",
+    "front": "Art. 39 DSGVO – Aufgaben des Datenschutzbeauftragten",
+    "back": "Art. 39 DSGVO nennt DSB-Aufgaben: Unterrichtung, Beratung, Überwachung, Schulung, DSFA-Beratung und Zusammenarbeit mit der Aufsichtsbehörde."
+  },
+  {
+    "id": "flashcard-dsgvo-art-040",
+    "front": "Art. 40 DSGVO – Verhaltensregeln",
+    "back": "Art. 40 DSGVO ermöglicht Verhaltensregeln, um die praktische Anwendung der DSGVO für Branchen und Verarbeitungssituationen zu konkretisieren."
+  },
+  {
+    "id": "flashcard-dsgvo-art-041",
+    "front": "Art. 41 DSGVO – Überwachung genehmigter Verhaltensregeln",
+    "back": "Art. 41 DSGVO regelt Stellen, die die Einhaltung genehmigter Verhaltensregeln überwachen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-042",
+    "front": "Art. 42 DSGVO – Zertifizierung",
+    "back": "Art. 42 DSGVO ermöglicht Datenschutz-Zertifizierungen, Siegel und Prüfzeichen als Nachweis geeigneter Garantien."
+  },
+  {
+    "id": "flashcard-dsgvo-art-043",
+    "front": "Art. 43 DSGVO – Zertifizierungsstellen",
+    "back": "Art. 43 DSGVO regelt Anforderungen und Akkreditierung von Zertifizierungsstellen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-044",
+    "front": "Art. 44 DSGVO – Allgemeine Grundsätze der Datenübermittlung",
+    "back": "Art. 44 DSGVO enthält den Grundsatz: Datenübermittlungen in Drittländer oder an internationale Organisationen dürfen das DSGVO-Schutzniveau nicht unterlaufen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-045",
+    "front": "Art. 45 DSGVO – Angemessenheitsbeschluss",
+    "back": "Art. 45 DSGVO erlaubt Drittlandtransfers ohne weitere Genehmigung, wenn die EU-Kommission ein angemessenes Datenschutzniveau festgestellt hat."
+  },
+  {
+    "id": "flashcard-dsgvo-art-046",
+    "front": "Art. 46 DSGVO – Geeignete Garantien",
+    "back": "Art. 46 DSGVO erlaubt Drittlandtransfers ohne Angemessenheitsbeschluss, wenn geeignete Garantien bestehen, etwa Standardvertragsklauseln oder verbindliche interne Datenschutzvorschriften."
+  },
+  {
+    "id": "flashcard-dsgvo-art-047",
+    "front": "Art. 47 DSGVO – Verbindliche interne Datenschutzvorschriften",
+    "back": "Art. 47 DSGVO regelt Binding Corporate Rules für konzerninterne internationale Datenübermittlungen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-048",
+    "front": "Art. 48 DSGVO – Nach Unionsrecht nicht zulässige Offenlegung",
+    "back": "Art. 48 DSGVO begrenzt die Anerkennung von Drittstaatenurteilen oder Verwaltungsentscheidungen, die eine Datenübermittlung verlangen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-049",
+    "front": "Art. 49 DSGVO – Ausnahmen für bestimmte Fälle",
+    "back": "Art. 49 DSGVO erlaubt Drittlandtransfers ausnahmsweise, etwa bei ausdrücklicher Einwilligung, Vertragserforderlichkeit, wichtigen öffentlichen Interessen oder Rechtsansprüchen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-050",
+    "front": "Art. 50 DSGVO – Internationale Zusammenarbeit",
+    "back": "Art. 50 DSGVO betrifft internationale Zusammenarbeit von Kommission und Aufsichtsbehörden zum Schutz personenbezogener Daten."
+  },
+  {
+    "id": "flashcard-dsgvo-art-051",
+    "front": "Art. 51 DSGVO – Aufsichtsbehörde",
+    "back": "Art. 51 DSGVO verpflichtet jeden Mitgliedstaat zur Errichtung mindestens einer unabhängigen Datenschutzaufsichtsbehörde."
+  },
+  {
+    "id": "flashcard-dsgvo-art-052",
+    "front": "Art. 52 DSGVO – Unabhängigkeit",
+    "back": "Art. 52 DSGVO verlangt vollständige Unabhängigkeit der Aufsichtsbehörden bei der Wahrnehmung ihrer Aufgaben."
+  },
+  {
+    "id": "flashcard-dsgvo-art-053",
+    "front": "Art. 53 DSGVO – Mitglieder der Aufsichtsbehörde",
+    "back": "Art. 53 DSGVO regelt allgemeine Anforderungen an Mitglieder der Aufsichtsbehörden."
+  },
+  {
+    "id": "flashcard-dsgvo-art-054",
+    "front": "Art. 54 DSGVO – Errichtung der Aufsichtsbehörde",
+    "back": "Art. 54 DSGVO verlangt nationale Regelungen zur Errichtung, Organisation, Ernennung und Amtszeit der Aufsichtsbehörden."
+  },
+  {
+    "id": "flashcard-dsgvo-art-055",
+    "front": "Art. 55 DSGVO – Zuständigkeit",
+    "back": "Art. 55 DSGVO regelt die territoriale Zuständigkeit der Aufsichtsbehörden."
+  },
+  {
+    "id": "flashcard-dsgvo-art-056",
+    "front": "Art. 56 DSGVO – Federführende Aufsichtsbehörde",
+    "back": "Art. 56 DSGVO regelt das One-Stop-Shop-Prinzip und die federführende Aufsichtsbehörde bei grenzüberschreitender Verarbeitung."
+  },
+  {
+    "id": "flashcard-dsgvo-art-057",
+    "front": "Art. 57 DSGVO – Aufgaben",
+    "back": "Art. 57 DSGVO nennt Aufgaben der Aufsichtsbehörden, etwa Überwachung, Beratung, Beschwerden, Sensibilisierung und Zusammenarbeit."
+  },
+  {
+    "id": "flashcard-dsgvo-art-058",
+    "front": "Art. 58 DSGVO – Befugnisse",
+    "back": "Art. 58 DSGVO gibt Aufsichtsbehörden Untersuchungs-, Abhilfe-, Genehmigungs- und Beratungsbefugnisse."
+  },
+  {
+    "id": "flashcard-dsgvo-art-059",
+    "front": "Art. 59 DSGVO – Tätigkeitsbericht",
+    "back": "Art. 59 DSGVO verpflichtet Aufsichtsbehörden zu einem jährlichen Tätigkeitsbericht."
+  },
+  {
+    "id": "flashcard-dsgvo-art-060",
+    "front": "Art. 60 DSGVO – Zusammenarbeit zwischen federführender und betroffenen Aufsichtsbehörden",
+    "back": "Art. 60 DSGVO regelt Kooperation und Entscheidungsabläufe zwischen federführender und betroffenen Aufsichtsbehörden."
+  },
+  {
+    "id": "flashcard-dsgvo-art-061",
+    "front": "Art. 61 DSGVO – Gegenseitige Amtshilfe",
+    "back": "Art. 61 DSGVO regelt Amtshilfe zwischen Aufsichtsbehörden, einschließlich Informationsersuchen und Fristen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-062",
+    "front": "Art. 62 DSGVO – Gemeinsame Maßnahmen",
+    "back": "Art. 62 DSGVO erlaubt gemeinsame Maßnahmen mehrerer Aufsichtsbehörden, etwa gemeinsame Untersuchungen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-063",
+    "front": "Art. 63 DSGVO – Kohärenzverfahren",
+    "back": "Art. 63 DSGVO schafft das Kohärenzverfahren für eine einheitliche Anwendung der DSGVO in der EU."
+  },
+  {
+    "id": "flashcard-dsgvo-art-064",
+    "front": "Art. 64 DSGVO – Stellungnahme des Ausschusses",
+    "back": "Art. 64 DSGVO regelt Fälle, in denen der Europäische Datenschutzausschuss eine Stellungnahme abgibt."
+  },
+  {
+    "id": "flashcard-dsgvo-art-065",
+    "front": "Art. 65 DSGVO – Streitbeilegung durch den Ausschuss",
+    "back": "Art. 65 DSGVO gibt dem EDSA verbindliche Streitbeilegungskompetenz bei Konflikten zwischen Aufsichtsbehörden."
+  },
+  {
+    "id": "flashcard-dsgvo-art-066",
+    "front": "Art. 66 DSGVO – Dringlichkeitsverfahren",
+    "back": "Art. 66 DSGVO ermöglicht dringende vorläufige Maßnahmen zum Schutz von Rechten und Freiheiten."
+  },
+  {
+    "id": "flashcard-dsgvo-art-067",
+    "front": "Art. 67 DSGVO – Informationsaustausch",
+    "back": "Art. 67 DSGVO betrifft Durchführungsakte zum elektronischen Informationsaustausch zwischen Behörden und Ausschuss."
+  },
+  {
+    "id": "flashcard-dsgvo-art-068",
+    "front": "Art. 68 DSGVO – Europäischer Datenschutzausschuss",
+    "back": "Art. 68 DSGVO errichtet den Europäischen Datenschutzausschuss als unabhängige Einrichtung der Union."
+  },
+  {
+    "id": "flashcard-dsgvo-art-069",
+    "front": "Art. 69 DSGVO – Unabhängigkeit des Ausschusses",
+    "back": "Art. 69 DSGVO verlangt, dass der Europäische Datenschutzausschuss unabhängig handelt."
+  },
+  {
+    "id": "flashcard-dsgvo-art-070",
+    "front": "Art. 70 DSGVO – Aufgaben des Ausschusses",
+    "back": "Art. 70 DSGVO nennt EDSA-Aufgaben, etwa Leitlinien, Empfehlungen, Kohärenz, Beratung und Förderung einheitlicher Anwendung."
+  },
+  {
+    "id": "flashcard-dsgvo-art-071",
+    "front": "Art. 71 DSGVO – Berichterstattung",
+    "back": "Art. 71 DSGVO verpflichtet den EDSA zur Berichterstattung über den Schutz natürlicher Personen bei der Verarbeitung."
+  },
+  {
+    "id": "flashcard-dsgvo-art-072",
+    "front": "Art. 72 DSGVO – Verfahrensweise",
+    "back": "Art. 72 DSGVO regelt Abstimmungen und Verfahrensweise des EDSA."
+  },
+  {
+    "id": "flashcard-dsgvo-art-073",
+    "front": "Art. 73 DSGVO – Vorsitz",
+    "back": "Art. 73 DSGVO regelt Wahl und Amtszeit des Vorsitzes und der Stellvertretungen des EDSA."
+  },
+  {
+    "id": "flashcard-dsgvo-art-074",
+    "front": "Art. 74 DSGVO – Aufgaben des Vorsitzes",
+    "back": "Art. 74 DSGVO nennt Aufgaben des EDSA-Vorsitzes, etwa Einberufung von Sitzungen und Mitteilung von Beschlüssen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-075",
+    "front": "Art. 75 DSGVO – Sekretariat",
+    "back": "Art. 75 DSGVO regelt das Sekretariat des EDSA, das vom Europäischen Datenschutzbeauftragten bereitgestellt wird."
+  },
+  {
+    "id": "flashcard-dsgvo-art-076",
+    "front": "Art. 76 DSGVO – Vertraulichkeit",
+    "back": "Art. 76 DSGVO regelt Vertraulichkeit bei Beratungen, Dokumenten und Zugang zu Unterlagen des EDSA."
+  },
+  {
+    "id": "flashcard-dsgvo-art-077",
+    "front": "Art. 77 DSGVO – Beschwerderecht bei einer Aufsichtsbehörde",
+    "back": "Art. 77 DSGVO gibt Betroffenen das Recht, Beschwerde bei einer Aufsichtsbehörde einzulegen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-078",
+    "front": "Art. 78 DSGVO – Gerichtlicher Rechtsbehelf gegen eine Aufsichtsbehörde",
+    "back": "Art. 78 DSGVO gibt das Recht auf wirksamen gerichtlichen Rechtsbehelf gegen rechtsverbindliche Entscheidungen oder Untätigkeit einer Aufsichtsbehörde."
+  },
+  {
+    "id": "flashcard-dsgvo-art-079",
+    "front": "Art. 79 DSGVO – Gerichtlicher Rechtsbehelf gegen Verantwortliche oder Auftragsverarbeiter",
+    "back": "Art. 79 DSGVO gibt Betroffenen das Recht, gegen Verantwortliche oder Auftragsverarbeiter gerichtlich vorzugehen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-080",
+    "front": "Art. 80 DSGVO – Vertretung betroffener Personen",
+    "back": "Art. 80 DSGVO erlaubt Betroffenen, Einrichtungen oder Verbände mit Beschwerde und Rechtsbehelfen zu beauftragen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-081",
+    "front": "Art. 81 DSGVO – Aussetzung des Verfahrens",
+    "back": "Art. 81 DSGVO regelt die Aussetzung gerichtlicher Verfahren bei zusammenhängenden Verfahren in anderen Mitgliedstaaten."
+  },
+  {
+    "id": "flashcard-dsgvo-art-082",
+    "front": "Art. 82 DSGVO – Haftung und Schadenersatz",
+    "back": "Art. 82 DSGVO gibt Anspruch auf Ersatz materieller oder immaterieller Schäden bei DSGVO-Verstößen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-083",
+    "front": "Art. 83 DSGVO – Allgemeine Bedingungen für Geldbußen",
+    "back": "Art. 83 DSGVO regelt Kriterien und Obergrenzen für Geldbußen, einschließlich 10/20 Mio. EUR bzw. 2/4 Prozent des weltweiten Jahresumsatzes."
+  },
+  {
+    "id": "flashcard-dsgvo-art-084",
+    "front": "Art. 84 DSGVO – Sanktionen",
+    "back": "Art. 84 DSGVO verpflichtet Mitgliedstaaten, weitere wirksame, verhältnismäßige und abschreckende Sanktionen festzulegen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-085",
+    "front": "Art. 85 DSGVO – Verarbeitung und Meinungs-/Informationsfreiheit",
+    "back": "Art. 85 DSGVO verlangt Ausnahmen und Abwägungen zugunsten von Meinungsäußerung, Information, Journalismus, Wissenschaft, Kunst und Literatur."
+  },
+  {
+    "id": "flashcard-dsgvo-art-086",
+    "front": "Art. 86 DSGVO – Zugang der Öffentlichkeit zu amtlichen Dokumenten",
+    "back": "Art. 86 DSGVO regelt die Abwägung zwischen Datenschutz und öffentlichem Zugang zu amtlichen Dokumenten."
+  },
+  {
+    "id": "flashcard-dsgvo-art-087",
+    "front": "Art. 87 DSGVO – Nationale Kennziffer",
+    "back": "Art. 87 DSGVO erlaubt Mitgliedstaaten, Bedingungen für nationale Kennziffern oder andere allgemeine Kennzeichen festzulegen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-088",
+    "front": "Art. 88 DSGVO – Datenverarbeitung im Beschäftigungskontext",
+    "back": "Art. 88 DSGVO erlaubt spezifische nationale Regeln für Beschäftigtendaten, etwa durch Gesetz oder Kollektivvereinbarung."
+  },
+  {
+    "id": "flashcard-dsgvo-art-089",
+    "front": "Art. 89 DSGVO – Archiv-, Forschungs- und Statistikzwecke",
+    "back": "Art. 89 DSGVO verlangt geeignete Garantien und ermöglicht bestimmte Ausnahmen bei Archiv-, Forschungs- und Statistikzwecken."
+  },
+  {
+    "id": "flashcard-dsgvo-art-090",
+    "front": "Art. 90 DSGVO – Geheimhaltungspflichten",
+    "back": "Art. 90 DSGVO erlaubt nationale Regeln zum Berufsgeheimnis gegenüber Befugnissen der Aufsichtsbehörden."
+  },
+  {
+    "id": "flashcard-dsgvo-art-091",
+    "front": "Art. 91 DSGVO – Datenschutzvorschriften von Kirchen und religiösen Vereinigungen",
+    "back": "Art. 91 DSGVO erlaubt bestehenden umfassenden Datenschutzregeln von Kirchen und religiösen Vereinigungen, sofern sie mit der DSGVO in Einklang gebracht werden."
+  },
+  {
+    "id": "flashcard-dsgvo-art-092",
+    "front": "Art. 92 DSGVO – Ausübung der Befugnisübertragung",
+    "back": "Art. 92 DSGVO regelt die Bedingungen, unter denen die Kommission delegierte Rechtsakte erlassen kann."
+  },
+  {
+    "id": "flashcard-dsgvo-art-093",
+    "front": "Art. 93 DSGVO – Ausschussverfahren",
+    "back": "Art. 93 DSGVO verweist auf das Ausschussverfahren für Durchführungsrechtsakte."
+  },
+  {
+    "id": "flashcard-dsgvo-art-094",
+    "front": "Art. 94 DSGVO – Aufhebung der Richtlinie 95/46/EG",
+    "back": "Art. 94 DSGVO hebt die Datenschutzrichtlinie 95/46/EG auf und regelt Verweise auf die alte Richtlinie."
+  },
+  {
+    "id": "flashcard-dsgvo-art-095",
+    "front": "Art. 95 DSGVO – Verhältnis zur ePrivacy-Richtlinie 2002/58/EG",
+    "back": "Art. 95 DSGVO verhindert doppelte Pflichten, soweit besondere Pflichten der ePrivacy-Richtlinie dasselbe Ziel verfolgen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-096",
+    "front": "Art. 96 DSGVO – Verhältnis zu bereits geschlossenen Übereinkünften",
+    "back": "Art. 96 DSGVO betrifft internationale Übereinkünfte über Datenübermittlungen, die vor Anwendung der DSGVO geschlossen wurden."
+  },
+  {
+    "id": "flashcard-dsgvo-art-097",
+    "front": "Art. 97 DSGVO – Berichte der Kommission",
+    "back": "Art. 97 DSGVO verpflichtet die Kommission zur regelmäßigen Bewertung und Berichterstattung über die Anwendung der DSGVO."
+  },
+  {
+    "id": "flashcard-dsgvo-art-098",
+    "front": "Art. 98 DSGVO – Überprüfung anderer Datenschutzrechtsakte der Union",
+    "back": "Art. 98 DSGVO betrifft die Überprüfung anderer EU-Rechtsakte zum Datenschutz, um einheitlichen Schutz sicherzustellen."
+  },
+  {
+    "id": "flashcard-dsgvo-art-099",
+    "front": "Art. 99 DSGVO – Inkrafttreten und Anwendung",
+    "back": "Art. 99 DSGVO regelt Inkrafttreten und Anwendbarkeit der DSGVO."
   }
 ]
